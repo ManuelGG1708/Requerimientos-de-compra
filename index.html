@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requisición de material en Obra</title>
+    <title>Requermiento de compra en Obra</title>
     <!-- Diseño responsivo con Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Iconos Font Awesome -->
@@ -78,7 +78,8 @@
         }
         /* Aumenta la altura del campo de "Material solicitado" */
         #material {
-            height: 100px; /* Ajusta el valor segun el tamaño deseado */
+            height: 100px; /* Ajusta el valor según el tamaño que desees */
+        }
     </style>
 </head>
 <body>
@@ -87,7 +88,7 @@
         <!-- Logo aquí -->
         <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
-        <h2>Formulario de Solicitud de Material</h2>
+        <h2>Requermiento de compra en Obra</h2>
 
         <form onsubmit="return sendWhatsAppMessage()">
             <fieldset>
@@ -129,35 +130,6 @@
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
     </div>
-
-    <script>
-        function sendWhatsAppMessage() {
-            const projectName = document.getElementById('projectName').value;
-            const clientName = document.getElementById('clientName').value;
-            const material = document.getElementById('material').value;
-            const requestDate = document.getElementById('requestDate').value;
-            const deliveryDate = document.getElementById('deliveryDate').value;
-            const orderNumber = document.getElementById('orderNumber').value;
-            const comments = document.getElementById('comments').value;
-
-            const message = `*Solicitud de Material*\n\n` +
-                            `*Nombre del proyecto:* ${projectName}\n` +
-                            `*Nombre del cliente:* ${clientName}\n` +
-                            `*Material solicitado:* ${material}\n` +
-                            `*Fecha de solicitud de material:* ${requestDate}\n` +
-                            `*Fecha de entrega de material:* ${deliveryDate}\n` +
-                            `*Orden de compra:* ${orderNumber}\n` +
-                            `*Comentarios:* ${comments}`;
-
-            // Construir la URL de WhatsApp
-            const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
-
-            // Redirigir al usuario a WhatsApp
-            window.open(whatsappUrl, '_blank');
-
-            return false; // Evitar el envío del formulario tradicional
-        }
-    </script>
 
 </body>
 </html>

@@ -4,113 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Solicitud de Material</title>
+    <!-- Diseño responsivo con Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Iconos Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Estilo personalizado -->
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        form {
-            background-color: #ffffff;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
             padding: 20px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            max-width: 600px;
             margin: auto;
         }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        label {
-            font-weight: bold;
-            margin-top: 10px;
-            display: block;
-        }
-        input[type="text"], input[type="date"], textarea {
-            width: 100%;
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group select,
+        .form-group textarea {
+            border-radius: 5px;
+            border: 1px solid #ced4da;
             padding: 10px;
-            margin-top: 5px;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
             font-size: 16px;
+            width: 100%;
+            margin-bottom: 15px;
+            transition: border-color 0.3s ease;
         }
-        textarea {
-            resize: vertical;
-            height: 100px;
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #007bff;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #007bff;
             color: white;
-            padding: 10px 20px;
             border: none;
-            border-radius: 4px;
+            padding: 12px 20px;
+            border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            width: 100%;
+            transition: background-color 0.3s ease;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #0056b3;
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+        .form-container img {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        fieldset {
+            border: 1px solid #ced4da;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
 
-    <form id="materialForm">
-        <h1>Solicitud de Material</h1>
-        
-        <label for="projectName">Nombre del proyecto:</label>
-        <input type="text" id="projectName" name="projectName" required>
-        
-        <label for="clientName">Nombre del cliente:</label>
-        <input type="text" id="clientName" name="clientName" required>
-        
-        <label for="materialRequested">Material solicitado:</label>
-        <input type="text" id="materialRequested" name="materialRequested" required>
-        
-        <label for="requestDate">Fecha de solicitud de material:</label>
-        <input type="date" id="requestDate" name="requestDate" required>
-        
-        <label for="deliveryDate">Fecha de entrega de material:</label>
-        <input type="date" id="deliveryDate" name="deliveryDate" required>
-        
-        <label for="purchaseOrder">Orden de compra:</label>
-        <input type="text" id="purchaseOrder" name="purchaseOrder">
-        
-        <label for="comments">Comentarios:</label>
-        <textarea id="comments" name="comments"></textarea>
-        
-        <button type="button" onclick="sendToWhatsApp()">Enviar</button>
-    </form>
+    <div class="form-container">
+        <!-- Logo aquí -->
+        <img src="https://github.com/ManuelGG1708/Requerimientos-de-compra/blob/5b5c4f2c5fd45e9e8e297a1d9a500ee8f808ee63/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
-    <script>
-        function sendToWhatsApp() {
-            const projectName = document.getElementById('projectName').value;
-            const clientName = document.getElementById('clientName').value;
-            const materialRequested = document.getElementById('materialRequested').value;
-            const requestDate = document.getElementById('requestDate').value;
-            const deliveryDate = document.getElementById('deliveryDate').value;
-            const purchaseOrder = document.getElementById('purchaseOrder').value;
-            const comments = document.getElementById('comments').value;
+        <h2>Formulario de Solicitud de Material</h2>
 
-            const message = `*Solicitud de Material*\n\n` +
-                            `*Nombre del proyecto:* ${projectName}\n` +
-                            `*Nombre del cliente:* ${clientName}\n` +
-                            `*Material solicitado:* ${materialRequested}\n` +
-                            `*Fecha de solicitud:* ${requestDate}\n` +
-                            `*Fecha de entrega:* ${deliveryDate}\n` +
-                            `*Orden de compra:* ${purchaseOrder}\n` +
-                            `*Comentarios:* ${comments}`;
+        <form>
+            <fieldset>
+                <legend>Detalles del Proyecto</legend>
+                <div class="form-group">
+                    <label for="projectName">Nombre del proyecto:</label>
+                    <input type="text" id="projectName" name="projectName" required oninvalid="this.setCustomValidity('Por favor, ingrese el nombre del proyecto')" oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-group">
+                    <label for="clientName">Nombre del cliente:</label>
+                    <input type="text" id="clientName" name="clientName" required oninvalid="this.setCustomValidity('Por favor, ingrese el nombre del cliente')" oninput="this.setCustomValidity('')">
+                </div>
+            </fieldset>
 
-            const phoneNumber = '+52 4771799234'; // Reemplaza con el número de WhatsApp de destino
+            <fieldset>
+                <legend>Detalles del Material</legend>
+                <div class="form-group">
+                    <label for="material">Material solicitado:</label>
+                    <input type="text" id="material" name="material" required oninvalid="this.setCustomValidity('Por favor, ingrese el material solicitado')" oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-group">
+                    <label for="requestDate">Fecha de solicitud de material:</label>
+                    <input type="date" id="requestDate" name="requestDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="deliveryDate">Fecha de entrega de material:</label>
+                    <input type="date" id="deliveryDate" name="deliveryDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="orderNumber">Orden de compra:</label>
+                    <input type="text" id="orderNumber" name="orderNumber" required oninvalid="this.setCustomValidity('Por favor, ingrese la orden de compra')" oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+            </fieldset>
 
-            const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+            <div class="form-group">
+                <label for="contact">Seleccione un contacto:</label>
+                <select id="contact" name="contact" required>
+                    <option value="" disabled selected>Seleccione un contacto</option>
+                    <option value="1234567890">Contacto 1</option>
+                    <option value="0987654321">Contacto 2</option>
+                    <option value="1122334455">Contacto 3</option>
+                </select>
+            </div>
 
-            window.open(whatsappURL, '_blank');
-        }
-    </script>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+        </form>
+    </div>
 
 </body>
 </html>

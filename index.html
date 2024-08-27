@@ -82,11 +82,11 @@
 
     <div class="form-container">
         <!-- Logo aquí -->
-        <img src="https://github.com/ManuelGG1708/Requerimientos-de-compra/blob/922c5bccd8c587005c5e6d5baf0d6ac486d13868/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo complementos HVAC Cuadrado">
+        <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
         <h2>Formulario de Solicitud de Material</h2>
 
-        <form>
+        <form onsubmit="return sendWhatsAppMessage()">
             <fieldset>
                 <legend>Detalles del Proyecto</legend>
                 <div class="form-group">
@@ -123,19 +123,38 @@
                 </div>
             </fieldset>
 
-            <div class="form-group">
-                <label for="contact">Seleccione un contacto:</label>
-                <select id="contact" name="contact" required>
-                    <option value="" disabled selected>Seleccione un contacto</option>
-                    <option value="1234567890">Contacto 1</option>
-                    <option value="0987654321">Contacto 2</option>
-                    <option value="1122334455">Contacto 3</option>
-                </select>
-            </div>
-
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
     </div>
+
+    <script>
+        function sendWhatsAppMessage() {
+            const projectName = document.getElementById('projectName').value;
+            const clientName = document.getElementById('clientName').value;
+            const material = document.getElementById('material').value;
+            const requestDate = document.getElementById('requestDate').value;
+            const deliveryDate = document.getElementById('deliveryDate').value;
+            const orderNumber = document.getElementById('orderNumber').value;
+            const comments = document.getElementById('comments').value;
+
+            const message = `*Solicitud de Material*\n\n` +
+                            `*Nombre del proyecto:* ${projectName}\n` +
+                            `*Nombre del cliente:* ${clientName}\n` +
+                            `*Material solicitado:* ${material}\n` +
+                            `*Fecha de solicitud de material:* ${requestDate}\n` +
+                            `*Fecha de entrega de material:* ${deliveryDate}\n` +
+                            `*Orden de compra:* ${orderNumber}\n` +
+                            `*Comentarios:* ${comments}`;
+
+            // Construir la URL de WhatsApp
+            const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+
+            // Redirigir al usuario a WhatsApp
+            window.open(whatsappUrl, '_blank');
+
+            return false; // Evitar el envío del formulario tradicional
+        }
+    </script>
 
 </body>
 </html>

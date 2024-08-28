@@ -131,5 +131,34 @@
         </form>
     </div>
 
+    <script>
+        function sendWhatsAppMessage() {
+            // Captura los valores del formulario
+            var projectName = document.getElementById("projectName").value;
+            var clientName = document.getElementById("clientName").value;
+            var material = document.getElementById("material").value;
+            var requestDate = document.getElementById("requestDate").value;
+            var deliveryDate = document.getElementById("deliveryDate").value;
+            var orderNumber = document.getElementById("orderNumber").value;
+            var comments = document.getElementById("comments").value;
+
+            // Crea el mensaje a enviar
+            var message = "Requermiento de compra en Obra:%0A" +
+                          "*Nombre del proyecto:* " + projectName + "%0A" +
+                          "*Nombre del cliente:* " + clientName + "%0A" +
+                          "*Material solicitado:* " + material + "%0A" +
+                          "*Fecha de solicitud de material:* " + requestDate + "%0A" +
+                          "*Fecha de entrega de material:* " + deliveryDate + "%0A" +
+                          "*Orden de compra:* " + orderNumber + "%0A" +
+                          "*Comentarios:* " + comments;
+
+            // Redirige a WhatsApp con el mensaje
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
+            window.open(whatsappUrl, '_blank');
+            
+            return false; // Evita que el formulario se envíe de la forma tradicional
+        }
+    </script>
+
 </body>
 </html>

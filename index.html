@@ -225,15 +225,16 @@
             var currentTime = hours + ':' + minutes;
 
             var message = "Requerimiento de compra en Obra:\n" +
-                          "*Nombre del proyecto:* " + encodeURIComponent(projectName) + "\n" +
-                          "*Nombre del cliente:* " + encodeURIComponent(clientName) + "\n" +
-                          "*Material solicitado:* " + encodeURIComponent(material) + "\n" +
-                          "*Fecha de solicitud de material:* " + encodeURIComponent(requestDate) + " " + encodeURIComponent(currentTime) + "\n" +
-                          "*Fecha de entrega de material:* " + encodeURIComponent(deliveryDate) + " " + encodeURIComponent(currentTime) + "\n" +
-                          "*Orden de compra:* " + encodeURIComponent(orderNumber) + "\n" +
-                          "*Comentarios:* " + encodeURIComponent(comments);
+                          "Nombre del proyecto: " + projectName + "\n" +
+                          "Nombre del cliente: " + clientName + "\n" +
+                          "Material solicitado: " + material + "\n" +
+                          "Fecha de solicitud de material: " + requestDate + "\n" +
+                          "Fecha de entrega de material: " + deliveryDate + "\n" +
+                          "Hora de solicitud: " + currentTime + "\n" +
+                          "Orden de compra: " + orderNumber + "\n" +
+                          "Comentarios: " + comments;
 
-            var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
 
             setTimeout(function() {
                 window.open(whatsappUrl, '_blank');

@@ -137,6 +137,7 @@
                 <option value="Carlos Huitrón">Carlos Huitrón</option>
                 <option value="Osvaldo Ramos">Osvaldo Ramos</option>
                 <option value="Alan Rojas">Alan Rojas</option>
+                <option value="Manuel Gómez">Manuel Gómez</option>
             </select>
         </div>
         <button type="button" onclick="showForm()">Continuar</button>
@@ -223,16 +224,16 @@
             var minutes = now.getMinutes().toString().padStart(2, '0');
             var currentTime = hours + ':' + minutes;
 
-            var message = "Requerimiento de compra en Obra:%0A" +
-                          "*Nombre del proyecto:* " + projectName + "%0A" +
-                          "*Nombre del cliente:* " + clientName + "%0A" +
-                          "*Material solicitado:* " + material + "%0A" +
-                          "*Fecha de solicitud de material:* " + requestDate + " " + currentTime + "%0A" +
-                          "*Fecha de entrega de material:* " + deliveryDate + " " + currentTime + "%0A" +
-                          "*Orden de compra:* " + orderNumber + "%0A" +
-                          "*Comentarios:* " + comments;
+            var message = "Requerimiento de compra en Obra:\n" +
+                          "*Nombre del proyecto:* " + encodeURIComponent(projectName) + "\n" +
+                          "*Nombre del cliente:* " + encodeURIComponent(clientName) + "\n" +
+                          "*Material solicitado:* " + encodeURIComponent(material) + "\n" +
+                          "*Fecha de solicitud de material:* " + encodeURIComponent(requestDate) + " " + encodeURIComponent(currentTime) + "\n" +
+                          "*Fecha de entrega de material:* " + encodeURIComponent(deliveryDate) + " " + encodeURIComponent(currentTime) + "\n" +
+                          "*Orden de compra:* " + encodeURIComponent(orderNumber) + "\n" +
+                          "*Comentarios:* " + encodeURIComponent(comments);
 
-            var whatsappUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
 
             setTimeout(function() {
                 window.open(whatsappUrl, '_blank');

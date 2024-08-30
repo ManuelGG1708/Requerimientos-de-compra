@@ -27,7 +27,6 @@
         }
         .form-group input[type="text"],
         .form-group input[type="date"],
-        .form-group input[type="time"],
         .form-group select,
         .form-group textarea {
             border-radius: 5px;
@@ -169,14 +168,12 @@
                     <input type="text" id="material" name="material" required oninvalid="this.setCustomValidity('Por favor, ingrese el material solicitado')" oninput="this.setCustomValidity('')">
                 </div>
                 <div class="form-group">
-                    <label for="requestDate">Fecha y hora de solicitud de material:</label>
+                    <label for="requestDate">Fecha de solicitud de material:</label>
                     <input type="date" id="requestDate" name="requestDate" required>
-                    <input type="time" id="requestTime" name="requestTime" required>
                 </div>
                 <div class="form-group">
-                    <label for="deliveryDate">Fecha y hora de entrega de material:</label>
+                    <label for="deliveryDate">Fecha de entrega de material:</label>
                     <input type="date" id="deliveryDate" name="deliveryDate" required>
-                    <input type="time" id="deliveryTime" name="deliveryTime" required>
                 </div>
                 <div class="form-group">
                     <label for="orderNumber">Orden de compra:</label>
@@ -216,18 +213,22 @@
             var clientName = document.getElementById("clientName").value;
             var material = document.getElementById("material").value;
             var requestDate = document.getElementById("requestDate").value;
-            var requestTime = document.getElementById("requestTime").value;
             var deliveryDate = document.getElementById("deliveryDate").value;
-            var deliveryTime = document.getElementById("deliveryTime").value;
             var orderNumber = document.getElementById("orderNumber").value;
             var comments = document.getElementById("comments").value;
+
+            // Obtener la hora actual
+            var now = new Date();
+            var hours = now.getHours().toString().padStart(2, '0');
+            var minutes = now.getMinutes().toString().padStart(2, '0');
+            var currentTime = hours + ':' + minutes;
 
             var message = "Requerimiento de compra en Obra:%0A" +
                           "*Nombre del proyecto:* " + projectName + "%0A" +
                           "*Nombre del cliente:* " + clientName + "%0A" +
                           "*Material solicitado:* " + material + "%0A" +
-                          "*Fecha de solicitud de material:* " + requestDate + " " + requestTime + "%0A" +
-                          "*Fecha de entrega de material:* " + deliveryDate + " " + deliveryTime + "%0A" +
+                          "*Fecha de solicitud de material:* " + requestDate + " " + currentTime + "%0A" +
+                          "*Fecha de entrega de material:* " + deliveryDate + " " + currentTime + "%0A" +
                           "*Orden de compra:* " + orderNumber + "%0A" +
                           "*Comentarios:* " + comments;
 

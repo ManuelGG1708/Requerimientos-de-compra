@@ -12,7 +12,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f0f4f8; /* Color de fondo ajustado */
+            background-color: #f0f4f8;
             color: #343a40;
             padding: 20px;
         }
@@ -23,10 +23,11 @@
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
             max-width: 600px;
             margin: auto;
-            border: 1px solid #dee2e6; /* Bordes ligeros */
+            border: 1px solid #dee2e6;
         }
         .form-group input[type="text"],
         .form-group input[type="date"],
+        .form-group input[type="time"],
         .form-group select,
         .form-group textarea {
             border-radius: 5px;
@@ -41,6 +42,14 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color: #007bff;
+        }
+        input:invalid, textarea:invalid {
+            border-color: #dc3545;
+            box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
+        }
+        input:valid, textarea:valid {
+            border-color: #28a745;
+            box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
         }
         button {
             background-color: #007bff;
@@ -59,12 +68,12 @@
         }
         .form-container h2 {
             margin-bottom: 20px;
-            font-family: 'Poppins', sans-serif; /* Tipografía alternativa */
+            font-family: 'Poppins', sans-serif;
             font-weight: 600;
         }
         .form-container img {
-            max-width: 100px; /* Controla el tamaño máximo del logo */
-            height: auto; /* Mantiene la proporción */
+            max-width: 100px;
+            height: auto;
             display: block;
             margin: 0 auto 20px auto;
         }
@@ -80,7 +89,27 @@
         label {
             font-weight: 500;
         }
-        /* Ajustes de diseño para móviles */
+        .confirmation-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .confirmation-message p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        button[type="button"] {
+            background-color: #28a745;
+            padding: 15px 25px;
+            font-size: 18px;
+            border-radius: 5px;
+            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        button[type="button"]:hover {
+            background-color: #218838;
+            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.5);
+        }
         @media (max-width: 576px) {
             .form-container {
                 padding: 20px;
@@ -100,12 +129,10 @@
             <label for="userName">Nombre del solicitante:</label>
             <select id="userName" name="userName" class="form-control" required>
                 <option value="" disabled selected>Seleccione su nombre</option>
-                <option value="Manuel Gómez">Manuel Gómez</option>
                 <option value="Ángel Yáñez">Ángel Yáñez</option>
                 <option value="Carlos De La Espriella">Carlos De La Espriella</option>
                 <option value="Israel Arceo">Israel Arceo</option>
-                <option value="Juan Carlos Cortez">Juan Cortez</option>
-                <option value="Luis Martinez">Luis Martinez</option>
+                <option value="Juan Cortez">Juan Cortez</option>
                 <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
                 <option value="Joshua Valadez">Joshua Valadez</option>
                 <option value="Carlos Huitrón">Carlos Huitrón</option>
@@ -142,12 +169,14 @@
                     <input type="text" id="material" name="material" required oninvalid="this.setCustomValidity('Por favor, ingrese el material solicitado')" oninput="this.setCustomValidity('')">
                 </div>
                 <div class="form-group">
-                    <label for="requestDate">Fecha de solicitud de material:</label>
+                    <label for="requestDate">Fecha y hora de solicitud de material:</label>
                     <input type="date" id="requestDate" name="requestDate" required>
+                    <input type="time" id="requestTime" name="requestTime" required>
                 </div>
                 <div class="form-group">
-                    <label for="deliveryDate">Fecha de entrega de material:</label>
+                    <label for="deliveryDate">Fecha y hora de entrega de material:</label>
                     <input type="date" id="deliveryDate" name="deliveryDate" required>
+                    <input type="time" id="deliveryTime" name="deliveryTime" required>
                 </div>
                 <div class="form-group">
                     <label for="orderNumber">Orden de compra:</label>
@@ -161,6 +190,12 @@
 
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
+
+        <!-- Mensaje de confirmación -->
+        <div id="confirmationMessage" class="confirmation-message">
+            <p>Redirigiendo a WhatsApp...</p>
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
     </div>
 
     <script>
@@ -175,27 +210,35 @@
         }
 
         function sendWhatsAppMessage() {
+            document.getElementById('confirmationMessage').style.display = 'block';
+
             var projectName = document.getElementById("projectName").value;
             var clientName = document.getElementById("clientName").value;
             var material = document.getElementById("material").value;
             var requestDate = document.getElementById("requestDate").value;
+            var requestTime = document.getElementById("requestTime").value;
             var deliveryDate = document.getElementById("deliveryDate").value;
+            var deliveryTime = document.getElementById("deliveryTime").value;
             var orderNumber = document.getElementById("orderNumber").value;
             var comments = document.getElementById("comments").value;
 
-            var message = "Requermiento de compra en Obra:%0A" +
+            var message = "Requerimiento de compra en Obra:%0A" +
                           "*Nombre del proyecto:* " + projectName + "%0A" +
                           "*Nombre del cliente:* " + clientName + "%0A" +
                           "*Material solicitado:* " + material + "%0A" +
-                          "*Fecha de solicitud de material:* " + requestDate + "%0A" +
-                          "*Fecha de entrega de material:* " + deliveryDate + "%0A" +
+                          "*Fecha de solicitud de material:* " + requestDate + " " + requestTime + "%0A" +
+                          "*Fecha de entrega de material:* " + deliveryDate + " " + deliveryTime + "%0A" +
                           "*Orden de compra:* " + orderNumber + "%0A" +
                           "*Comentarios:* " + comments;
 
-            var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
-            window.open(whatsappUrl, '_blank');
-            
-            return false; // Evitar que el formulario se envíe de forma tradicional
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
+
+            setTimeout(function() {
+                window.open(whatsappUrl, '_blank');
+                document.getElementById('confirmationMessage').style.display = 'none';
+            }, 1000);
+
+            return false;
         }
     </script>
 

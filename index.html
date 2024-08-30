@@ -42,13 +42,6 @@
         .form-group textarea:focus {
             border-color: #007bff;
         }
-        /* Estilo para campos válidos e inválidos */
-        input:invalid, textarea:invalid {
-            border-color: #dc3545;
-        }
-        input:valid, textarea:valid {
-            border-color: #28a745;
-        }
         button {
             background-color: #007bff;
             color: white;
@@ -87,11 +80,6 @@
         label {
             font-weight: 500;
         }
-        /* Aumenta la altura del campo de "Material solicitado" */
-        #material {
-            height: auto;
-            min-height: 60px; /* Ajusta según el tamaño necesario */
-        }
         /* Ajustes de diseño para móviles */
         @media (max-width: 576px) {
             .form-container {
@@ -99,32 +87,35 @@
                 margin: 15px;
             }
         }
-        /* Estilo para la lista de personas */
-        .approved-list {
-            margin-top: 30px;
-            padding: 20px;
-            background-color: #f9f9f9;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        .approved-list h3 {
-            margin-bottom: 15px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-        }
-        .approved-list ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        .approved-list ul li {
-            font-size: 16px;
-            margin-bottom: 8px;
-        }
     </style>
 </head>
 <body>
 
-    <div class="form-container">
+    <div class="form-container" id="selectUserContainer">
+        <!-- Logo aquí -->
+        <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
+
+        <h2>Seleccione su nombre</h2>
+        <div class="form-group">
+            <label for="userName">Nombre del solicitante:</label>
+            <select id="userName" name="userName" class="form-control" required>
+                <option value="" disabled selected>Seleccione su nombre</option>
+                <option value="Ángel Yáñez">Ángel Yáñez</option>
+                <option value="Carlos De La Espriella">Carlos De La Espriella</option>
+                <option value="Israel Arceo">Israel Arceo</option>
+                <option value="Juan Carlos Cortez">Juan Cortez</option>
+                <option value="Luis Martinez">Luis Martinez</option>
+                <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
+                <option value="Joshua Valadez">Joshua Valadez</option>
+                <option value="Carlos Huitrón">Carlos Huitrón</option>
+                <option value="Osvaldo Ramos">Osvaldo Ramos</option>
+                <option value="Alan Rojas">Alan Rojas</option>
+            </select>
+        </div>
+        <button type="button" onclick="showForm()">Continuar</button>
+    </div>
+
+    <div class="form-container" id="formContainer" style="display:none;">
         <!-- Logo aquí -->
         <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
@@ -169,29 +160,20 @@
 
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
-
-        <!-- Lista de personas aprobadas para contestar el formulario -->
-        <div class="approved-list">
-            <h3>Personas autorizadas para contestar el formulario:</h3>
-            <ul>
-                <li>Ángel Yáñez</li>
-                <li>Carlos De La Espriella</li>
-                <li>Israel Arceo</li>
-                <li>Juan Carlos Cortez</li>
-                <li>Jonathan Cárdenas</li>
-                <li>Joshua Valadez</li>
-                <li>Carlos Huitrón</li>
-                <li>Osvaldo Ramos</li>
-                <li>Luis Martinez</li>
-                <li>Alan Rojas</li>
-            </ul>
-        </div>
     </div>
 
     <script>
+        function showForm() {
+            var userName = document.getElementById("userName").value;
+            if (userName) {
+                document.getElementById("selectUserContainer").style.display = 'none';
+                document.getElementById("formContainer").style.display = 'block';
+            } else {
+                alert("Por favor, seleccione su nombre antes de continuar.");
+            }
+        }
+
         function sendWhatsAppMessage() {
-            document.getElementById('loading-spinner').style.display = 'block';
-            
             var projectName = document.getElementById("projectName").value;
             var clientName = document.getElementById("clientName").value;
             var material = document.getElementById("material").value;
@@ -212,9 +194,7 @@
             var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
             window.open(whatsappUrl, '_blank');
             
-            document.getElementById('loading-spinner').style.display = 'none';
-            
-            return false;
+            return false; // Evitar que el formulario se envíe de forma tradicional
         }
     </script>
 

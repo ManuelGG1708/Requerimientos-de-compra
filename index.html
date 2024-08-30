@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requerimiento de compra en Obra</title>
+    <title>Requermiento de compra en Obra</title>
     <!-- Diseño responsivo con Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Iconos Font Awesome -->
@@ -99,6 +99,27 @@
                 margin: 15px;
             }
         }
+        /* Estilo para la lista de personas */
+        .approved-list {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .approved-list h3 {
+            margin-bottom: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .approved-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .approved-list ul li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
     </style>
 </head>
 <body>
@@ -107,7 +128,7 @@
         <!-- Logo aquí -->
         <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
-        <h2>Requerimiento de compra en Obra</h2>
+        <h2>Requermiento de compra en Obra</h2>
 
         <form onsubmit="return sendWhatsAppMessage()">
             <fieldset>
@@ -149,9 +170,21 @@
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
 
-        <!-- Indicador de carga -->
-        <div id="loading-spinner" style="display:none; text-align: center; margin-top: 20px;">
-            <i class="fas fa-spinner fa-spin"></i> Enviando...
+        <!-- Lista de personas aprobadas para contestar el formulario -->
+        <div class="approved-list">
+            <h3>Personas autorizadas para contestar el formulario:</h3>
+            <ul>
+                <li>Ángel Yáñez</li>
+                <li>Carlos De La Espriella</li>
+                <li>Israel Arceo</li>
+                <li>Juan Carlos Cortez</li>
+                <li>Jonathan Cárdenas</li>
+                <li>Joshua Valadez</li>
+                <li>Carlos Huitrón</li>
+                <li>Osvaldo Ramos</li>
+                <li>Luis Martinez</li>
+                <li>Alan Rojas</li>
+            </ul>
         </div>
     </div>
 
@@ -187,4 +220,3 @@
 
 </body>
 </html>
-

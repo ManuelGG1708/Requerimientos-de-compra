@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requerimiento de compra en Obra</title>
+    <title>Requermiento de compra en Obra</title>
     <!-- Diseño responsivo con Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Iconos Font Awesome -->
@@ -12,7 +12,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
+            background-color: #f0f4f8; /* Color de fondo ajustado */
             color: #343a40;
             padding: 20px;
         }
@@ -23,6 +23,7 @@
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
             max-width: 600px;
             margin: auto;
+            border: 1px solid #dee2e6; /* Bordes ligeros */
         }
         .form-group input[type="text"],
         .form-group input[type="date"],
@@ -41,44 +42,56 @@
         .form-group textarea:focus {
             border-color: #007bff;
         }
+        /* Estilo para campos válidos e inválidos */
+        input:invalid, textarea:invalid {
+            border-color: #dc3545;
+        }
+        input:valid, textarea:valid {
+            border-color: #28a745;
+        }
         button {
             background-color: #007bff;
             color: white;
             border: none;
-            padding: 12px 20px;
+            padding: 15px 25px;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s ease;
+            font-size: 18px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
         }
         button:hover {
             background-color: #0056b3;
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.5);
         }
         .form-container h2 {
             margin-bottom: 20px;
-        }
-        .form-container img {
-            max-width: 100px;
-            display: block;
-            margin: 0 auto 20px auto;
-        }
-        fieldset {
-            border: 1px solid #ced4da;
-            padding: 15px;
-            border-radius: 5px;
-            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif; /* Tipografía alternativa */
+            font-weight: 600;
         }
         legend {
             font-size: 18px;
             font-weight: bold;
+            font-family: 'Poppins', sans-serif;
             width: auto;
             padding: 0 10px;
             border-bottom: none;
             margin-bottom: 10px;
         }
+        label {
+            font-weight: 500;
+        }
         /* Aumenta la altura del campo de "Material solicitado" */
         #material {
-            height: 100px; /* Ajusta el valor según el tamaño que desees */
+            height: auto;
+            min-height: 60px; /* Ajusta según el tamaño necesario */
+        }
+        /* Ajustes de diseño para móviles */
+        @media (max-width: 576px) {
+            .form-container {
+                padding: 20px;
+                margin: 15px;
+            }
         }
     </style>
 </head>
@@ -88,7 +101,7 @@
         <!-- Logo aquí -->
         <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
 
-        <h2>Requerimiento de compra en Obra</h2>
+        <h2>Requermiento de compra en Obra</h2>
 
         <form onsubmit="return sendWhatsAppMessage()">
             <fieldset>
@@ -129,11 +142,17 @@
 
             <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
         </form>
+
+        <!-- Indicador de carga -->
+        <div id="loading-spinner" style="display:none; text-align: center; margin-top: 20px;">
+            <i class="fas fa-spinner fa-spin"></i> Enviando...
+        </div>
     </div>
 
     <script>
         function sendWhatsAppMessage() {
-            // Captura los valores del formulario
+            document.getElementById('loading-spinner').style.display = 'block';
+            
             var projectName = document.getElementById("projectName").value;
             var clientName = document.getElementById("clientName").value;
             var material = document.getElementById("material").value;
@@ -142,8 +161,7 @@
             var orderNumber = document.getElementById("orderNumber").value;
             var comments = document.getElementById("comments").value;
 
-            // Crea el mensaje a enviar
-            var message = "Requerimiento de compra en Obra:%0A" +
+            var message = "Requermiento de compra en Obra:%0A" +
                           "*Nombre del proyecto:* " + projectName + "%0A" +
                           "*Nombre del cliente:* " + clientName + "%0A" +
                           "*Material solicitado:* " + material + "%0A" +
@@ -152,11 +170,12 @@
                           "*Orden de compra:* " + orderNumber + "%0A" +
                           "*Comentarios:* " + comments;
 
-            // Redirige a WhatsApp con el mensaje
             var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
             window.open(whatsappUrl, '_blank');
             
-            return false; // Evita que el formulario se envíe de la forma tradicional
+            document.getElementById('loading-spinner').style.display = 'none';
+            
+            return false;
         }
     </script>
 

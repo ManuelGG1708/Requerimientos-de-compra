@@ -71,91 +71,111 @@
 
 <div class="form-container">
     <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
-    <h2>Seleccione su nombre</h2>
-    <select id="userName" class="form-control" required onchange="showForm()">
-        <option value="" disabled selected>Seleccione su nombre</option>
-        <option value="Ángel Yáñez">Ángel Yáñez</option>
-        <option value="Carlos De La Espriella">Carlos De La Espriella</option>
-        <option value="Israel Arceo">Israel Arceo</option>
-        <option value="Juan Cortez">Juan Cortez</option>
-        <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
-        <option value="Joshua Valadez">Joshua Valadez</option>
-        <option value="Carlos Huitrón">Carlos Huitrón</option>
-        <option value="Osvaldo Ramos">Osvaldo Ramos</option>
-        <option value="Alan Rojas">Alan Rojas</option>
-        <option value="Manuel Gómez">Manuel Gómez</option>
-    </select>
-</div>
-
-<div class="form-container" id="formContainer" style="display:none;">
     <h2>Requerimiento de compra en Obra</h2>
+    <div class="form-group">
+        <label for="userName">Nombre del solicitante:</label>
+        <select id="userName" class="form-control" required onchange="updateProjectOptions()">
+            <option value="" disabled selected>Seleccione su nombre</option>
+            <option value="Ángel Yáñez">Ángel Yáñez</option>
+            <option value="Carlos De La Espriella">Carlos De La Espriella</option>
+            <option value="Israel Arceo">Israel Arceo</option>
+            <option value="Juan Cortez">Juan Cortez</option>
+            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
+            <option value="Joshua Valadez">Joshua Valadez</option>
+            <option value="Carlos Huitrón">Carlos Huitrón</option>
+            <option value="Osvaldo Ramos">Osvaldo Ramos</option>
+            <option value="Alan Rojas">Alan Rojas</option>
+            <option value="Manuel Gómez">Manuel Gómez</option>
+        </select>
+    </div>
+
     <form onsubmit="return sendWhatsAppMessage()">
-        <div class="form-group">
-            <label for="projectName">Nombre del proyecto:</label>
-            <select id="projectName" class="form-control" required></select>
-        </div>
-        <div class="form-group">
-            <label for="clientName">Nombre del cliente:</label>
-            <input type="text" id="clientName" required>
-        </div>
-        <div class="form-group">
-            <label for="material">Material solicitado:</label>
-            <input type="text" id="material" required>
-        </div>
-        <div class="form-group">
-            <label for="requestDate">Fecha de solicitud de material:</label>
-            <input type="date" id="requestDate" required>
-        </div>
-        <div class="form-group">
-            <label for="deliveryDate">Fecha de entrega de material:</label>
-            <input type="date" id="deliveryDate" required>
-        </div>
-        <div class="form-group">
-            <label for="orderNumber">Orden de compra:</label>
-            <input type="text" id="orderNumber" required>
-        </div>
-        <div class="form-group">
-            <label for="comments">Comentarios:</label>
-            <textarea id="comments" rows="4"></textarea>
-        </div>
+        <fieldset>
+            <legend>Detalles del Proyecto</legend>
+            <div class="form-group">
+                <label for="projectName">Nombre del proyecto:</label>
+                <select id="projectName" class="form-control" required>
+                    <!-- Opciones de proyectos se llenarán basadas en la selección del solicitante -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="clientName">Nombre del cliente:</label>
+                <input type="text" id="clientName" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Detalles del Material</legend>
+            <div class="form-group">
+                <label for="material">Material solicitado:</label>
+                <input type="text" id="material" required>
+            </div>
+            <div class="form-group">
+                <label for="requestDate">Fecha de solicitud de material:</label>
+                <input type="date" id="requestDate" required>
+            </div>
+            <div class="form-group">
+                <label for="deliveryDate">Fecha de entrega de material:</label>
+                <input type="date" id="deliveryDate" required>
+            </div>
+            <div class="form-group">
+                <label for="orderNumber">Orden de compra:</label>
+                <input type="text" id="orderNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="comments">Comentarios:</label>
+                <textarea id="comments" rows="4"></textarea>
+            </div>
+        </fieldset>
+
         <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
     </form>
 </div>
 
 <script>
     let projectDetails = {};
+
     fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
         .then(response => response.json())
-        .then(data => projectDetails = data)
-        .catch(console.error);
+        .then(data => {
+            projectDetails = data;
+            console.log(projectDetails); // Ver los detalles del proyecto cargados
+        })
+        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
 
     const userSequentialIDs = {
-        "Ángel Yáñez": 1, "Carlos De La Espriella": 1, "Israel Arceo": 1, "Juan Cortez": 1, 
-        "Jonathan Cárdenas": 1, "Joshua Valadez": 1, "Carlos Huitrón": 1, "Osvaldo Ramos": 1, 
-        "Alan Rojas": 1, "Manuel Gómez": 1
+        "Ángel Yáñez": 1,
+        "Carlos De La Espriella": 1,
+        "Israel Arceo": 1,
+        "Juan Cortez": 1,
+        "Jonathan Cárdenas": 1,
+        "Joshua Valadez": 1,
+        "Carlos Huitrón": 1,
+        "Osvaldo Ramos": 1,
+        "Alan Rojas": 1,
+        "Manuel Gómez": 1
     };
 
-    function showForm() {
+    function updateProjectOptions() {
         const userName = document.getElementById("userName").value;
-        if (!userName) return alert("Por favor, seleccione su nombre antes de continuar.");
-        document.getElementById("formContainer").style.display = 'block';
-        updateProjectOptions(userName);
-    }
-
-    function updateProjectOptions(userName) {
         const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = Object.entries(projectDetails)
-            .filter(([, details]) => details.solicitante === userName)
-            .map(([projectName]) => `<option value="${projectName}">${projectName}</option>`)
-            .join('');
+        projectNameSelect.innerHTML = '';
+
+        Object.entries(projectDetails).forEach(([projectName, details]) => {
+            if (details.solicitante === userName) {
+                const option = document.createElement("option");
+                option.value = projectName;
+                option.text = projectName;
+                projectNameSelect.appendChild(option);
+            }
+        });
     }
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
-        const initials = userName.split(" ").map(n => n[0]).join("");
+        const initials = userName.split(" ").map(n => n[0]).join(""); // Obtiene las iniciales del nombre
         const projectName = document.getElementById("projectName").value;
-        const projectCode = projectDetails[projectName].codigo || "Desconocido";
-        const userID = String(userSequentialIDs[userName]++).padStart(2, '0');
+        const projectCode = projectDetails[projectName].codigo || "Desconocido"; // Obtiene el código del proyecto desde el JSON cargado
+        const userID = String(userSequentialIDs[userName]++).padStart(2, '0'); // ID secuencial del usuario
 
         const clientName = document.getElementById("clientName").value;
         const material = document.getElementById("material").value;
@@ -168,9 +188,9 @@
         const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
         const uniqueCode = `${initials}-${projectCode}-${userID}`;
 
-        const message = `Requerimiento de compra en Obra:\nCódigo: ${uniqueCode}\nNombre del proyecto: ${projectName}\nNombre del cliente: ${clientName}\nMaterial solicitado: ${material}\nFecha de solicitud de material: ${requestDate}\nFecha de entrega de material: ${deliveryDate}\nHora de solicitud: ${currentTime}\nOrden de compra: ${orderNumber}\nComentarios: ${comments}`;
+        const message = `Requerimiento de compra en Obra:\nCódigo: ${uniqueCode}\nNombre del proyecto: ${projectName}\nNombre del cliente: ${clientName}\nMaterial solicitado: ${material}\nFecha de solicitud
 
-        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
+window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
         return false;
     }
 </script>

@@ -69,12 +69,12 @@
 </head>
 <body>
 
-<div class="form-container">
+<div class="form-container" id="selectUserContainer">
     <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
     <h2>Seleccione su nombre</h2>
     <div class="form-group">
         <label for="userName">Nombre del solicitante:</label>
-        <select id="userName" class="form-control" required onchange="showFormAndUpdateProjects()">
+        <select id="userName" class="form-control" required>
             <option value="" disabled selected>Seleccione su nombre</option>
             <option value="Ángel Yáñez">Ángel Yáñez</option>
             <option value="Carlos De La Espriella">Carlos De La Espriella</option>
@@ -88,9 +88,12 @@
             <option value="Manuel Gómez">Manuel Gómez</option>
         </select>
     </div>
+    <button type="button" onclick="showFormAndUpdateProjects()">Continuar</button>
+</div>
 
-    <form onsubmit="return sendWhatsAppMessage()" id="formContainer" style="display:none;">
-        <h2>Requerimiento de compra en Obra</h2>
+<div class="form-container" id="formContainer" style="display:none;">
+    <h2>Requerimiento de compra en Obra</h2>
+    <form onsubmit="return sendWhatsAppMessage()">
         <fieldset>
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
@@ -155,8 +158,14 @@
     };
 
     function showFormAndUpdateProjects() {
-        document.getElementById('formContainer').style.display = 'block';
-        updateProjectOptions();
+        const userName = document.getElementById("userName").value;
+        if (userName) {
+            document.getElementById('selectUserContainer').style.display = 'none';
+            document.getElementById('formContainer').style.display = 'block';
+            updateProjectOptions();
+        } else {
+            alert("Por favor, seleccione su nombre antes de continuar.");
+        }
     }
 
     function updateProjectOptions() {

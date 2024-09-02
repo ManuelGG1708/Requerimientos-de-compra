@@ -1,0 +1,5610 @@
+{
+    "GIGANTE VERDE POLIZA MANTENIMIENTO": {
+        "codigo": 1,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 238050": {
+        "codigo": 2,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT TARJETAS": {
+        "codigo": 3,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR CHILLERS": {
+        "codigo": 4,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIRSA": {
+        "codigo": 5,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON": {
+        "codigo": 6,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 398968": {
+        "codigo": 7,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KYRIOS": {
+        "codigo": 8,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA LIEBERT": {
+        "codigo": 9,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A ARRANCADOR PLAZA MAYOR": {
+        "codigo": 10,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SLP FILTRO PO MX 428523": {
+        "codigo": 11,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONSTRUCCIONES TOTALSA": {
+        "codigo": 12,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TTQ": {
+        "codigo": 13,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN OC 24058": {
+        "codigo": 14,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAZDA LOGISTICA": {
+        "codigo": 15,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS": {
+        "codigo": 16,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "COEXPAN": {
+        "codigo": 17,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN LUIS POTOSI": {
+        "codigo": 18,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMEX": {
+        "codigo": 19,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EL RANCHO": {
+        "codigo": 20,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PARKER": {
+        "codigo": 21,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600129091 OC": {
+        "codigo": 22,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO": {
+        "codigo": 23,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAXCALA MX 429620": {
+        "codigo": 24,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YARELI": {
+        "codigo": 25,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA COMPRESOR": {
+        "codigo": 26,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEER MX157605": {
+        "codigo": 27,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EL GRANJERO FELIZ": {
+        "codigo": 28,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS": {
+        "codigo": 29,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLAZA COLIBRI": {
+        "codigo": 30,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO DESHUMIFICADOR 6308011455": {
+        "codigo": 31,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT": {
+        "codigo": 32,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHAN CONTROLADOR": {
+        "codigo": 33,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SARGUMI QUERETARO": {
+        "codigo": 34,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE": {
+        "codigo": 35,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A IRAPUATO": {
+        "codigo": 36,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VIMACOM ESCUELA": {
+        "codigo": 37,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308011651 COMPRESOR": {
+        "codigo": 38,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA": {
+        "codigo": 39,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 567241": {
+        "codigo": 40,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO FISAIR 6308011670 y 6308012068": {
+        "codigo": 41,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YKK": {
+        "codigo": 42,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308011707.": {
+        "codigo": 43,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INTERMED": {
+        "codigo": 44,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "8D GE QUERETARO": {
+        "codigo": 46,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT EMMANUEL": {
+        "codigo": 47,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SPA IRAPUATO": {
+        "codigo": 48,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT MONICA": {
+        "codigo": 49,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "G ELECTRIC QUERETARO": {
+        "codigo": 50,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MTTO CHILLER MX769672": {
+        "codigo": 51,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO": {
+        "codigo": 53,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RYOBI": {
+        "codigo": 54,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PERIODICO AM": {
+        "codigo": 55,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 180209": {
+        "codigo": 56,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308011844 TURBINA": {
+        "codigo": 57,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL": {
+        "codigo": 58,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAPEI DE MEXICO": {
+        "codigo": 59,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA 4505727412": {
+        "codigo": 60,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO": {
+        "codigo": 61,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE PO 190098": {
+        "codigo": 62,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MONTERREY": {
+        "codigo": 63,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA TURBINA 4505739516": {
+        "codigo": 64,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "8D MONTERREY": {
+        "codigo": 65,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE OC20190317": {
+        "codigo": 66,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADECUACION BODEGA": {
+        "codigo": 67,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT GARANTIA": {
+        "codigo": 68,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LINEAS 6 Y 7 4200020132": {
+        "codigo": 69,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DEP. (1812)": {
+        "codigo": 70,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 201980": {
+        "codigo": 71,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE MINISPLIT": {
+        "codigo": 73,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARQ. TINA": {
+        "codigo": 74,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UCHINGEN MX": {
+        "codigo": 75,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 200869": {
+        "codigo": 76,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DEP (503)": {
+        "codigo": 77,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT PABLO VILLA": {
+        "codigo": 78,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT JORGE CERVANTES": {
+        "codigo": 79,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE 20190365": {
+        "codigo": 80,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE REPARACION CHILLER TRANE 250 TR": {
+        "codigo": 81,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JHONAN": {
+        "codigo": 82,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CSG AUTOMOTIVE": {
+        "codigo": 83,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT FRANCISCO SOLIS": {
+        "codigo": 84,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INTERMED CD VICTORIA": {
+        "codigo": 85,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA EDUACUACION Y EXTRACCION OP 4505766723": {
+        "codigo": 86,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE OC 215006": {
+        "codigo": 87,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308011921": {
+        "codigo": 88,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT GERARDO RAFAEL": {
+        "codigo": 89,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GRUPO MINERO BACIS  JC0000004350": {
+        "codigo": 90,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 107942": {
+        "codigo": 91,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON COMPRESOR 143605": {
+        "codigo": 92,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 413825": {
+        "codigo": 93,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT  DEP 1107": {
+        "codigo": 94,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 423989": {
+        "codigo": 95,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT CHIMENEA": {
+        "codigo": 96,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX226899": {
+        "codigo": 97,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT (508 ) EDUARDO": {
+        "codigo": 98,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM FORJA": {
+        "codigo": 99,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR 229479": {
+        "codigo": 100,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GYM ALTACIA": {
+        "codigo": 101,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT COMPRESORES": {
+        "codigo": 102,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT TIRSO": {
+        "codigo": 103,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CARHART PENJAMO": {
+        "codigo": 104,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT EQUIPO MOCHILA": {
+        "codigo": 105,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A MANTENIMIENTO": {
+        "codigo": 106,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE 20190510": {
+        "codigo": 107,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY": {
+        "codigo": 108,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUEVAS OFICINAS": {
+        "codigo": 109,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO 2020": {
+        "codigo": 110,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RANCHO EL TERRERO": {
+        "codigo": 111,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX255038": {
+        "codigo": 112,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT": {
+        "codigo": 113,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ALMACEN DE DROGAS": {
+        "codigo": 114,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLEASSES": {
+        "codigo": 115,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT CHIMENEAS": {
+        "codigo": 116,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 108150": {
+        "codigo": 117,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR": {
+        "codigo": 118,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308012325": {
+        "codigo": 119,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC6308012326": {
+        "codigo": 120,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OP 432350": {
+        "codigo": 121,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VIMACOM": {
+        "codigo": 122,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA VENTILADOR": {
+        "codigo": 124,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIERRA MOJADA": {
+        "codigo": 125,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LIC. ARACELI  SANDOVAL": {
+        "codigo": 126,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT ADACUATRO 1802": {
+        "codigo": 128,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS CHOCOLATE": {
+        "codigo": 129,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE 20190639": {
+        "codigo": 130,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RESTAURANT SAN MIGUEL": {
+        "codigo": 131,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN": {
+        "codigo": 132,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ANDAR PROFILE": {
+        "codigo": 133,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON CAMBIO DE GABINETE. 147110": {
+        "codigo": 134,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT IVETTE MU\u00d1OZ": {
+        "codigo": 135,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308012488  CONS EQUIPO AA": {
+        "codigo": 136,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO LOUVERS 6308012481": {
+        "codigo": 137,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MANTENIMIENTO": {
+        "codigo": 138,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO SALA ALBA 6308012310": {
+        "codigo": 139,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TELMEX MORELIA": {
+        "codigo": 140,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR RAMOS ARISPE": {
+        "codigo": 141,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TORRE ADAMANT STATUS DPTO 1003": {
+        "codigo": 142,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ESTANDAR PROFILE": {
+        "codigo": 143,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT  DPTO 701 EMILIO RIVERA": {
+        "codigo": 144,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT EQUIPO SITE 4600136198": {
+        "codigo": 145,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLANTA OMRON DAIKIN": {
+        "codigo": 146,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO MX 316016": {
+        "codigo": 147,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT MX 4600136887": {
+        "codigo": 148,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA COMPRESOR 4505935501": {
+        "codigo": 149,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PARKER TRUTEC PO 0219-0174": {
+        "codigo": 150,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA VENTILACION 4 ACEITES": {
+        "codigo": 151,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RECICLADORA": {
+        "codigo": 152,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO AISLAMIENTO  OC 6308013031": {
+        "codigo": 153,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PUEBLA": {
+        "codigo": 154,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DEP LUXURI": {
+        "codigo": 155,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT MOCHILA": {
+        "codigo": 156,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT JOSE HORACIO DPTO STUDIO 1004": {
+        "codigo": 157,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 137461": {
+        "codigo": 158,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON ARRANQUE CHILLERS 150157": {
+        "codigo": 159,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC 108696": {
+        "codigo": 160,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT TAKUMI": {
+        "codigo": 161,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONSTRUPOLY": {
+        "codigo": 162,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "STANDAR PROFIL OC 4500233014": {
+        "codigo": 163,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GONZALO GOMEZ": {
+        "codigo": 164,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO REP TIMER  OC 6308013032": {
+        "codigo": 165,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT SRA. FRANCO": {
+        "codigo": 166,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308013182": {
+        "codigo": 167,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE OC 20190858": {
+        "codigo": 168,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308013216": {
+        "codigo": 169,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS CHOCOLATE ADICIONAL SITE": {
+        "codigo": 170,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO MX352315": {
+        "codigo": 172,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON 149631": {
+        "codigo": 174,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DTO 201  LOFT SRA SILVIA ROJAS": {
+        "codigo": 175,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HERRAMIENTAS OFICINA": {
+        "codigo": 176,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 226899": {
+        "codigo": 178,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECHNO BASIC": {
+        "codigo": 179,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR  TLAHUAC  MX 369252": {
+        "codigo": 181,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC": {
+        "codigo": 182,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR APODACA MX 371104": {
+        "codigo": 183,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO OC 482884 COT. 2001": {
+        "codigo": 184,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GASTOS INDIRECTOS": {
+        "codigo": 185,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEZMA MANTENIMIENTO": {
+        "codigo": 186,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT GOBAIN": {
+        "codigo": 187,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT ROBERTO CAMPOS DPTO LOFT": {
+        "codigo": 188,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA COMBI BLOCK OC 246657": {
+        "codigo": 189,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CENTANNI (UNIFIN)": {
+        "codigo": 190,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN MANTENIMIENTOS": {
+        "codigo": 191,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON MANTENIMIENTO OC146708": {
+        "codigo": 192,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA LABORATORIO OC 241008": {
+        "codigo": 193,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA OC 246660 MANO OBRA INSTA": {
+        "codigo": 194,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARVEL": {
+        "codigo": 195,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLAZA STADIUM OFICINAS": {
+        "codigo": 197,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 108938": {
+        "codigo": 198,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MANTENIMIENTOS BARA": {
+        "codigo": 199,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA  MX 295893": {
+        "codigo": 200,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ROSALIA CHAVEZ": {
+        "codigo": 201,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ALICIA MENDOZA": {
+        "codigo": 202,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT ALFONSO AGUIRRE  DTO 1504": {
+        "codigo": 204,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GCG YESSICA YAHAIRA": {
+        "codigo": 206,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308013462 EQUIPO AVELLANA": {
+        "codigo": 207,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JESSICA GARCIA": {
+        "codigo": 208,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUGO ASTRO": {
+        "codigo": 209,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GASOLINERAS": {
+        "codigo": 210,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CEDIS OXXO MTTO": {
+        "codigo": 211,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600139636": {
+        "codigo": 213,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308013478": {
+        "codigo": 214,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 390078  INTERCAMBIADOR": {
+        "codigo": 215,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YKK OC 15607": {
+        "codigo": 216,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA EXTRACTOR  OC 247331": {
+        "codigo": 217,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA MANTENIMIENTO": {
+        "codigo": 218,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT REPARACION MINI SPLIT": {
+        "codigo": 219,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LUIS ROBERTO DIAZ": {
+        "codigo": 220,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN HOSPITAL CLINBA UMAS": {
+        "codigo": 221,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SLP  MX389121": {
+        "codigo": 222,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DPTO 1112 KARLA ORTIZ": {
+        "codigo": 223,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BODEGA HVAC": {
+        "codigo": 224,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PISO TECHO OC 466220": {
+        "codigo": 225,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MEXICANA OC 4500141876": {
+        "codigo": 226,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS OC E170901-10": {
+        "codigo": 227,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONSTRUCTORA SAMSARA": {
+        "codigo": 228,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE OC 20200061": {
+        "codigo": 229,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308013536": {
+        "codigo": 230,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PUERTA BAJIO": {
+        "codigo": 231,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC  109146": {
+        "codigo": 232,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAPEI  PO 2812": {
+        "codigo": 233,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR VENTILADORES MX 411814": {
+        "codigo": 234,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 6308013564": {
+        "codigo": 235,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE MX310884": {
+        "codigo": 236,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRUMPLER": {
+        "codigo": 237,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JONSON OC 4841904737-1": {
+        "codigo": 238,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA CORRECTIVO": {
+        "codigo": 239,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "COEXPAN FILTROS": {
+        "codigo": 240,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT  OC 015541 COMPRESORES": {
+        "codigo": 241,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308013524 REU AA OFNAS": {
+        "codigo": 242,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SMX19-F059": {
+        "codigo": 243,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC OC SMX19-F056": {
+        "codigo": 244,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNIFIN CENTANNI OC 5891": {
+        "codigo": 245,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNIVERSIDAD INSURGENTES": {
+        "codigo": 246,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VICAMSA": {
+        "codigo": 247,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 470079": {
+        "codigo": 248,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SOLUCIONES KELLOGS": {
+        "codigo": 249,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SN LUIS POTOSI FILTROS MX 121863": {
+        "codigo": 250,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A MANTENIMIENTO 2018": {
+        "codigo": 251,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KOD": {
+        "codigo": 252,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI  PO 17453": {
+        "codigo": 253,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 466586": {
+        "codigo": 254,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE OC 20200165": {
+        "codigo": 255,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT OC 16371": {
+        "codigo": 256,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MEXICANA DE LUBRICANTES 4500142638": {
+        "codigo": 257,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA MX 434417": {
+        "codigo": 258,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REMAINT OC HVAC001": {
+        "codigo": 259,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC 109211": {
+        "codigo": 260,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA MX 440193": {
+        "codigo": 261,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE OC 2020179": {
+        "codigo": 262,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNIVESIDAD ISURGENES CIVU": {
+        "codigo": 263,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO OC 889": {
+        "codigo": 264,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR HUMANTLA MX 441683 MTTO PREVENTIVO": {
+        "codigo": 265,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN UMAS CLAUGER": {
+        "codigo": 266,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MTTO CHILLER SILAO MX 401926": {
+        "codigo": 267,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HAFTEN (BOSCH)": {
+        "codigo": 268,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO COMPRESOR 451266": {
+        "codigo": 269,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON PO 153172": {
+        "codigo": 270,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG OC 4500060347": {
+        "codigo": 271,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO MTTO OC 49695": {
+        "codigo": 272,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OXXO MTTO CORRECTIVO A 3 EQUIPOS  OC 1979416": {
+        "codigo": 273,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 109408": {
+        "codigo": 274,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CGS(REPARACION CHILLER CAMERINO)": {
+        "codigo": 275,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR VENTILADOR HERMOSILLO MX458449": {
+        "codigo": 276,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 4500513756": {
+        "codigo": 278,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNDER ARMOUR ( EXPLANADA PACHUCA)": {
+        "codigo": 279,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT GOBAIN FERRARI": {
+        "codigo": 280,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT-GOBAIN BATERIAS OC 4531494376": {
+        "codigo": 281,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METOKOTE OC 11-073": {
+        "codigo": 282,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ALCAMARE": {
+        "codigo": 283,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI OC 17687": {
+        "codigo": 284,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 450611200  EXTRACCION EN CUARTO DE CHILLER": {
+        "codigo": 285,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308012862 MTTO ELIMINADORES ROCIO TORRES": {
+        "codigo": 286,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA MANTENIMIENTOS OC 4505938142": {
+        "codigo": 287,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FLUINOX  IFF": {
+        "codigo": 288,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MINISPLIT VICTOR PONCE": {
+        "codigo": 289,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 471824": {
+        "codigo": 290,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK": {
+        "codigo": 291,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JUAN MANUEL VILLANUEVA": {
+        "codigo": 292,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC MTTO SMX19-H057": {
+        "codigo": 293,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  PO 484635": {
+        "codigo": 294,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AEROPUERTO MORELIA": {
+        "codigo": 295,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON MX 481865": {
+        "codigo": 296,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARQUARDT": {
+        "codigo": 297,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SEIREN PO SMX19-I032": {
+        "codigo": 298,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR APODACA MX 484368": {
+        "codigo": 299,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INTERMED MTTO CD VICTORIA": {
+        "codigo": 300,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC 109579": {
+        "codigo": 301,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BOSCH BERLINER": {
+        "codigo": 302,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 487087": {
+        "codigo": 303,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  486221": {
+        "codigo": 304,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MONSERRAT GPE VENEGAS": {
+        "codigo": 305,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 484573": {
+        "codigo": 306,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 6069": {
+        "codigo": 307,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4700051401 RITTAL": {
+        "codigo": 308,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO OI 1933": {
+        "codigo": 309,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TANOK": {
+        "codigo": 310,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PO EONMX 510225": {
+        "codigo": 311,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PO MX505108": {
+        "codigo": 312,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 508450 CALEFACION PANZACOLA": {
+        "codigo": 313,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 498404": {
+        "codigo": 314,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 512552": {
+        "codigo": 315,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DISE\u00d1O Y MODA ADAMANT 507": {
+        "codigo": 316,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MANTENIMIENTO HOSPITAL LEON": {
+        "codigo": 317,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CELULOSA Y PAPEL (CARTONERA) OC 044569-1": {
+        "codigo": 318,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC 109768": {
+        "codigo": 319,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMIBSA": {
+        "codigo": 320,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT DPTO 313": {
+        "codigo": 321,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MX 524553 MTTO TABLERO LEAR LEON": {
+        "codigo": 322,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA MX 525852": {
+        "codigo": 323,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PARROQUIA SAN JUAN": {
+        "codigo": 324,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT MX 4600145964": {
+        "codigo": 325,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JONSON CONTROLS 4842000434-1": {
+        "codigo": 326,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT KARINA GONZALEZ DEPTO LOFT": {
+        "codigo": 327,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT SR. HECTOR TORRES DPTO LUXURI": {
+        "codigo": 328,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT GOBAIN MTTO 4531527478": {
+        "codigo": 329,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLINBA POLIZA MANTENIMIENTO": {
+        "codigo": 330,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PREFABRICADOS RAZO OC 88.09": {
+        "codigo": 331,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO POLIZ TRIMESTRAL OC15410424": {
+        "codigo": 332,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 494966": {
+        "codigo": 333,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLENBORG OC 4500065013 Y  460065052": {
+        "codigo": 334,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT CECILIA ORTEGA DPTO 1703": {
+        "codigo": 335,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL OC 109981": {
+        "codigo": 336,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN 3614": {
+        "codigo": 338,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT LIC BALTAZAR DPTO 203": {
+        "codigo": 339,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT MARTHA FONSECA DPTO 602": {
+        "codigo": 340,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VICTOR MORENO RAINBOW BLINDS": {
+        "codigo": 341,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PUERTOS DE INSPECION": {
+        "codigo": 342,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN OC JM19-1410": {
+        "codigo": 343,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600146249": {
+        "codigo": 344,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS INT. UMA EN PLANTA DENSO": {
+        "codigo": 345,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT SR. HUGO ORIGEL PADILLA dpto 1011": {
+        "codigo": 346,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT L8Y9 OC 4200022163": {
+        "codigo": 347,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAPEI 19PO0005026-1": {
+        "codigo": 348,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN UMAS CLAUGER OC 4590000607": {
+        "codigo": 349,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SMX19-K051": {
+        "codigo": 350,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YACHIYO": {
+        "codigo": 351,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON MTTO ANUAL CHILLERMX 555000": {
+        "codigo": 352,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROYECTOS DE ING  (REF. FAN&COIL TRANE)": {
+        "codigo": 353,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN LIMPIEZA DUCTOS 3494": {
+        "codigo": 354,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 501869 COMPRESOR": {
+        "codigo": 355,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN OC JM20-0023": {
+        "codigo": 356,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK POLIZA": {
+        "codigo": 357,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM REFRIGERANTE OC 502656": {
+        "codigo": 358,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIERRA MOJADA TECNICAS REUNIDAS": {
+        "codigo": 359,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JESUS ANDRES CLINBA": {
+        "codigo": 360,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG OC 46610165": {
+        "codigo": 361,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL FILTROS 2020": {
+        "codigo": 362,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO12768": {
+        "codigo": 363,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC I229 E I 230": {
+        "codigo": 364,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG OC 4500067252  MTTO CHILLER": {
+        "codigo": 365,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 504239 FILTROS": {
+        "codigo": 366,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 505057": {
+        "codigo": 367,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MTTO MX602107": {
+        "codigo": 369,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS BONAFONT": {
+        "codigo": 370,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARQ. EDUARDO BENITEZ": {
+        "codigo": 371,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELECTRONIK OC 6000050542": {
+        "codigo": 372,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA RQI OC 253216": {
+        "codigo": 373,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "QDI EDIFICIO ANGELES": {
+        "codigo": 374,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN GORRO CHINO OP 4150": {
+        "codigo": 375,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARQ. OMAR JIMENEZ": {
+        "codigo": 376,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG CAMERINO OC 4500068262": {
+        "codigo": 378,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN OC 4249": {
+        "codigo": 379,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500067439": {
+        "codigo": 380,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4200022414": {
+        "codigo": 381,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500068351": {
+        "codigo": 382,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4506350564": {
+        "codigo": 383,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600150418": {
+        "codigo": 384,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON 161317 MTTOS": {
+        "codigo": 385,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  OC 510355": {
+        "codigo": 386,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600150558": {
+        "codigo": 387,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN MTTO BOMBA JM20-0265": {
+        "codigo": 388,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO OI 1992": {
+        "codigo": 389,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO OI 1932": {
+        "codigo": 390,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON  PO EONMX641952": {
+        "codigo": 391,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON  (P&G) 4842010243-1": {
+        "codigo": 392,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 511364": {
+        "codigo": 393,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON OC P162253": {
+        "codigo": 394,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA SIN OC MTTO": {
+        "codigo": 395,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OP DISTRIBUIDORA DEL BAJIO OC 0P20-953": {
+        "codigo": 396,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PIRMA": {
+        "codigo": 397,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4506392271 TURBINA": {
+        "codigo": 398,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT GOBIAN OC 4531586227 TARJETA CONTROL": {
+        "codigo": 399,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4506392337": {
+        "codigo": 400,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 510412 MTTO CHILLER": {
+        "codigo": 401,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ECOIND ING GAMI\u00d1O": {
+        "codigo": 402,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAGNACERO  OI 2107": {
+        "codigo": 403,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT MTTO 4600151573": {
+        "codigo": 404,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN JM20-0101": {
+        "codigo": 405,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT POLYMERS  JORGE GARZA": {
+        "codigo": 406,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4506410218": {
+        "codigo": 407,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLINBA FILTROS": {
+        "codigo": 408,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA AMONIACO 4506410258": {
+        "codigo": 409,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA MTTO OC4506410255": {
+        "codigo": 410,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO MEXICANA CHILLER": {
+        "codigo": 411,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NADRO": {
+        "codigo": 412,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ING. CARLOS FRAUSTO": {
+        "codigo": 413,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ASTRO SALAMANCA": {
+        "codigo": 414,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  420022708": {
+        "codigo": 415,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500070624": {
+        "codigo": 416,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MIGUEL MALAGON": {
+        "codigo": 417,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JESUS VILLANUEVA": {
+        "codigo": 418,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "grupo airexs oc 19984": {
+        "codigo": 419,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TOYADA": {
+        "codigo": 420,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA OC 256037": {
+        "codigo": 421,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 671653 MTTO 2020": {
+        "codigo": 422,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VESTA": {
+        "codigo": 423,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PO P15-11300": {
+        "codigo": 425,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VICTOR MORENO CENTRO DE REHABILITACION": {
+        "codigo": 426,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PORTEO MTTO MENSUAL OC 4776": {
+        "codigo": 427,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN OC 45820428": {
+        "codigo": 428,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SODEXO OC PUR 703922-1": {
+        "codigo": 429,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SODEXO OC PUR 704401-1": {
+        "codigo": 430,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4700115766": {
+        "codigo": 431,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OSCAR ESCALANTE": {
+        "codigo": 432,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GOTEC (NEXT VISION)": {
+        "codigo": 433,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FLOGO": {
+        "codigo": 434,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RsCONFORT": {
+        "codigo": 435,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN TORRE G-100 OC 4718": {
+        "codigo": 437,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC PO Mx681754": {
+        "codigo": 438,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT EXTRACTORES OC 4600151572": {
+        "codigo": 439,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT COMPRESOR 4200022837": {
+        "codigo": 440,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MASNOMINA": {
+        "codigo": 441,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PORFIRIO": {
+        "codigo": 442,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4200022836": {
+        "codigo": 443,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SODEXO OC PUR 704101-1 TRITON": {
+        "codigo": 444,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G MARISCALA PO GBP-8002278697": {
+        "codigo": 445,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500072312  PAQ CARRIER": {
+        "codigo": 446,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PO P15-11511": {
+        "codigo": 447,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG OP 46611020": {
+        "codigo": 448,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS CHILLER": {
+        "codigo": 449,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO MX 693351": {
+        "codigo": 450,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600153458 BRIDAS Y SPIRO": {
+        "codigo": 451,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON OC 4500150485": {
+        "codigo": 452,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON OC 4500150552": {
+        "codigo": 453,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC  PO SMX20-F138": {
+        "codigo": 454,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR  EONMX691466": {
+        "codigo": 455,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC PO SMX20-F100": {
+        "codigo": 456,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR  MX703346": {
+        "codigo": 457,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS OC 20000748": {
+        "codigo": 458,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TURBINA DAIKIN ALEX": {
+        "codigo": 459,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SN FELIPE MX 706325": {
+        "codigo": 460,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON OC 4500150602 TUBERIA": {
+        "codigo": 461,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GOTEC CABINA PO14/07/2020": {
+        "codigo": 462,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "STANDAR PROFILE MTTO OC 4500249453": {
+        "codigo": 463,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 6357": {
+        "codigo": 464,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 257792 MTTO  2020": {
+        "codigo": 465,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FLECHA AMARILLA": {
+        "codigo": 466,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PIRA REFRIGERACION": {
+        "codigo": 467,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 517782 EQUIPO RITTAL": {
+        "codigo": 468,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 517790 VENTILADORES": {
+        "codigo": 469,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN ALUMINIUM OP M20000379": {
+        "codigo": 470,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ING RAFAEL QUINTANA": {
+        "codigo": 471,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 4500614416 FILTROS": {
+        "codigo": 472,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PORTEO MOTOR OC 4851": {
+        "codigo": 473,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT MERIDA": {
+        "codigo": 474,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600154357 MTTO CHIMENEAS": {
+        "codigo": 475,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YOLANDA  ORTEGA": {
+        "codigo": 476,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LIMP CHIMENEAS 4383-4063": {
+        "codigo": 477,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 521159 R-407": {
+        "codigo": 478,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR DIAGNOSTICO MX709431": {
+        "codigo": 479,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAPEI OC 20PO0002051-1 FILTROS": {
+        "codigo": 480,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500073491": {
+        "codigo": 481,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT ARREGLO EQUIPO DAIKIN PO 4600155015": {
+        "codigo": 482,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 522200 MINI SPLIT": {
+        "codigo": 483,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARICARMEN GONZALEZ": {
+        "codigo": 484,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FEGSA": {
+        "codigo": 485,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CELULOSA Y PAPEL": {
+        "codigo": 486,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  OC 522999": {
+        "codigo": 487,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAKAGAWA": {
+        "codigo": 488,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G COMPRESOR OC 8002430603": {
+        "codigo": 489,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAINT GOBIAN OC 4531624708 BOMBA": {
+        "codigo": 490,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 523834": {
+        "codigo": 491,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEKFOR MTTO OC 7710630": {
+        "codigo": 492,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMM PO 524981": {
+        "codigo": 493,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 524855": {
+        "codigo": 495,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MERIDA RAUL PAREYON": {
+        "codigo": 496,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BOSH DE LOS MONTERO": {
+        "codigo": 497,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON MATTHEY": {
+        "codigo": 498,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500074697": {
+        "codigo": 499,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  OC 526151": {
+        "codigo": 500,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMYA": {
+        "codigo": 501,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT OC 12475-12476 condensadora": {
+        "codigo": 502,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G oc 8002491080 turbina": {
+        "codigo": 503,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UVM (NUCOYO )": {
+        "codigo": 504,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CFE CENTRAL MANZANILLO": {
+        "codigo": 505,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG & SCHUBERT": {
+        "codigo": 506,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SMX20-I024": {
+        "codigo": 507,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 527664 VENTILADORES": {
+        "codigo": 508,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 773323 FILTROS": {
+        "codigo": 509,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM METALFORMING MX 528240": {
+        "codigo": 510,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 777112": {
+        "codigo": 511,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MERIDA RODRIGO HERRERA": {
+        "codigo": 512,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 760810": {
+        "codigo": 513,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PO P15-13534": {
+        "codigo": 514,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIC OC 6000055470": {
+        "codigo": 515,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN 4590004250": {
+        "codigo": 516,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC PO SMX20-I230": {
+        "codigo": 517,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SANDRA URRUTIA": {
+        "codigo": 518,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRA MONSERRAT GUTIERREZ": {
+        "codigo": 519,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SITE LALA": {
+        "codigo": 520,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT oc 4600157944": {
+        "codigo": 521,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IFF 4700691736": {
+        "codigo": 522,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GMC LECHE LAGOS": {
+        "codigo": 523,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4506647546 ESTUDIO DE FLUJO": {
+        "codigo": 524,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 524092 MTTO TORRES DE ENFRIAMIENTO": {
+        "codigo": 525,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX798519": {
+        "codigo": 526,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG 4500077128": {
+        "codigo": 527,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO MANTENIMIENTOS": {
+        "codigo": 528,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BANCO DEL BAJIO DUCTO": {
+        "codigo": 529,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600158806 FILTROS": {
+        "codigo": 530,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600149320 MTTO": {
+        "codigo": 531,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 825098 MINISPLIT": {
+        "codigo": 532,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "utilizar": {
+        "codigo": 533,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMYA  JOHNSON": {
+        "codigo": 534,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRELLEBORG": {
+        "codigo": 535,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PALSGAARD": {
+        "codigo": 536,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEKFOR PO 7711032 GLICOL": {
+        "codigo": 537,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BONAFONT QRO 2001883": {
+        "codigo": 538,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX EONMX 824601": {
+        "codigo": 539,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BAJIO HUMIFICADORES": {
+        "codigo": 540,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 835889": {
+        "codigo": 541,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT FILTROS  P1513244": {
+        "codigo": 542,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSSON PO 005998": {
+        "codigo": 543,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 517786": {
+        "codigo": 544,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 829407 CONTROLES": {
+        "codigo": 545,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC 812845 Y 869474": {
+        "codigo": 546,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PABLO VILLA CD MEXICO": {
+        "codigo": 547,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT  13219": {
+        "codigo": 548,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4700126427": {
+        "codigo": 549,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS MARS": {
+        "codigo": 550,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIS (MANTENIMIENTO EN PLANTA BOSCH)": {
+        "codigo": 551,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMYA MTTO PEDIDO 44480": {
+        "codigo": 552,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX849407": {
+        "codigo": 553,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOYO UNITEC LOS REYES": {
+        "codigo": 554,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 262200 EQUIPOS": {
+        "codigo": 555,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUSANA RAMIREZ CLIENTE ANGEL": {
+        "codigo": 556,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM po 541156": {
+        "codigo": 557,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS DENSO G&C GC 12532": {
+        "codigo": 558,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 542171": {
+        "codigo": 559,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO MEXICANA OC 4501642 EXT  CABINAS HUMEDAS": {
+        "codigo": 560,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA RTE": {
+        "codigo": 561,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600161504": {
+        "codigo": 562,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC OC PO MX 869473": {
+        "codigo": 563,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT": {
+        "codigo": 564,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK 2021 POLIZA": {
+        "codigo": 565,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO  MX867419 MTTO": {
+        "codigo": 566,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO KINDER": {
+        "codigo": 567,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 544207 FILTROS PLANTA 5": {
+        "codigo": 568,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN 2021": {
+        "codigo": 569,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-13863": {
+        "codigo": 570,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "QDI": {
+        "codigo": 571,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON COPEL": {
+        "codigo": 572,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HONDA JOHNSON": {
+        "codigo": 573,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL FILTROS 2021": {
+        "codigo": 574,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 112071": {
+        "codigo": 575,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEMARQ": {
+        "codigo": 576,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 548454": {
+        "codigo": 577,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO MTTO 2021": {
+        "codigo": 578,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MRO": {
+        "codigo": 579,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA  263836": {
+        "codigo": 580,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600162545": {
+        "codigo": 581,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS OC E211802-1 progel": {
+        "codigo": 582,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G cambio de aislante GBP-8002784419": {
+        "codigo": 583,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON P008157 MTTO": {
+        "codigo": 584,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ERIKA MOREIRAS ARCINIEGA": {
+        "codigo": 585,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 1222963 FILTROS": {
+        "codigo": 587,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN ALUMINIUM M20002283": {
+        "codigo": 588,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MEXICANA DE LUBRICANTES 4500165384": {
+        "codigo": 590,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK POLIZA 2022": {
+        "codigo": 591,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO POLIZA 2022": {
+        "codigo": 592,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN PO 9787": {
+        "codigo": 593,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON P024833 POLIZA MTTO 2022": {
+        "codigo": 594,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MTTO MX861594": {
+        "codigo": 595,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G MINISPLIT ADUANA GBP-8002834170": {
+        "codigo": 596,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECSA": {
+        "codigo": 597,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAN SEBASTIAN FILTROS": {
+        "codigo": 598,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAMOT 19415": {
+        "codigo": 599,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600163958": {
+        "codigo": 600,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 930344 FILTROS": {
+        "codigo": 601,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN 7095": {
+        "codigo": 602,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ACONDAIRE": {
+        "codigo": 603,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600163127": {
+        "codigo": 604,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ANGEL YA\u00d1EZ": {
+        "codigo": 605,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMYA  82161 FILTROS": {
+        "codigo": 606,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC EXTRACTOR 4600164531": {
+        "codigo": 607,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENVASES UNIVERSALES": {
+        "codigo": 608,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 552680": {
+        "codigo": 609,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RIVULIS (DAIKIN)": {
+        "codigo": 610,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LIM DE CHIMENEAS 4600164527": {
+        "codigo": 611,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600164526": {
+        "codigo": 612,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600165003": {
+        "codigo": 613,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BANCO DEL BAJIO 4500431431": {
+        "codigo": 614,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SATUS": {
+        "codigo": 615,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ENERGOS DENSO G&C E210218-2": {
+        "codigo": 616,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600164530 LIMPIEZA": {
+        "codigo": 617,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "8D HENKEL MTY": {
+        "codigo": 618,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VUTEQ 208992": {
+        "codigo": 619,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO OC 630816555 MARCO P/CASSETE": {
+        "codigo": 620,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G GBP-8002796783 SERPENTINES": {
+        "codigo": 621,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JORGE ARMANDO MATA  FLORES": {
+        "codigo": 622,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON PO12469 FILTROS MTTO": {
+        "codigo": 623,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 557881": {
+        "codigo": 624,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600166008": {
+        "codigo": 625,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EQUIPO PRUEBAS DE HERMETICIDAD": {
+        "codigo": 627,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR HUAMANTLA": {
+        "codigo": 628,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAHUER DEL BAJIO": {
+        "codigo": 629,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE POMX 948028": {
+        "codigo": 630,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC": {
+        "codigo": 631,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI PO 22167-22168-22169 EQUIPOS": {
+        "codigo": 632,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNAM": {
+        "codigo": 633,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 558709": {
+        "codigo": 634,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROGEL 3 ENERGOS": {
+        "codigo": 635,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600166364": {
+        "codigo": 636,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO 02022021 ( TEC EN COLECTORES)": {
+        "codigo": 637,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLUB CAMPESTRE CELAYA": {
+        "codigo": 638,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RASCH ARQUITECTURA": {
+        "codigo": 639,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NIVEA (BEIERSDORF)": {
+        "codigo": 640,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 990005  CARRIER": {
+        "codigo": 642,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 112710 COMPRESOR": {
+        "codigo": 643,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INGREDION RENTA CHILLER": {
+        "codigo": 644,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JESUS ARCEO": {
+        "codigo": 645,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC PO SMX21-E049": {
+        "codigo": 646,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600163128": {
+        "codigo": 647,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON MX 995558": {
+        "codigo": 648,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600167139 VARIADOR": {
+        "codigo": 649,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OMYA 82421 REPAR PAQUETE": {
+        "codigo": 650,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON CORTE 2 MX 973076": {
+        "codigo": 651,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON MX 969115": {
+        "codigo": 652,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX 0998096 ROLLO FILTRANTE": {
+        "codigo": 653,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA 4506908567 EXT HAXIAL": {
+        "codigo": 654,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  4600166741": {
+        "codigo": 655,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM  LCMF 554818": {
+        "codigo": 656,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 930294": {
+        "codigo": 657,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON  MX 1008271": {
+        "codigo": 658,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 563429": {
+        "codigo": 659,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON 2021": {
+        "codigo": 660,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAH ARQUITECTOS (LUX)": {
+        "codigo": 661,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "YUTAKA": {
+        "codigo": 662,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC SMX21-F162": {
+        "codigo": 663,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1036044": {
+        "codigo": 664,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 568107": {
+        "codigo": 665,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZENPACK": {
+        "codigo": 666,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NISSEN": {
+        "codigo": 667,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SOINGRPO": {
+        "codigo": 668,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITASA": {
+        "codigo": 669,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON OTTAWA 1044904 VENTILADORES": {
+        "codigo": 670,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MOISES DE ANDA": {
+        "codigo": 671,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAIR": {
+        "codigo": 672,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REYSAP  1178P": {
+        "codigo": 673,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 566348": {
+        "codigo": 674,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEAMFOODS  Alianza Team": {
+        "codigo": 675,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR OTAWA FINISH 1050490": {
+        "codigo": 676,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1054624": {
+        "codigo": 677,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO 1058864": {
+        "codigo": 678,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON FINISHING  PO 1062270": {
+        "codigo": 679,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600170124 FILTROS": {
+        "codigo": 680,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT VARIOS PEQUE\u00d1OS": {
+        "codigo": 681,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIC 6000064639 FILTROS": {
+        "codigo": 683,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA": {
+        "codigo": 684,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR OTTAWA PO 1081004": {
+        "codigo": 685,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SPIN SA DE CV": {
+        "codigo": 686,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY": {
+        "codigo": 687,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1091321": {
+        "codigo": 688,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CRISTOBAL CUADRAS": {
+        "codigo": 689,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PROYECTOS CHICOS": {
+        "codigo": 690,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA OC 270294": {
+        "codigo": 691,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN LUIS POTOSI MX1104046": {
+        "codigo": 692,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AXALTA": {
+        "codigo": 693,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON CORTE I  PO EOM1095482": {
+        "codigo": 694,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 20188426": {
+        "codigo": 695,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OC 4600163135": {
+        "codigo": 696,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LINEAS 10 Y 11": {
+        "codigo": 697,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EDNA NATURA RESIDENCIAL": {
+        "codigo": 698,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EL RAD": {
+        "codigo": 699,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 1124404": {
+        "codigo": 700,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON CORTE 1 PO EOM1128995": {
+        "codigo": 701,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 17901": {
+        "codigo": 702,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CREACIONES CONSTRUCTIVAS NR": {
+        "codigo": 703,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BALPER (Nivea)": {
+        "codigo": 704,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600172887": {
+        "codigo": 705,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ING DEL SURESTE": {
+        "codigo": 706,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600171888": {
+        "codigo": 708,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC MX1102153": {
+        "codigo": 709,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARMSTRONG  4500086425": {
+        "codigo": 710,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GC AMERICA PO 8790": {
+        "codigo": 711,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EVENTO FIN DE A\u00d1O": {
+        "codigo": 712,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JHV SOLUCIONES": {
+        "codigo": 713,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AIR-REF PROYECTOS": {
+        "codigo": 714,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS": {
+        "codigo": 715,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600173754": {
+        "codigo": 716,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600173755": {
+        "codigo": 717,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW PO4100167603": {
+        "codigo": 719,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SERVICIOS EMPRESARIALES DE AIRE ACONDICIONADO": {
+        "codigo": 720,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA OC 4700056470": {
+        "codigo": 721,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TOMOGRAFIA MULTICORTE": {
+        "codigo": 722,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON PO 1154134 TARJETA": {
+        "codigo": 723,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE MX 1158854": {
+        "codigo": 724,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PRINTPACK": {
+        "codigo": 726,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SN FELIPE PO 1147897": {
+        "codigo": 727,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 586622": {
+        "codigo": 728,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INPAMEX": {
+        "codigo": 729,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 1139777 VENT MOTOR": {
+        "codigo": 730,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TAPI": {
+        "codigo": 731,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LOATAN": {
+        "codigo": 732,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NO USAR": {
+        "codigo": 733,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON CUT 1 PO 1149902": {
+        "codigo": 734,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO  MOD. CAMPANA PO 1140982": {
+        "codigo": 735,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EDUCEM CAMPESTRE": {
+        "codigo": 736,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A MANTENIMIENTO 2022": {
+        "codigo": 737,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN M10004240": {
+        "codigo": 738,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC OMNIUM": {
+        "codigo": 739,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LECHE LEON": {
+        "codigo": 740,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 272589 MTTO 2022": {
+        "codigo": 741,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BOMBAS Y EQUIPOS (ROSA VALVERDE)": {
+        "codigo": 742,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL  FILTROS 2022": {
+        "codigo": 743,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600175801": {
+        "codigo": 745,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI (PROMOTORA)": {
+        "codigo": 746,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600174856": {
+        "codigo": 747,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN 8734": {
+        "codigo": 748,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RIFEL OC 94 ASSET": {
+        "codigo": 749,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 591557 COMPRESOR": {
+        "codigo": 750,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO18644": {
+        "codigo": 751,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN 4600000880": {
+        "codigo": 752,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600175800 MTTO MOTOR": {
+        "codigo": 753,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN SMX22-A031": {
+        "codigo": 754,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 592101": {
+        "codigo": 755,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN FELIPE MX1179189": {
+        "codigo": 756,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN SMX22-A030": {
+        "codigo": 757,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX1183155. MTTO SILAO": {
+        "codigo": 758,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN 9458": {
+        "codigo": 759,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AREYAL": {
+        "codigo": 760,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4200025704  Y 05": {
+        "codigo": 761,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO MTTO 2022": {
+        "codigo": 762,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 593315 DIAGNOSTICO ELEC GENERADOR DE AGUA": {
+        "codigo": 763,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INGENES": {
+        "codigo": 764,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MDN": {
+        "codigo": 765,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX1222736": {
+        "codigo": 766,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 594962": {
+        "codigo": 768,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS PRINTPACK": {
+        "codigo": 769,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXCELENCIA DECASA PO 25506": {
+        "codigo": 770,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN PO 9974": {
+        "codigo": 771,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GRUPO EMBA": {
+        "codigo": 772,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 597287": {
+        "codigo": 773,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC  SMX22-B203": {
+        "codigo": 774,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO EXTRAC. DE BA\u00d1OS PO 4501692716": {
+        "codigo": 775,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO PO 6311003451": {
+        "codigo": 776,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712203559-1": {
+        "codigo": 777,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AVA MINISPLIT": {
+        "codigo": 778,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 597748": {
+        "codigo": 779,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARACELY DE JESUS MU\u00d1OZ": {
+        "codigo": 780,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROCEVI VARIOS PEQUE\u00d1OS": {
+        "codigo": 781,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 598786": {
+        "codigo": 782,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAFEGA PO O-M220215010.1": {
+        "codigo": 783,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA PO 4507291069": {
+        "codigo": 784,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KOP INGENIERIA": {
+        "codigo": 785,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LOUBET": {
+        "codigo": 786,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1264714": {
+        "codigo": 787,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA RQI PO 276350": {
+        "codigo": 788,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARQ. ARMANDO ALVARADO": {
+        "codigo": 789,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS SLP": {
+        "codigo": 790,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW 4500056363": {
+        "codigo": 791,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA OFICINA INGENIERIA": {
+        "codigo": 792,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 276815": {
+        "codigo": 793,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 2022 MTTO PO 4600178797": {
+        "codigo": 794,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO PO 11458": {
+        "codigo": 795,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  PO 4600179354": {
+        "codigo": 796,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 7828": {
+        "codigo": 797,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LINEAS 12 Y 13": {
+        "codigo": 798,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA MX 1264700": {
+        "codigo": 799,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "Johnson controls HIROTAI": {
+        "codigo": 800,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G Planta Mariscala PO GBP-8003729817": {
+        "codigo": 801,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-18736": {
+        "codigo": 802,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IFF PLC": {
+        "codigo": 803,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA PISO TECHO 277208": {
+        "codigo": 804,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA PO 277610": {
+        "codigo": 805,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA OC2205000780": {
+        "codigo": 806,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW": {
+        "codigo": 807,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PGP FACILITY SOLUTIONS": {
+        "codigo": 808,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO 11590": {
+        "codigo": 809,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SERVIACERO": {
+        "codigo": 810,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 604830": {
+        "codigo": 811,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 7926": {
+        "codigo": 812,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLINICA-UNICA": {
+        "codigo": 813,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIL INDUSTRIES QR015165": {
+        "codigo": 814,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 605116": {
+        "codigo": 815,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAFEGA": {
+        "codigo": 816,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 605242": {
+        "codigo": 817,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P & G 8003789883": {
+        "codigo": 818,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METROCOLOR": {
+        "codigo": 819,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 605361": {
+        "codigo": 820,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 605533": {
+        "codigo": 821,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EUROMUNDO": {
+        "codigo": 822,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG  LG  PO 46618982": {
+        "codigo": 823,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BEGASA": {
+        "codigo": 824,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO  11631": {
+        "codigo": 825,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACEERO 11225": {
+        "codigo": 826,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 607688": {
+        "codigo": 827,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS PURINA": {
+        "codigo": 828,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DOMINION": {
+        "codigo": 829,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLIENTES OSVALDO": {
+        "codigo": 830,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ACCIONA": {
+        "codigo": 831,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JESUS ROMERO": {
+        "codigo": 832,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SICLO CONVINADO": {
+        "codigo": 833,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO OC 4501701600": {
+        "codigo": 834,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GRUPOLAM": {
+        "codigo": 835,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4200026459 PLATAFORMA": {
+        "codigo": 836,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN ALUMINIUM PO M20002933": {
+        "codigo": 837,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "Johnson controls HELLA AMEXHE.": {
+        "codigo": 838,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IFF PO 4700818742": {
+        "codigo": 839,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  PO 4600182611": {
+        "codigo": 840,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG PO 46619232": {
+        "codigo": 841,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEKISUIKASEI": {
+        "codigo": 842,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT MANTENIMIENTOS": {
+        "codigo": 843,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LOMAS DEL MOLINO": {
+        "codigo": 844,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600183280": {
+        "codigo": 845,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600183420": {
+        "codigo": 846,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600183289": {
+        "codigo": 847,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600183288": {
+        "codigo": 848,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600183419": {
+        "codigo": 849,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PENDIENTE PO MOTOR": {
+        "codigo": 850,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM OC 616920": {
+        "codigo": 851,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO MX1379306": {
+        "codigo": 852,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA EXTRACTORES 4507473516": {
+        "codigo": 853,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CICLO COMBINADO": {
+        "codigo": 854,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4200026706 L-8": {
+        "codigo": 855,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VINOS MX": {
+        "codigo": 856,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON 4500170656": {
+        "codigo": 857,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IFF PO 4700823630": {
+        "codigo": 858,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 618340": {
+        "codigo": 859,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 618740": {
+        "codigo": 860,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 618935": {
+        "codigo": 861,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC SMX22-I022": {
+        "codigo": 862,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO  PO 1399106": {
+        "codigo": 863,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  PO 4600188110  FILTROS": {
+        "codigo": 864,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "8D HENKEL, TOLUCA": {
+        "codigo": 865,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1408293": {
+        "codigo": 866,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI ROMITA 26932": {
+        "codigo": 867,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEIREN VISCOTEC SMX22-I106": {
+        "codigo": 868,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600185078": {
+        "codigo": 869,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONSTRUCTO": {
+        "codigo": 870,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PLASTICS P15-20795": {
+        "codigo": 871,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 616206": {
+        "codigo": 872,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GC AMERICA": {
+        "codigo": 873,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA OC 2210000220": {
+        "codigo": 874,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1408294": {
+        "codigo": 875,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BISICO": {
+        "codigo": 876,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 622969": {
+        "codigo": 877,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA OC 2210001456": {
+        "codigo": 878,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VENDABAL": {
+        "codigo": 879,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO 12108": {
+        "codigo": 880,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712300191-1": {
+        "codigo": 881,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CUERO CENTRO 4500023189": {
+        "codigo": 882,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN ALUMINIUM M10005539": {
+        "codigo": 883,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERROGEN": {
+        "codigo": 884,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOS\u00c9 FRANCISCO TAPIA PACHECO": {
+        "codigo": 885,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KAMAX": {
+        "codigo": 886,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 624822": {
+        "codigo": 887,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO EXTRACTORES 4501714823": {
+        "codigo": 888,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600186744": {
+        "codigo": 889,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 625865": {
+        "codigo": 890,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLIENTES GABRIEL": {
+        "codigo": 891,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GAMSA (AZUCARERA TALA)": {
+        "codigo": 892,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  PO 4600187627": {
+        "codigo": 893,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BONAFONT VALLEJO": {
+        "codigo": 894,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CORE COVERS": {
+        "codigo": 895,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HIDRO TECK": {
+        "codigo": 896,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OP 4200026887": {
+        "codigo": 897,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT OP 4200026888": {
+        "codigo": 898,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBER PO 46621193": {
+        "codigo": 899,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE 20230787": {
+        "codigo": 900,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT LABORATORIO PO 4700153062": {
+        "codigo": 901,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT  PO 4600190427 L4 Y 8": {
+        "codigo": 902,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 629102": {
+        "codigo": 903,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FILJA PO F00363": {
+        "codigo": 904,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MacLean PO 005821-2": {
+        "codigo": 905,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "8D HENKEL SALAMANCA": {
+        "codigo": 906,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ICIHSA": {
+        "codigo": 907,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G 8004218272 MOTOR": {
+        "codigo": 908,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN HORNOS PO 12634": {
+        "codigo": 909,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600188650": {
+        "codigo": 910,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON C 7712301309-1 HERSHEYS": {
+        "codigo": 911,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G 8004205282": {
+        "codigo": 912,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MTTO 2023 PO 1469188": {
+        "codigo": 913,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON MTTO ENE-JUN 2023": {
+        "codigo": 914,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4200027383": {
+        "codigo": 915,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT MIXING 4200027348": {
+        "codigo": 916,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4200027349": {
+        "codigo": 917,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4200027316": {
+        "codigo": 918,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO 1462375 MTTO": {
+        "codigo": 919,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAFEGA O-M230113017.1 PIRELLI": {
+        "codigo": 920,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA 4700057422 SERPENTINES 2023": {
+        "codigo": 921,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600189306": {
+        "codigo": 922,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GRUPO AIREX": {
+        "codigo": 923,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR MTTO 2023 22676": {
+        "codigo": 924,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON ACABADO EOM1495997": {
+        "codigo": 925,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DAIKIN TOYOTA 4700000142": {
+        "codigo": 926,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON MTTO 2023 P043274": {
+        "codigo": 927,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A MANTENIMIENTO 2023": {
+        "codigo": 928,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CUBICA INDUSTRIAL": {
+        "codigo": 929,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 635433 PLANTA 5": {
+        "codigo": 930,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600191485": {
+        "codigo": 932,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK 6000077137": {
+        "codigo": 933,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NEUMAN M10005983": {
+        "codigo": 934,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JUAN MANUEL PECH": {
+        "codigo": 935,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G 8004321682 MOTOR SIEMENS": {
+        "codigo": 936,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN PO 13329 POLIZA 2023": {
+        "codigo": 937,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600190426": {
+        "codigo": 938,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO SITE II PO 6311003547": {
+        "codigo": 940,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600190425 FILTROS": {
+        "codigo": 941,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO TELA FILTRANTE PO 1535172": {
+        "codigo": 942,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA PO 286298": {
+        "codigo": 943,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 632826": {
+        "codigo": 944,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G FILTROS PBP-8004301406": {
+        "codigo": 945,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY EQUIPOS 7101230457": {
+        "codigo": 946,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HFI  28663": {
+        "codigo": 947,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY MTTO  7100943513": {
+        "codigo": 948,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PABLO VILLA ENCISO": {
+        "codigo": 949,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "E HVAC": {
+        "codigo": 950,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 637178 EQUIPOS RITTAL": {
+        "codigo": 951,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600190418": {
+        "codigo": 952,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK 6000077999 TURBIN": {
+        "codigo": 953,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN PO 13324 TANQUE HUMI": {
+        "codigo": 954,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROL  CORRECTIVO COMER MORELIA": {
+        "codigo": 955,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA CHUMACERA 4507692937": {
+        "codigo": 956,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA REFACCIONES 4507703799": {
+        "codigo": 957,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 635224 PLANTA 4": {
+        "codigo": 958,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PIRELLI ADICIONAL PO PENDIENTE": {
+        "codigo": 960,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HITACHI ASTEMO": {
+        "codigo": 961,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IQ ALLOY MEXICO": {
+        "codigo": 962,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO 1557175": {
+        "codigo": 963,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY 8636": {
+        "codigo": 964,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 639255": {
+        "codigo": 965,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FORESTA": {
+        "codigo": 966,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 1538270": {
+        "codigo": 967,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 1557256": {
+        "codigo": 968,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE PO 20231209": {
+        "codigo": 969,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 201508": {
+        "codigo": 970,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY 7101290671 TORRE": {
+        "codigo": 971,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 640843 CAPACITORES": {
+        "codigo": 972,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REPARACION CHILLER AERMEC ( BODEGA)": {
+        "codigo": 973,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT OSCAR FLORES (212)": {
+        "codigo": 974,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600191486 L 8 Y 9": {
+        "codigo": 975,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA PO 4700058563": {
+        "codigo": 976,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA PO 4700058564": {
+        "codigo": 977,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23448": {
+        "codigo": 978,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4700153939": {
+        "codigo": 979,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC OMNIUM MTTO 4625275": {
+        "codigo": 980,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTICOS FAR PO 4501491736": {
+        "codigo": 981,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23510": {
+        "codigo": 982,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712303565-1": {
+        "codigo": 983,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ICAR CARROCERIAS": {
+        "codigo": 984,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P17-20440": {
+        "codigo": 985,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 642459": {
+        "codigo": 986,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DOMINON RICOLINO": {
+        "codigo": 987,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX1473971": {
+        "codigo": 988,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 642503 PLANTA 5": {
+        "codigo": 989,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TORRE NINPHE": {
+        "codigo": 990,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-23425": {
+        "codigo": 991,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA PO 289019": {
+        "codigo": 992,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAKAGAWA 2023-00179": {
+        "codigo": 993,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23544": {
+        "codigo": 994,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "American Industries PO 14029": {
+        "codigo": 995,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "American Industries PO 14031": {
+        "codigo": 996,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-23397": {
+        "codigo": 997,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23575": {
+        "codigo": 999,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AXALTA 2932-A-CH": {
+        "codigo": 1000,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY PO 7101323430": {
+        "codigo": 1001,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23373": {
+        "codigo": 1002,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600191337": {
+        "codigo": 1003,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO MX 1536957": {
+        "codigo": 1004,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC PO MX 1484602": {
+        "codigo": 1005,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PRINTPACK 4801-51216296-OA": {
+        "codigo": 1006,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA OC2303000010": {
+        "codigo": 1007,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN JM23-0416": {
+        "codigo": 1008,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600189305": {
+        "codigo": 1009,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 644125 PLANTA SMF": {
+        "codigo": 1010,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAKAWA  NCEMEXICO PO 2023-205": {
+        "codigo": 1011,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EUROMUNDO 3968-A-OR-04-23": {
+        "codigo": 1012,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAKAWA NCEMEXICO 2023-212": {
+        "codigo": 1013,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY 7101331696": {
+        "codigo": 1014,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAFEGA 3915-A-CH-04-23": {
+        "codigo": 1015,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "E HVAC MG 2": {
+        "codigo": 1016,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PLANTA 5 PO 644406": {
+        "codigo": 1017,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CORPORATIVO FACILITADOR 3971-A-OR-04-23": {
+        "codigo": 1018,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KAMAX 4501153428": {
+        "codigo": 1019,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA- RIVULIS  OC 2305000010": {
+        "codigo": 1020,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PATRICIA RODRIGUEZ": {
+        "codigo": 1021,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23724": {
+        "codigo": 1022,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW PO 4500094725": {
+        "codigo": 1023,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712303976-1": {
+        "codigo": 1024,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23772": {
+        "codigo": 1025,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR MX1599861": {
+        "codigo": 1026,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TORRE NYMPHE DEPT. 1505": {
+        "codigo": 1027,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "C&A - AIREX 29020": {
+        "codigo": 1028,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NAKAGAWA 2023-0240": {
+        "codigo": 1029,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23836": {
+        "codigo": 1030,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 646614": {
+        "codigo": 1031,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN 13825": {
+        "codigo": 1032,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23882": {
+        "codigo": 1033,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG & SCHUBERT PO 46623324": {
+        "codigo": 1034,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CUERO CENTRO PO 4500032202": {
+        "codigo": 1036,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-24100": {
+        "codigo": 1037,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-24052": {
+        "codigo": 1038,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-23986": {
+        "codigo": 1039,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAGOT": {
+        "codigo": 1040,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 647648": {
+        "codigo": 1041,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OSCAR QUIRIARTE": {
+        "codigo": 1042,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 648274": {
+        "codigo": 1043,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SURO": {
+        "codigo": 1044,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR 23836": {
+        "codigo": 1045,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23927": {
+        "codigo": 1046,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G L7P-8004539890": {
+        "codigo": 1047,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 23979": {
+        "codigo": 1048,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OSAN ARQUITECTURA": {
+        "codigo": 1049,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC OMNIUM PO 4728913": {
+        "codigo": 1050,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VALLADOLID": {
+        "codigo": 1051,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501715974": {
+        "codigo": 1052,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501717016": {
+        "codigo": 1053,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501727617": {
+        "codigo": 1054,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501730418": {
+        "codigo": 1055,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501716772": {
+        "codigo": 1056,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR 24126": {
+        "codigo": 1057,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NYMPHE PROYECTO ESPECIAL": {
+        "codigo": 1058,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 650356": {
+        "codigo": 1059,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "COCA-COLA FEMSA": {
+        "codigo": 1060,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24185": {
+        "codigo": 1061,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "URBANIZADORA SH": {
+        "codigo": 1062,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24222": {
+        "codigo": 1063,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARMANDO SERRA": {
+        "codigo": 1064,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INSTITUTO VIDA": {
+        "codigo": 1065,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 1648148": {
+        "codigo": 1066,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 648278": {
+        "codigo": 1067,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IMPRENTA SELECTA": {
+        "codigo": 1068,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4700158611": {
+        "codigo": 1069,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ORMA": {
+        "codigo": 1070,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MECHANIKER": {
+        "codigo": 1071,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RATE 23-06-0164": {
+        "codigo": 1072,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIC PO 6000082263": {
+        "codigo": 1073,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REFRIGERACI\u00d3N MEDINA": {
+        "codigo": 1074,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT  P-17-21488": {
+        "codigo": 1075,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA PO 4700058991": {
+        "codigo": 1076,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KAMAX 4501166910": {
+        "codigo": 1077,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 202532": {
+        "codigo": 1078,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR FINISHING EOM1644405": {
+        "codigo": 1079,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MX1601744 LEAR": {
+        "codigo": 1080,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 650904": {
+        "codigo": 1081,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BAT PO 5700479609": {
+        "codigo": 1082,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24630": {
+        "codigo": 1083,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 655885": {
+        "codigo": 1084,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501734113": {
+        "codigo": 1085,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC OMNIUM POLIZA 2023 PO 4736830": {
+        "codigo": 1086,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 656390": {
+        "codigo": 1087,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24683": {
+        "codigo": 1088,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 656505": {
+        "codigo": 1089,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO MX1684716": {
+        "codigo": 1090,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAN JACINTO": {
+        "codigo": 1091,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC MEXICO PO SMX23-H047": {
+        "codigo": 1092,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24747": {
+        "codigo": 1093,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24705": {
+        "codigo": 1094,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VERANTA": {
+        "codigo": 1095,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BYDSA PO 13199874": {
+        "codigo": 1096,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RCA-23-06-0164": {
+        "codigo": 1097,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN INDUSTRIES PO 15602": {
+        "codigo": 1098,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RATE RCA-23-08-0025": {
+        "codigo": 1099,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600195910": {
+        "codigo": 1100,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR EOM1644403": {
+        "codigo": 1101,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 657380": {
+        "codigo": 1102,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 657568": {
+        "codigo": 1103,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO 1699980": {
+        "codigo": 1104,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL PO 202747": {
+        "codigo": 1105,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IHOP FORO 4 - CONSTRUCTORA NONA": {
+        "codigo": 1106,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VDSI SISTEMAS INTEGRALES": {
+        "codigo": 1107,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501719376": {
+        "codigo": 1108,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEWS PO 23P1-SMXSCSC-01-025": {
+        "codigo": 1109,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA PO 295187": {
+        "codigo": 1110,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VICTOR PONCE": {
+        "codigo": 1111,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REPARACION EQUIPO OFICINAS JCI AGUASCALIENTES": {
+        "codigo": 1112,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BYDSA POLIZA 2023 PRODUCCI\u00d3N": {
+        "codigo": 1113,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FABIOLA FELIX": {
+        "codigo": 1114,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600197666": {
+        "codigo": 1115,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE PO 20240533": {
+        "codigo": 1116,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24923": {
+        "codigo": 1117,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24962": {
+        "codigo": 1118,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24874": {
+        "codigo": 1119,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEON SCANER": {
+        "codigo": 1120,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO 1718771": {
+        "codigo": 1121,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 24890": {
+        "codigo": 1122,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GRUPO ARON": {
+        "codigo": 1123,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PLASTICS PO P15-25789": {
+        "codigo": 1124,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 661511": {
+        "codigo": 1125,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BAT PO 5700520583": {
+        "codigo": 1126,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METALSA STLA": {
+        "codigo": 1127,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 650023": {
+        "codigo": 1128,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN LUIS PO MX1732002": {
+        "codigo": 1129,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BYDSA PO 13204255": {
+        "codigo": 1130,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR JFE  PO25212": {
+        "codigo": 1131,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G PO 8004805250": {
+        "codigo": 1132,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 9154": {
+        "codigo": 1133,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 663384": {
+        "codigo": 1134,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY PO 9169": {
+        "codigo": 1135,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 662711": {
+        "codigo": 1136,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 295227": {
+        "codigo": 1137,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 660863": {
+        "codigo": 1138,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PO008614-2 MACLEAN FILTROS": {
+        "codigo": 1139,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PO 1671269 LEAR FILTROS MANTENIMINETO": {
+        "codigo": 1140,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PO 25333 NUCOR": {
+        "codigo": 1141,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DESMEX SOLAR": {
+        "codigo": 1142,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PO 16420 AMERICAN": {
+        "codigo": 1143,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW 4500067041": {
+        "codigo": 1144,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ZKW 4500067996": {
+        "codigo": 1145,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARETINA": {
+        "codigo": 1146,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-26346": {
+        "codigo": 1147,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-26347": {
+        "codigo": 1148,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR HUAMANTLA MX1750848": {
+        "codigo": 1149,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G-8004855406": {
+        "codigo": 1150,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PRINCE RENTA CHILLER": {
+        "codigo": 1151,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MINEZAWA": {
+        "codigo": 1152,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P-15 26546": {
+        "codigo": 1153,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "Thyssenkrupp PO 4800041179": {
+        "codigo": 1154,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS PEDIGREE QUER\u00c9TARO": {
+        "codigo": 1155,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TOLUCA PO 1765528": {
+        "codigo": 1156,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1758702": {
+        "codigo": 1158,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLIMATIZACIONES HVAC": {
+        "codigo": 1159,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CLIMATIZACIONES HVAC HUMIDIF": {
+        "codigo": 1160,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600196296": {
+        "codigo": 1161,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600198091": {
+        "codigo": 1162,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRO 4501727021": {
+        "codigo": 1163,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BAT PO 5700544684": {
+        "codigo": 1164,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG & SCHUBERT PO 46625513": {
+        "codigo": 1166,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOSE DE JESUS (OSVALDO)": {
+        "codigo": 1167,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO PO 1774802": {
+        "codigo": 1168,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PO 1737959": {
+        "codigo": 1169,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 667730": {
+        "codigo": 1170,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 658313": {
+        "codigo": 1171,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN INDUSTRIES PO 15352": {
+        "codigo": 1172,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD 6000085699": {
+        "codigo": 1173,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FIESTA DIC 24": {
+        "codigo": 1174,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AMERICAN INDUSTRIES 17349": {
+        "codigo": 1175,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ANA PAULA BECERRIL": {
+        "codigo": 1176,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS PO 7712400963-1": {
+        "codigo": 1177,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IHOP ALTACIA": {
+        "codigo": 1178,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROL PO 7712304376-1": {
+        "codigo": 1179,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TACHI-S PO C57842": {
+        "codigo": 1181,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "1670328 LEAR TLAHUAC": {
+        "codigo": 1182,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TRUMPLER PO T084-L1-P0-0005": {
+        "codigo": 1183,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PO 670338 AAM SMF Coilnas.": {
+        "codigo": 1184,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PO 665309": {
+        "codigo": 1186,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "17417 MILIKEN HORNOS": {
+        "codigo": 1187,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600195907": {
+        "codigo": 1188,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAFRAN": {
+        "codigo": 1189,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL 556859": {
+        "codigo": 1190,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KERRY PO 7101633423": {
+        "codigo": 1191,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IHOP FORO 4 VARIADORES": {
+        "codigo": 1192,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 299733": {
+        "codigo": 1193,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CMM SAFRAN": {
+        "codigo": 1194,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MX 1800514": {
+        "codigo": 1195,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GIGANTE VERDE PO 20241037": {
+        "codigo": 1196,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METALSA POLIZA ANUAL": {
+        "codigo": 1197,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BONAFONT 4500528842": {
+        "codigo": 1198,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN JM23-2402": {
+        "codigo": 1199,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TURNKEY MANTENIMIENTO": {
+        "codigo": 1200,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC 0004771045": {
+        "codigo": 1201,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IHOP ALTACIA INST": {
+        "codigo": 1202,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ESTRUTEC.": {
+        "codigo": 1203,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METALSA GUANAJUATO PO658": {
+        "codigo": 1204,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P17-23048": {
+        "codigo": 1205,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-27245": {
+        "codigo": 1206,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLIKEN 17882": {
+        "codigo": 1207,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON FINISHING 1821943": {
+        "codigo": 1208,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN LUIS MX1738070": {
+        "codigo": 1209,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NYMPHE DEPTO. 301": {
+        "codigo": 1210,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL S000576128": {
+        "codigo": 1211,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG POLIZA 2024 546437": {
+        "codigo": 1213,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 203600": {
+        "codigo": 1214,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LALA PO 4700059857 ALCOBA": {
+        "codigo": 1215,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CEYPABASA POLIZA 065521-1": {
+        "codigo": 1216,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 676485": {
+        "codigo": 1217,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600203761": {
+        "codigo": 1218,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JAZA INGENIER\u00cdA 90082": {
+        "codigo": 1220,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600203893": {
+        "codigo": 1221,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEKNO CUERO 2571": {
+        "codigo": 1222,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL S000582831": {
+        "codigo": 1223,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO MANT. CHILLERS PO 1849523": {
+        "codigo": 1224,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P17-23389": {
+        "codigo": 1226,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "URBANIZADORA HS": {
+        "codigo": 1227,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR OTTAWA 1855146": {
+        "codigo": 1228,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO 1860263": {
+        "codigo": 1229,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 678911": {
+        "codigo": 1230,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY 9559": {
+        "codigo": 1231,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS EN VENTILACION PO MG-1076": {
+        "codigo": 1232,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PGP FACILITY": {
+        "codigo": 1233,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SAN LUIS 1861711": {
+        "codigo": 1234,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NYMPHE DEPTO. 203": {
+        "codigo": 1235,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO26525": {
+        "codigo": 1236,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR POLIZA 2024 PO 26016": {
+        "codigo": 1237,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARMANDO SERRA MANT": {
+        "codigo": 1238,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MD ELEKTRONIK 6000088456": {
+        "codigo": 1239,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG & SCHUBERT PO 46624998": {
+        "codigo": 1240,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EXPERTOS EN VENTILACION S.A DE C.V.": {
+        "codigo": 1241,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 09315": {
+        "codigo": 1242,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL 586528": {
+        "codigo": 1243,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAN JACINTO ATICO": {
+        "codigo": 1244,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600205003": {
+        "codigo": 1245,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ADAMANT 1710": {
+        "codigo": 1246,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARQUIA": {
+        "codigo": 1248,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO PO 6308021053": {
+        "codigo": 1249,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INDUGAS": {
+        "codigo": 1251,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FRANCISCO EQUIPO 1 TR": {
+        "codigo": 1252,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGERPOLY 9634": {
+        "codigo": 1253,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JUGOS DEL VALLE TEPOTZOTLAN ( CLIENTE INRA )": {
+        "codigo": 1254,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KASAI MEXICANA  1022622": {
+        "codigo": 1256,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KASAI MEXICANA  1022680": {
+        "codigo": 1257,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUNDOVA UVM": {
+        "codigo": 1258,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ALEXIS MORALES MALSA": {
+        "codigo": 1259,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 26957": {
+        "codigo": 1260,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON 4500184352": {
+        "codigo": 1261,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MORIROKU PO 11966": {
+        "codigo": 1262,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UNAM ENESLE-24-SC-000501": {
+        "codigo": 1263,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TACHIS C63044": {
+        "codigo": 1264,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AA SALA DE TV CLAUDIA": {
+        "codigo": 1265,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNAN JM24-0536": {
+        "codigo": 1266,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27009": {
+        "codigo": 1267,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG S000586536": {
+        "codigo": 1268,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 681938": {
+        "codigo": 1269,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CEYPABASA 66417-1": {
+        "codigo": 1270,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CEYPABASA 066414-1": {
+        "codigo": 1271,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO PO6308020826": {
+        "codigo": 1272,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REMILSA OC MG0324-20": {
+        "codigo": 1273,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT PO 4600206124": {
+        "codigo": 1274,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACEROM. PO 22156": {
+        "codigo": 1275,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "D\u00d3LAR 6085-CDE-24/3/2024": {
+        "codigo": 1276,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL: S000603587": {
+        "codigo": 1277,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAFRAN POSAC23339": {
+        "codigo": 1278,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL204070": {
+        "codigo": 1279,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "K&S PO 46627334": {
+        "codigo": 1280,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SEWS T1923": {
+        "codigo": 1281,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ALDO FERRI\u00d1O IRIARTE": {
+        "codigo": 1282,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IMPULSORA ICE DE PRODUCTOS Y SERVICIOS": {
+        "codigo": 1283,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SANTA CLARA LAGOS  ( CLIENTE INRA )": {
+        "codigo": 1284,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INTERRUPTOR COLEGIO VALLADOLID": {
+        "codigo": 1285,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PLASTICS  P15-28671": {
+        "codigo": 1286,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT PLASTIC PO P15-28659": {
+        "codigo": 1287,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "5120 DEACERO MORELIA": {
+        "codigo": 1288,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OC 45 PGP FACILITY": {
+        "codigo": 1289,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "A.A HFI ROMITA 32139": {
+        "codigo": 1290,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OC 46 PGP FACILITY": {
+        "codigo": 1291,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC PO 4772498": {
+        "codigo": 1292,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON FINISHING 1909143": {
+        "codigo": 1293,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VERDE COMPACTO": {
+        "codigo": 1294,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM PLANTA 5 PO 685252": {
+        "codigo": 1295,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC 1912258": {
+        "codigo": 1296,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LIEBERT ARETINA": {
+        "codigo": 1297,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LUCILA HERNANDEZ": {
+        "codigo": 1298,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARTIN DEL CAMPO": {
+        "codigo": 1299,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GUILLERMO SAUCEDO DAIKIN": {
+        "codigo": 1300,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEKNO CUERO 2878": {
+        "codigo": 1301,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TEKNO CUERO 2884": {
+        "codigo": 1302,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KELLOG\u00b4S 4801429732": {
+        "codigo": 1303,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ESNAVI": {
+        "codigo": 1304,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL 204208": {
+        "codigo": 1306,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EOLO": {
+        "codigo": 1307,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLFOODS 2188": {
+        "codigo": 1308,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G 8005179953": {
+        "codigo": 1309,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HITACHI 66591-2": {
+        "codigo": 1310,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AVANTHYA FINANCIERA": {
+        "codigo": 1311,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 686198": {
+        "codigo": 1312,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO 6308021282": {
+        "codigo": 1313,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL 620126": {
+        "codigo": 1314,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN 4501525032": {
+        "codigo": 1315,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HITACHI 66743-00": {
+        "codigo": 1316,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JORGE DE LA TORRE MANTENIMIENTO": {
+        "codigo": 1317,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PRINT PACK PO 4801-51309372-OA": {
+        "codigo": 1318,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-29194": {
+        "codigo": 1319,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AKRON 4500185634": {
+        "codigo": 1320,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS REFACCIONES BOMBA": {
+        "codigo": 1321,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "O\u2019REILLY BIECH": {
+        "codigo": 1322,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA OC 120042 REVISION CHILLER": {
+        "codigo": 1323,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600208016 RENTA EQUIPO": {
+        "codigo": 1324,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT 4600208012 BOYAS": {
+        "codigo": 1325,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "GUILLERMO RANGEL SERVICIO": {
+        "codigo": 1326,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC 1937718": {
+        "codigo": 1327,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT RENTA PAQUETE": {
+        "codigo": 1328,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VENTA PUBLICO EN GENERAL": {
+        "codigo": 1329,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON FINISHING 1940506": {
+        "codigo": 1330,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO 1940471": {
+        "codigo": 1331,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27508": {
+        "codigo": 1332,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SMX24-E127": {
+        "codigo": 1333,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 688930": {
+        "codigo": 1334,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON  1943361": {
+        "codigo": 1335,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27651": {
+        "codigo": 1336,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BAJO CONTROL REFACCIONES": {
+        "codigo": 1337,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN EQUIPOS 4501550814": {
+        "codigo": 1338,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN MTTO EQUIPO 4501549260": {
+        "codigo": 1339,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN CHILLER 4501549851": {
+        "codigo": 1340,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN MTTO EQUIPOS 4501546677": {
+        "codigo": 1341,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "COMPRESOR  JULIAN MARTINEZ": {
+        "codigo": 1342,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO  6308021339": {
+        "codigo": 1343,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MANTENIMIENTO SAGOT": {
+        "codigo": 1344,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MINISPLIT FRANCISCO ALVAREZ": {
+        "codigo": 1345,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN 4501550014": {
+        "codigo": 1346,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FERRERO MINISPLIT 6308021467": {
+        "codigo": 1347,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AXALTA MANT PREV": {
+        "codigo": 1348,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KROMBERG  46627563": {
+        "codigo": 1349,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "UREBLOCK RD_R554300": {
+        "codigo": 1350,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO 27727": {
+        "codigo": 1351,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR TLAHUAC 1953469": {
+        "codigo": 1352,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR P NEGRAS 1954553": {
+        "codigo": 1353,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MINI SPLITS JUANA RAMIREZ RODRIGUEZ": {
+        "codigo": 1354,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAMBITOS SALON DE FIESTAS": {
+        "codigo": 1355,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P17-24662": {
+        "codigo": 1356,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-29655": {
+        "codigo": 1357,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN 4501549238": {
+        "codigo": 1358,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MN CHI LEAR LEON1957606": {
+        "codigo": 1359,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MINISPLIT LETICIA ALVAREZ": {
+        "codigo": 1360,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL 637163": {
+        "codigo": 1361,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 690235": {
+        "codigo": 1362,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MTTO UMA HENKEL TOLUCA": {
+        "codigo": 1363,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 691668": {
+        "codigo": 1364,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BONAFONT 4500547484": {
+        "codigo": 1365,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27813": {
+        "codigo": 1366,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27808": {
+        "codigo": 1367,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SAN JACINTO 4500033698": {
+        "codigo": 1368,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARMANDO SERRA CONIMBA)": {
+        "codigo": 1369,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO27852": {
+        "codigo": 1370,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NATURAL HEALTH.": {
+        "codigo": 1371,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TECMA RIVULIS MANT": {
+        "codigo": 1372,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN 4501574267": {
+        "codigo": 1373,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PLASTIC PO 4807171": {
+        "codigo": 1374,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PABLO HDEZ INOVATE": {
+        "codigo": 1375,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "O\u2019REILLY BIECH ARANDAS": {
+        "codigo": 1376,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "CONAGRA 122425": {
+        "codigo": 1377,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT MOTOR 29827": {
+        "codigo": 1378,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "BOSQUE AZUL PAQUETE": {
+        "codigo": 1379,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REPARACION DUCTOS EDUCEM": {
+        "codigo": 1380,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VISCOTEC SMX24-F278": {
+        "codigo": 1381,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 693815": {
+        "codigo": 1382,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SERVIACERO ELECTROF 20624": {
+        "codigo": 1383,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "KASAI 1026044": {
+        "codigo": 1384,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MTTO NYMPHE 1606": {
+        "codigo": 1385,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712303909": {
+        "codigo": 1386,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 694010": {
+        "codigo": 1387,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "HUTCHINSON 171198": {
+        "codigo": 1388,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ITT A4200029913": {
+        "codigo": 1389,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "OCCDNTECAPITAL": {
+        "codigo": 1390,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NYMPHE OFICINA DE VENTAS BNC SUDOCC": {
+        "codigo": 1391,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INGENIERIA NATURAL HEALTH PLANTA LA CALERA": {
+        "codigo": 1392,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 1987944": {
+        "codigo": 1393,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TARJETA NYMPHE SUDOCC": {
+        "codigo": 1394,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SERVICIO OCAP PROYECTOS": {
+        "codigo": 1395,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "O\u00b4REILLY TEPIC NAYARIT": {
+        "codigo": 1396,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUTRICAL PO 204683": {
+        "codigo": 1397,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 696691": {
+        "codigo": 1398,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 696877": {
+        "codigo": 1399,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR ARTEAGA 1992396": {
+        "codigo": 1400,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR PANZACOLA 1992374": {
+        "codigo": 1401,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "DEACERO 13011": {
+        "codigo": 1402,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "INPAMEX CHILLER 60TR": {
+        "codigo": 1403,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR SILAO 1994336": {
+        "codigo": 1404,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REVISION DE EQUIPO PAQUETE APPLEBEE\u2019S": {
+        "codigo": 1405,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 101397": {
+        "codigo": 1406,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EOLO JV TEPOTZ LLEN MO": {
+        "codigo": 1407,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EOLO JV TEPOTZ LLEN EQPOS\u00a0": {
+        "codigo": 1408,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SRG GLOBAL 654996": {
+        "codigo": 1409,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "PROAN 4501609328": {
+        "codigo": 1410,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "JOHNSON CONTROLS 7712405922-1": {
+        "codigo": 1411,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LODOAL": {
+        "codigo": 1412,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METALSA EXTRACCION ESTAMPADO": {
+        "codigo": 1413,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 101399": {
+        "codigo": 1414,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MACLEAN PO 012277-1": {
+        "codigo": 1415,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO28362": {
+        "codigo": 1416,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "FEGSA PISTONES MORESA": {
+        "codigo": 1417,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "EQUIPOS STOCK SAMSUNG": {
+        "codigo": 1418,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MILLFOODS 2446": {
+        "codigo": 1419,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ARETINA MANTENIMIENTO": {
+        "codigo": 1420,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TARJETA METALSA  2435232": {
+        "codigo": 1421,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SISTEMA VRF NYMPHE 2005": {
+        "codigo": 1422,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM699956": {
+        "codigo": 1423,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MARS CHOCOLATE QRO": {
+        "codigo": 1424,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR LEON 1946567": {
+        "codigo": 1425,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "ERIKA ORTIZ SERVICIO": {
+        "codigo": 1426,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "IQ TEC": {
+        "codigo": 1427,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO28486": {
+        "codigo": 1428,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "RENTA PLANTA EMERGENCIA 150KW GC": {
+        "codigo": 1429,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR HUMANTLA 2014220": {
+        "codigo": 1430,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "TIGER POLY 10147": {
+        "codigo": 1431,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "P&G 8005431109 AZTLAN": {
+        "codigo": 1432,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P17-25413": {
+        "codigo": 1433,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AIR REF VERSACE": {
+        "codigo": 1434,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "Kerry 7101893327": {
+        "codigo": 1435,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "METALSA ING 2433594": {
+        "codigo": 1436,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "LEAR  SILAO 2019198": {
+        "codigo": 1437,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO28561": {
+        "codigo": 1438,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "MAYRA MONTERO COMPRESORES": {
+        "codigo": 1439,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "O\u2019REILLY FCO VILLA": {
+        "codigo": 1440,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 101405": {
+        "codigo": 1441,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 702221": {
+        "codigo": 1442,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 101404": {
+        "codigo": 1443,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "AAM 101408": {
+        "codigo": 1444,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "SUMMIT P15-30811": {
+        "codigo": 1445,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "NUCOR PO28638": {
+        "codigo": 1446,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "VIBRANTZ LABORAOTORIO": {
+        "codigo": 1447,
+        "solicitante": "Manuel G\u00f3mez"
+    },
+    "REV PAQ ARETINA": {
+        "codigo": 1448,
+        "solicitante": "Manuel G\u00f3mez"
+    }
+}

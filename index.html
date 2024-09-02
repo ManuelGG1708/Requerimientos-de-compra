@@ -65,135 +65,198 @@
             display: block;
             margin: 0 auto 20px auto;
         }
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: 500;
+        }
+        .confirmation-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .confirmation-message p {
+            font-size: 16px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
 
-<div class="form-container">
-    <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
-    <h2>Requerimiento de compra en Obra</h2>
-    <div class="form-group">
-        <label for="userName">Nombre del solicitante:</label>
-        <select id="userName" class="form-control" required onchange="updateProjectOptions()">
-            <option value="" disabled selected>Seleccione su nombre</option>
-            <option value="Ángel Yáñez">Ángel Yáñez</option>
-            <option value="Carlos De La Espriella">Carlos De La Espriella</option>
-            <option value="Israel Arceo">Israel Arceo</option>
-            <option value="Juan Cortez">Juan Cortez</option>
-            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
-            <option value="Joshua Valadez">Joshua Valadez</option>
-            <option value="Carlos Huitrón">Carlos Huitrón</option>
-            <option value="Osvaldo Ramos">Osvaldo Ramos</option>
-            <option value="Alan Rojas">Alan Rojas</option>
-            <option value="Manuel Gómez">Manuel Gómez</option>
-        </select>
+    <div class="form-container" id="selectUserContainer">
+        <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
+        <h2>Seleccione su nombre</h2>
+        <div class="form-group">
+            <label for="userName">Nombre del solicitante:</label>
+            <select id="userName" name="userName" class="form-control" required onchange="showForm()">
+                <option value="" disabled selected>Seleccione su nombre</option>
+                <option value="Ángel Yáñez">Ángel Yáñez</option>
+                <option value="Carlos De La Espriella">Carlos De La Espriella</option>
+                <option value="Israel Arceo">Israel Arceo</option>
+                <option value="Juan Cortez">Juan Cortez</option>
+                <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
+                <option value="Joshua Valadez">Joshua Valadez</option>
+                <option value="Carlos Huitrón">Carlos Huitrón</option>
+                <option value="Osvaldo Ramos">Osvaldo Ramos</option>
+                <option value="Alan Rojas">Alan Rojas</option>
+                <option value="Manuel Gómez">Manuel Gómez</option>
+            </select>
+        </div>
     </div>
 
-    <form onsubmit="return sendWhatsAppMessage()">
-        <fieldset>
-            <legend>Detalles del Proyecto</legend>
-            <div class="form-group">
-                <label for="projectName">Nombre del proyecto:</label>
-                <select id="projectName" class="form-control" required>
-                    <!-- Opciones de proyectos se llenarán basadas en la selección del solicitante -->
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="clientName">Nombre del cliente:</label>
-                <input type="text" id="clientName" required>
-            </div>
-        </fieldset>
-        <fieldset>
-            <legend>Detalles del Material</legend>
-            <div class="form-group">
-                <label for="material">Material solicitado:</label>
-                <input type="text" id="material" required>
-            </div>
-            <div class="form-group">
-                <label for="requestDate">Fecha de solicitud de material:</label>
-                <input type="date" id="requestDate" required>
-            </div>
-            <div class="form-group">
-                <label for="deliveryDate">Fecha de entrega de material:</label>
-                <input type="date" id="deliveryDate" required>
-            </div>
-            <div class="form-group">
-                <label for="orderNumber">Orden de compra:</label>
-                <input type="text" id="orderNumber" required>
-            </div>
-            <div class="form-group">
-                <label for="comments">Comentarios:</label>
-                <textarea id="comments" rows="4"></textarea>
-            </div>
-        </fieldset>
+    <div class="form-container" id="formContainer" style="display:none;">
+        <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
+        <h2>Requerimiento de compra en Obra</h2>
+        <form onsubmit="return sendWhatsAppMessage()">
+            <fieldset>
+                <legend>Detalles del Proyecto</legend>
+                <div class="form-group">
+                    <label for="projectName">Nombre del proyecto:</label>
+                    <select id="projectName" name="projectName" class="form-control" required>
+                        <!-- Opciones de proyectos se llenarán basadas en la selección del solicitante -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="clientName">Nombre del cliente:</label>
+                    <input type="text" id="clientName" name="clientName" required oninvalid="this.setCustomValidity('Por favor, ingrese el nombre del cliente')" oninput="this.setCustomValidity('')">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Detalles del Material</legend>
+                <div class="form-group">
+                    <label for="material">Material solicitado:</label>
+                    <input type="text" id="material" name="material" required oninvalid="this.setCustomValidity('Por favor, ingrese el material solicitado')" oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-group">
+                    <label for="requestDate">Fecha de solicitud de material:</label>
+                    <input type="date" id="requestDate" name="requestDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="deliveryDate">Fecha de entrega de material:</label>
+                    <input type="date" id="deliveryDate" name="deliveryDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="orderNumber">Orden de compra:</label>
+                    <input type="text" id="orderNumber" name="orderNumber" required oninvalid="this.setCustomValidity('Por favor, ingrese la orden de compra')" oninput="this.setCustomValidity('')">
+                </div>
+                <div class="form-group">
+                    <label for="comments">Comentarios:</label>
+                    <textarea id="comments" name="comments" rows="4"></textarea>
+                </div>
+            </fieldset>
 
-        <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-    </form>
-</div>
+            <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
+        </form>
 
-<script>
-    let projectDetails = {};
+        <div id="confirmationMessage" class="confirmation-message">
+            <p>Redirigiendo a WhatsApp...</p>
+            <i class="fas fa-spinner fa-spin"></i>
+        </div>
+    </div>
 
-    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
-        .then(response => response.json())
-        .then(data => {
-            projectDetails = data;
-            console.log(projectDetails); // Ver los detalles del proyecto cargados
-        })
-        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
+    <script>
+        let projectDetails = {};
 
-    const userSequentialIDs = {
-        "Ángel Yáñez": 1,
-        "Carlos De La Espriella": 1,
-        "Israel Arceo": 1,
-        "Juan Cortez": 1,
-        "Jonathan Cárdenas": 1,
-        "Joshua Valadez": 1,
-        "Carlos Huitrón": 1,
-        "Osvaldo Ramos": 1,
-        "Alan Rojas": 1,
-        "Manuel Gómez": 1
-    };
+        fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
+            .then(response => response.json())
+            .then(data => {
+                projectDetails = data;
+                console.log(projectDetails); // Ver los detalles del proyecto cargados
+            })
+            .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
 
-    function updateProjectOptions() {
-        const userName = document.getElementById("userName").value;
-        const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = '';
+        const userSequentialIDs = {
+            "Ángel Yáñez": 1,
+            "Carlos De La Espriella": 1,
+            "Israel Arceo": 1,
+            "Juan Cortez": 1,
+            "Jonathan Cárdenas": 1,
+            "Joshua Valadez": 1,
+            "Carlos Huitrón": 1,
+            "Osvaldo Ramos": 1,
+            "Alan Rojas": 1,
+            "Manuel Gómez": 1
+        };
 
-        Object.entries(projectDetails).forEach(([projectName, details]) => {
-            if (details.solicitante === userName) {
-                const option = document.createElement("option");
-                option.value = projectName;
-                option.text = projectName;
-                projectNameSelect.appendChild(option);
+        function showForm() {
+            var userName = document.getElementById("userName").value;
+            if (userName) {
+                document.getElementById("selectUserContainer").style.display = 'none';
+                document.getElementById("formContainer").style.display = 'block';
+                updateProjectOptions(); // Actualizar opciones de proyecto al seleccionar usuario
+            } else {
+                alert("Por favor, seleccione su nombre antes de continuar.");
             }
-        });
-    }
+        }
 
-    function sendWhatsAppMessage() {
-        const userName = document.getElementById("userName").value;
-        const initials = userName.split(" ").map(n => n[0]).join(""); // Obtiene las iniciales del nombre
-        const projectName = document.getElementById("projectName").value;
-        const projectCode = projectDetails[projectName].codigo || "Desconocido"; // Obtiene el código del proyecto desde el JSON cargado
-        const userID = String(userSequentialIDs[userName]++).padStart(2, '0'); // ID secuencial del usuario
+        function updateProjectOptions() {
+            const userName = document.getElementById("userName").value;
+            const projectNameSelect = document.getElementById("projectName");
+            projectNameSelect.innerHTML = '';
 
-        const clientName = document.getElementById("clientName").value;
-        const material = document.getElementById("material").value;
-        const requestDate = document.getElementById("requestDate").value;
-        const deliveryDate = document.getElementById("deliveryDate").value;
-        const orderNumber = document.getElementById("orderNumber").value;
-        const comments = document.getElementById("comments").value;
+                    Object.entries(projectDetails).forEach(([projectName, details]) => {
+                if (details.solicitante === userName) {
+                    const option = document.createElement("option");
+                    option.value = projectName;
+                    option.text = projectName;
+                    projectNameSelect.appendChild(option);
+                }
+            });
+        }
 
-        const now = new Date();
-        const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
-        const uniqueCode = `${initials}-${projectCode}-${userID}`;
+        function sendWhatsAppMessage() {
+            document.getElementById('confirmationMessage').style.display = 'block';
 
-        const message = `Requerimiento de compra en Obra:\nCódigo: ${uniqueCode}\nNombre del proyecto: ${projectName}\nNombre del cliente: ${clientName}\nMaterial solicitado: ${material}\nFecha de solicitud
+            var userName = document.getElementById("userName").value;
+            var initials = userName.split(" ").map(n => n[0]).join(""); // Obtiene las iniciales del nombre
+            var projectName = document.getElementById("projectName").value;
+            var projectCode = projectDetails[projectName].codigo || "Desconocido"; // Obtiene el código del proyecto desde el JSON cargado
+            var userID = (userSequentialIDs[userName] || 1).toString().padStart(2, '0'); // ID secuencial del usuario
 
-window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
-        return false;
-    }
-</script>
+            // Incrementar el ID para el próximo uso
+            userSequentialIDs[userName] = (userSequentialIDs[userName] || 1) + 1;
+
+            var clientName = document.getElementById("clientName").value;
+            var material = document.getElementById("material").value;
+            var requestDate = document.getElementById("requestDate").value;
+            var deliveryDate = document.getElementById("deliveryDate").value;
+            var orderNumber = document.getElementById("orderNumber").value;
+            var comments = document.getElementById("comments").value;
+
+            // Fecha y hora actuales para la hora de la solicitud
+            var now = new Date();
+            var currentTime = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
+
+            var uniqueCode = ${initials}-${projectCode}-${userID}; // Genera el código único
+
+            var message = Requerimiento de compra en Obra:\n +
+                          Código: ${uniqueCode}\n +
+                          Nombre del proyecto: ${projectName}\n +
+                          Nombre del cliente: ${clientName}\n +
+                          Material solicitado: ${material}\n +
+                          Fecha de solicitud de material: ${requestDate}\n +
+                          Fecha de entrega de material: ${deliveryDate}\n +
+                          Hora de solicitud: ${currentTime}\n +
+                          Orden de compra: ${orderNumber}\n +
+                          Comentarios: ${comments};
+
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
+
+            setTimeout(function() {
+                window.open(whatsappUrl, '_blank');
+                document.getElementById('confirmationMessage').style.display = 'none';
+            }, 1000);
+
+            return false;
+        }
+    </script>
 
 </body>
 </html>

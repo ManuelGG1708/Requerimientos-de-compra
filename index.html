@@ -24,6 +24,7 @@
         }
         .form-group input[type="text"],
         .form-group input[type="date"],
+        .form-group input[type="password"],
         .form-group select,
         .form-group textarea {
             border-radius: 5px;
@@ -88,7 +89,11 @@
             <option value="Manuel Gómez">Manuel Gómez</option>
         </select>
     </div>
-    <button type="button" onclick="showFormAndUpdateProjects()">Continuar</button>
+    <div class="form-group">
+        <label for="userPassword">Contraseña:</label>
+        <input type="password" id="userPassword" class="form-control" required>
+    </div>
+    <button type="button" onclick="authenticateUser()">Continuar</button>
 </div>
 
 <div class="form-container" id="formContainer" style="display:none;">
@@ -134,45 +139,38 @@
 </div>
 
 <script>
-    let projectDetails = {};
-
-    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
-        .then(response => response.json())
-        .then(data => {
-            projectDetails = data;
-            console.log(projectDetails); // Ver los detalles del proyecto cargados
-        })
-        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
-
-    const userSequentialIDs = {
-        "Ángel Yáñez": 1,
-        "Carlos De La Espriella": 1,
-        "Israel Arceo": 1,
-        "Juan Cortez": 1,
-        "Jonathan Cárdenas": 1,
-        "Joshua Valadez": 1,
-        "Carlos Huitrón": 1,
-        "Osvaldo Ramos": 1,
-        "Alan Rojas": 1,
-        "Manuel Gómez": 1
+    const userPasswords = {
+        "Ángel Yáñez": "password1",
+        "Carlos De La Espriella": "password2",
+        "Israel Arceo": "password3",
+        "Juan Cortez": "password4",
+        "Jonathan Cárdenas": "password5",
+        "Joshua Valadez": "password6",
+        "Carlos Huitrón": "password7",
+        "Osvaldo Ramos": "password8",
+        "Alan Rojas": "password9",
+        "Manuel Gómez": "password10"
     };
 
-    function showFormAndUpdateProjects() {
+    function authenticateUser() {
         const userName = document.getElementById("userName").value;
-        if (userName) {
+        const userPassword = document.getElementById("userPassword").value;
+
+        if (userPasswords[userName] && userPasswords[userName] === userPassword) {
             document.getElementById('selectUserContainer').style.display = 'none';
             document.getElementById('formContainer').style.display = 'block';
             updateProjectOptions();
         } else {
-            alert("Por favor, seleccione su nombre antes de continuar.");
+            alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
         }
     }
 
     function updateProjectOptions() {
         const userName = document.getElementById("userName").value;
         const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = '';
+        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
+        // Filtrar los proyectos por solicitante
         Object.entries(projectDetails).forEach(([projectName, details]) => {
             if (details.solicitante === userName) {
                 const option = document.createElement("option");
@@ -206,6 +204,29 @@
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
         return false;
     }
+
+    let projectDetails = {};
+
+    // Cargar el archivo JSON desde el repositorio en GitHub
+    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
+        .then(response => response.json())
+        .then(data => {
+            projectDetails = data;
+        })
+        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
+
+    const userSequentialIDs = {
+        "Ángel Yáñez": 1,
+        "Carlos De La Espriella": 1,
+        "Israel Arceo": 1,
+        "Juan Cortez": 1,
+        "Jonathan Cárdenas": 1,
+        "Joshua Valadez": 1,
+        "Carlos Huitrón": 1,
+        "Osvaldo Ramos": 1,
+        "Alan Rojas": 1,
+        "Manuel Gómez": 1
+    };
 </script>
 
 </body>

@@ -6,9 +6,7 @@
     <title>Requerimiento de compra en Obra</title>
     <!-- Diseño responsivo con Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Iconos Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <!-- Estilo personalizado -->
     <style>
         body {
             font-family: 'Roboto', sans-serif;
@@ -41,14 +39,6 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color: #007bff;
-        }
-        input:invalid, textarea:invalid {
-            border-color: #dc3545;
-            box-shadow: 0 0 5px rgba(220, 53, 69, 0.5);
-        }
-        input:valid, textarea:valid {
-            border-color: #28a745;
-            box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
         }
         button {
             background-color: #007bff;
@@ -96,24 +86,6 @@
         .confirmation-message p {
             font-size: 16px;
             font-weight: bold;
-        }
-        button[type="button"] {
-            background-color: #28a745;
-            padding: 15px 25px;
-            font-size: 18px;
-            border-radius: 5px;
-            box-shadow: 0 5px 15px rgba(40, 167, 69, 0.3);
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
-        button[type="button"]:hover {
-            background-color: #218838;
-            box-shadow: 0 8px 20px rgba(40, 167, 69, 0.5);
-        }
-        @media (max-width: 576px) {
-            .form-container {
-                padding: 20px;
-                margin: 15px;
-            }
         }
     </style>
 </head>
@@ -197,6 +169,30 @@
     </div>
 
     <script>
+        let projectCodes = {};
+
+        // Cargar el archivo JSON desde el repositorio en GitHub
+    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_codes.json')
+        .then(response => response.json())
+        .then(data => {
+            projectCodes = data;
+        })
+        .catch(error => console.error('Error al cargar los códigos de proyecto:', error));
+
+        // IDs secuenciales por usuario
+        const userSequentialIDs = {
+            "Ángel Yáñez": 1,
+            "Carlos De La Espriella": 1,
+            "Israel Arceo": 1,
+            "Juan Cortez": 1,
+            "Jonathan Cárdenas": 1,
+            "Joshua Valadez": 1,
+            "Carlos Huitrón": 1,
+            "Osvaldo Ramos": 1,
+            "Alan Rojas": 1,
+            "Manuel Gómez": 1
+        };
+
         function showForm() {
             var userName = document.getElementById("userName").value;
             if (userName) {
@@ -210,7 +206,15 @@
         function sendWhatsAppMessage() {
             document.getElementById('confirmationMessage').style.display = 'block';
 
+            var userName = document.getElementById("userName").value;
+            var initials = userName.split(" ").map(n => n[0]).join(""); // Obtiene las iniciales del nombre
             var projectName = document.getElementById("projectName").value;
+            var projectCode = projectCodes[projectName] || "Desconocido"; // Obtiene el código del proyecto desde el JSON cargado
+            var userID = (userSequentialIDs[userName] || 1).toString().padStart(2, '0'); // ID secuencial del usuario
+
+            // Incrementar el ID para el próximo uso
+            userSequentialIDs[userName] = (userSequentialIDs[userName] || 1) + 1;
+
             var clientName = document.getElementById("clientName").value;
             var material = document.getElementById("material").value;
             var requestDate = document.getElementById("requestDate").value;
@@ -218,21 +222,22 @@
             var orderNumber = document.getElementById("orderNumber").value;
             var comments = document.getElementById("comments").value;
 
-            // Obtener la hora actual
+            // Fecha y hora actuales para la hora de la solicitud
             var now = new Date();
-            var hours = now.getHours().toString().padStart(2, '0');
-            var minutes = now.getMinutes().toString().padStart(2, '0');
-            var currentTime = hours + ':' + minutes;
+            var currentTime = now.getHours().toString().padStart(2, '0') + ':' + now.getMinutes().toString().padStart(2, '0');
 
-            var message = "Requerimiento de compra en Obra:\n" +
-                          "Nombre del proyecto: " + projectName + "\n" +
-                          "Nombre del cliente: " + clientName + "\n" +
-                          "Material solicitado: " + material + "\n" +
-                          "Fecha de solicitud de material: " + requestDate + "\n" +
-                          "Fecha de entrega de material: " + deliveryDate + "\n" +
-                          "Hora de solicitud: " + currentTime + "\n" +
-                          "Orden de compra: " + orderNumber + "\n" +
-                          "Comentarios: " + comments;
+            var uniqueCode = `${initials}-${projectCode}-${userID}`; // Genera el código único
+
+            var message = `Requerimiento de compra en Obra:\n` +
+                          `Código: ${uniqueCode}\n` +
+                          `Nombre del proyecto: ${projectName}\n` +
+                          `Nombre del cliente: ${clientName}\n` +
+                          `Material solicitado: ${material}\n` +
+                          `Fecha de solicitud de material: ${requestDate}\n` +
+                          `Fecha de entrega de material: ${deliveryDate}\n` +
+                          `Hora de solicitud: ${currentTime}\n` +
+                          `Orden de compra: ${orderNumber}\n` +
+                          `Comentarios: ${comments}`;
 
             var whatsappUrl = "https://api.whatsapp.com/send?text=" + encodeURIComponent(message);
 

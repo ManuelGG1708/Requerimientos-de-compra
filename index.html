@@ -197,30 +197,29 @@
         }
     }
 
-   function updateProjectOptions() {
-    const userName = document.getElementById("userName").value;
-    const projectNameSelect = document.getElementById("projectName");
-    projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+    function updateProjectOptions() {
+        const userName = document.getElementById("userName").value;
+        const projectNameSelect = document.getElementById("projectName");
+        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-    // Filtrar los proyectos por solicitante en una lista
-    projectDetails.forEach(details => {
-        if (details.Solicitante === userName) {
+        // Filtrar los proyectos por solicitante en una lista
+        projectDetails.forEach(details => {
+            if (details.Solicitante === userName) {
+                const option = document.createElement("option");
+                option.value = details.Codigo; // Usa el código del proyecto como valor
+                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+                projectNameSelect.appendChild(option);
+            }
+        });
+
+        // Si no se encuentran proyectos
+        if (projectNameSelect.length === 0) {
             const option = document.createElement("option");
-            option.value = details.Codigo; // Usa el código del proyecto como valor
-            option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+            option.value = "";
+            option.text = "No se encontraron proyectos para este solicitante";
             projectNameSelect.appendChild(option);
         }
-    });
-
-    // Si no se encuentran proyectos
-    if (projectNameSelect.length === 0) {
-        const option = document.createElement("option");
-        option.value = "";
-        option.text = "No se encontraron proyectos para este solicitante";
-        projectNameSelect.appendChild(option);
     }
-}
-
 
     function updateProjectDetails() {
         const projectName = document.getElementById("projectName").value;
@@ -230,14 +229,17 @@
         // Limpia la orden de compra existente
         purchaseOrderSelect.innerHTML = '';
 
-        if (projectDetails[projectName]) {
+        // Buscar detalles del proyecto por nombre
+        const selectedProject = projectDetails.find(project => project.Codigo == projectName);
+        
+        if (selectedProject) {
             // Actualiza el código del proyecto
-            projectCodeInput.value = projectDetails[projectName].Codigo;
+            projectCodeInput.value = selectedProject.Codigo;
 
             // Agrega la orden de compra al select
             const purchaseOrderOption = document.createElement("option");
-            purchaseOrderOption.value = projectDetails[projectName]["Purchase Order"];
-            purchaseOrderOption.text = projectDetails[projectName]["Purchase Order"];
+            purchaseOrderOption.value = selectedProject["Purchase Order"];
+            purchaseOrderOption.text = selectedProject["Purchase Order"];
             purchaseOrderSelect.appendChild(purchaseOrderOption);
         }
     }

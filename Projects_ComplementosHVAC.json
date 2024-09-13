@@ -1,1472 +1,1720 @@
 [
-  {
-    "Codigo": 1208,
-    "Purchase Order": 1821943,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON FINISHING 1821943"
-  },
-  {
-    "Codigo": 1211,
-    "Purchase Order": "S000576128",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL S000576128"
-  },
-  {
-    "Codigo": 1213,
-    "Purchase Order": 546437,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG POLIZA 2024 546437"
-  },
-  {
-    "Codigo": 1214,
-    "Purchase Order": 203600,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "NUTRICAL 203600"
-  },
-  {
-    "Codigo": 1217,
-    "Purchase Order": 676485,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 676485"
-  },
-  {
-    "Codigo": 1218,
-    "Purchase Order": 4600203761,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT PO 4600203761"
-  },
-  {
-    "Codigo": 1221,
-    "Purchase Order": 4600203893,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT PO 4600203893"
-  },
-  {
-    "Codigo": 1222,
-    "Purchase Order": 2571,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TEKNO CUERO 2571"
-  },
-  {
-    "Codigo": 1224,
-    "Purchase Order": 1849523,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR SILAO MANT. CHILLERS PO 1849523"
-  },
-  {
-    "Codigo": 1228,
-    "Purchase Order": 1855146,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR OTTAWA 1855146"
-  },
-  {
-    "Codigo": 1229,
-    "Purchase Order": 1860263,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR SILAO 1860263"
-  },
-  {
-    "Codigo": 1230,
-    "Purchase Order": 678911,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 678911"
-  },
-  {
-    "Codigo": 1231,
-    "Purchase Order": 9559,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TIGERPOLY 9559"
-  },
-  {
-    "Codigo": 1234,
-    "Purchase Order": 1861711,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR SAN LUIS 1861711"
-  },
-  {
-    "Codigo": 1240,
-    "Purchase Order": 46624998,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "KROMBERG & SCHUBERT PO 46624998"
-  },
-  {
-    "Codigo": 1243,
-    "Purchase Order": 586528,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG 586528"
-  },
-  {
-    "Codigo": 1245,
-    "Purchase Order": 4600205003,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT PO 4600205003"
-  },
-  {
-    "Codigo": 1253,
-    "Purchase Order": 9634,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TIGERPOLY 9634"
-  },
-  {
-    "Codigo": 1259,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ALEXIS MORALES MALSA"
-  },
-  {
-    "Codigo": 1261,
-    "Purchase Order": 4500184352,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AKRON 4500184352"
-  },
-  {
-    "Codigo": 1268,
-    "Purchase Order": "S000586536",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG S000586536"
-  },
-  {
-    "Codigo": 1269,
-    "Purchase Order": 681938,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 681938"
-  },
-  {
-    "Codigo": 1273,
-    "Purchase Order": "MG0324-20",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "REMILSA OC MG0324-20"
-  },
-  {
-    "Codigo": 1274,
-    "Purchase Order": 4600206124,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT PO 4600206124"
-  },
-  {
-    "Codigo": 1275,
-    "Purchase Order": 22156,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "DEACERO M. PO 22156"
-  },
-  {
-    "Codigo": 1276,
-    "Purchase Order": "6085-CDE-24/3/2024",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "DÓLAR 6085-CDE-24/3/2024"
-  },
-  {
-    "Codigo": 1277,
-    "Purchase Order": "S000603587",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL: S000603587"
-  },
-  {
-    "Codigo": 1279,
-    "Purchase Order": 204070,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "NUTRICAL204070"
-  },
-  {
-    "Codigo": 1288,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "5120 DEACERO MORELIA"
-  },
-  {
-    "Codigo": 1292,
-    "Purchase Order": 4772498,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PLASTIC PO 4772498"
-  },
-  {
-    "Codigo": 1293,
-    "Purchase Order": 1909143,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON FINISHING 1909143"
-  },
-  {
-    "Codigo": 1295,
-    "Purchase Order": 685252,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM PLANTA 5 PO 685252"
-  },
-  {
-    "Codigo": 1296,
-    "Purchase Order": 1912258,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR TLAHUAC 1912258"
-  },
-  {
-    "Codigo": 1301,
-    "Purchase Order": 2878,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TEKNO CUERO 2878"
-  },
-  {
-    "Codigo": 1302,
-    "Purchase Order": 2884,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TEKNO CUERO 2884"
-  },
-  {
-    "Codigo": 1304,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ESNAVI"
-  },
-  {
-    "Codigo": 1306,
-    "Purchase Order": 204208,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "NUTRICAL 204208"
-  },
-  {
-    "Codigo": 1312,
-    "Purchase Order": 686198,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 686198"
-  },
-  {
-    "Codigo": 1314,
-    "Purchase Order": 620126,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL 620126"
-  },
-  {
-    "Codigo": 1315,
-    "Purchase Order": 4501525032,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN 4501525032"
-  },
-  {
-    "Codigo": 1320,
-    "Purchase Order": 4500185634,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AKRON 4500185634"
-  },
-  {
-    "Codigo": 1324,
-    "Purchase Order": 4600208016,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT 4600208016 RENTA EQUIPO"
-  },
-  {
-    "Codigo": 1325,
-    "Purchase Order": 4600208012,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT 4600208012 BOYAS"
-  },
-  {
-    "Codigo": 1327,
-    "Purchase Order": 1937718,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR TLAHUAC 1937718"
-  },
-  {
-    "Codigo": 1328,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT RENTA PAQUETE"
-  },
-  {
-    "Codigo": 1330,
-    "Purchase Order": 1940506,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON FINISHING 1940506"
-  },
-  {
-    "Codigo": 1331,
-    "Purchase Order": 1940471,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR SILAO 1940471"
-  },
-  {
-    "Codigo": 1333,
-    "Purchase Order": "SMX24-E127",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "VISCOTEC SMX24-E127"
-  },
-  {
-    "Codigo": 1334,
-    "Purchase Order": 688930,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 688930"
-  },
-  {
-    "Codigo": 1335,
-    "Purchase Order": 1943361,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON  1943361"
-  },
-  {
-    "Codigo": 1338,
-    "Purchase Order": 4501550814,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN EQUIPOS 4501550814"
-  },
-  {
-    "Codigo": 1339,
-    "Purchase Order": 4501549260,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN MTTO EQUIPO 4501549260"
-  },
-  {
-    "Codigo": 1340,
-    "Purchase Order": 4501549851,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN CHILLER 4501549851"
-  },
-  {
-    "Codigo": 1341,
-    "Purchase Order": 4501546677,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN MTTO EQUIPOS 4501546677"
-  },
-  {
-    "Codigo": 1346,
-    "Purchase Order": 4501550014,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN 4501550014"
-  },
-  {
-    "Codigo": 1352,
-    "Purchase Order": 1953469,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR TLAHUAC 1953469"
-  },
-  {
-    "Codigo": 1353,
-    "Purchase Order": 1954553,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR P NEGRAS 1954553"
-  },
-  {
-    "Codigo": 1358,
-    "Purchase Order": 4501549238,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN 4501549238"
-  },
-  {
-    "Codigo": 1359,
-    "Purchase Order": 1957606,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "MN CHI LEAR LEON1957606"
-  },
-  {
-    "Codigo": 1361,
-    "Purchase Order": 637163,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL 637163"
-  },
-  {
-    "Codigo": 1362,
-    "Purchase Order": 690235,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 690235"
-  },
-  {
-    "Codigo": 1364,
-    "Purchase Order": 691668,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 691668"
-  },
-  {
-    "Codigo": 1373,
-    "Purchase Order": 4501574267,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN 4501574267"
-  },
-  {
-    "Codigo": 1374,
-    "Purchase Order": 4807171,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PLASTIC PO 4807171"
-  },
-  {
-    "Codigo": 1378,
-    "Purchase Order": 29827,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT MOTOR 29827"
-  },
-  {
-    "Codigo": 1381,
-    "Purchase Order": "SMX24-F278",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "VISCOTEC SMX24-F278"
-  },
-  {
-    "Codigo": 1382,
-    "Purchase Order": 693815,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 693815"
-  },
-  {
-    "Codigo": 1387,
-    "Purchase Order": 694010,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 694010"
-  },
-  {
-    "Codigo": 1389,
-    "Purchase Order": 4200029913,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "ITT  4200029913"
-  },
-  {
-    "Codigo": 1390,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "OCCDNTECAPITAL"
-  },
-  {
-    "Codigo": 1393,
-    "Purchase Order": 1987944,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON 1987944"
-  },
-  {
-    "Codigo": 1395,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SERVICIO OCAP PROYECTOS"
-  },
-  {
-    "Codigo": 1397,
-    "Purchase Order": 204683,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "NUTRICAL PO 204683"
-  },
-  {
-    "Codigo": 1398,
-    "Purchase Order": 696691,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 696691"
-  },
-  {
-    "Codigo": 1399,
-    "Purchase Order": 696877,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 696877"
-  },
-  {
-    "Codigo": 1400,
-    "Purchase Order": 1992396,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR ARTEAGA 1992396"
-  },
-  {
-    "Codigo": 1401,
-    "Purchase Order": 1992374,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR PANZACOLA 1992374"
-  },
-  {
-    "Codigo": 1402,
-    "Purchase Order": 13011,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "DEACERO 13011"
-  },
-  {
-    "Codigo": 1404,
-    "Purchase Order": 1994336,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR SILAO 1994336"
-  },
-  {
-    "Codigo": 1406,
-    "Purchase Order": 101397,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 101397"
-  },
-  {
-    "Codigo": 1409,
-    "Purchase Order": 654996,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL 654996"
-  },
-  {
-    "Codigo": 1410,
-    "Purchase Order": 4501609328,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "PROAN 4501609328"
-  },
-  {
-    "Codigo": 1412,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LODOAL"
-  },
-  {
-    "Codigo": 1414,
-    "Purchase Order": 101399,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 101399"
-  },
-  {
-    "Codigo": 1423,
-    "Purchase Order": "AAM699956",
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM699956"
-  },
-  {
-    "Codigo": 1425,
-    "Purchase Order": 1946567,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR LEON 1946567"
-  },
-  {
-    "Codigo": 1430,
-    "Purchase Order": 2014220,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR HUMANTLA 2014220"
-  },
-  {
-    "Codigo": 1431,
-    "Purchase Order": 10147,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "TIGER POLY 10147"
-  },
-  {
-    "Codigo": 1437,
-    "Purchase Order": 2019198,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "LEAR  SILAO 2019198"
-  },
-  {
-    "Codigo": 1441,
-    "Purchase Order": 101405,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 101405"
-  },
-  {
-    "Codigo": 1442,
-    "Purchase Order": 702221,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 702221"
-  },
-  {
-    "Codigo": 1443,
-    "Purchase Order": 101404,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 101404"
-  },
-  {
-    "Codigo": 1444,
-    "Purchase Order": 101408,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 101408"
-  },
-  {
-    "Codigo": 1451,
-    "Purchase Order": 204996,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "NUTRICAL PO 204996"
-  },
-  {
-    "Codigo": 1453,
-    "Purchase Order": 662963,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "SRG GLOBAL 662963"
-  },
-  {
-    "Codigo": 1454,
-    "Purchase Order": 703554,
-    "Solicitante": "Carlos de la Espriella",
-    "Nombre": "AAM 703554"
-  },
-  {
-    "Codigo": 693,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "AXALTA POLIZA"
-  },
-  {
-    "Codigo": 1212,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SE ELIMINA NUNERO"
-  },
-  {
-    "Codigo": 1237,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "POLIZA NUCOR 2024"
-  },
-  {
-    "Codigo": 1216,
-    "Purchase Order": "521-1",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "CEYPABASA POLIZA 065521-1"
-  },
-  {
-    "Codigo": 1225,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SE ELIMINA NUNERO"
-  },
-  {
-    "Codigo": 1226,
-    "Purchase Order": 23389,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P17-23389"
-  },
-  {
-    "Codigo": 1236,
-    "Purchase Order": 26525,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO26525"
-  },
-  {
-    "Codigo": 1250,
-    "Purchase Order": 64467,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "ALIANZA TEAM PO64467"
-  },
-  {
-    "Codigo": 1252,
-    "Purchase Order": 9634,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "TIGERPOLY 9634"
-  },
-  {
-    "Codigo": 1256,
-    "Purchase Order": "MEX22622",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "KASAI MEXICANA  1022622"
-  },
-  {
-    "Codigo": 1257,
-    "Purchase Order": "MEX22680",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "KASAI MEXICANA  1022680"
-  },
-  {
-    "Codigo": 1260,
-    "Purchase Order": 26957,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO 26957"
-  },
-  {
-    "Codigo": 1262,
-    "Purchase Order": 11966,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "MORIROKU PO 11966"
-  },
-  {
-    "Codigo": 1263,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "UNAM ENESLE-24-SC-000501"
-  },
-  {
-    "Codigo": 1264,
-    "Purchase Order": "C63044",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "TACHIS C63044"
-  },
-  {
-    "Codigo": 1267,
-    "Purchase Order": 27009,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27009"
-  },
-  {
-    "Codigo": 1270,
-    "Purchase Order": "66417-1",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "CEYPABASA 66417-1"
-  },
-  {
-    "Codigo": 1271,
-    "Purchase Order": "66414-1",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "CEYPABASA 66414-1"
-  },
-  {
-    "Codigo": 1283,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "IMPULSORA ICE DE PRODUCTOS Y SERVICIOS"
-  },
-  {
-    "Codigo": 1286,
-    "Purchase Order": 28671,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT PLASTIC P15-28671"
-  },
-  {
-    "Codigo": 1287,
-    "Purchase Order": 28659,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT PLASTIC PO P15-28659"
-  },
-  {
-    "Codigo": 1290,
-    "Purchase Order": 32139,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "A.A HFI ROMITA 32139"
-  },
-  {
-    "Codigo": 1308,
-    "Purchase Order": 2188,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "MILLFOODS 2188"
-  },
-  {
-    "Codigo": 1319,
-    "Purchase Order": 29194,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P15-29194"
-  },
-  {
-    "Codigo": 1332,
-    "Purchase Order": 27508,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27508"
-  },
-  {
-    "Codigo": 1336,
-    "Purchase Order": 27651,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27651"
-  },
-  {
-    "Codigo": 1348,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "AXALTA MANT PREV"
-  },
-  {
-    "Codigo": 1350,
-    "Purchase Order": "RD_R554300",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "UREBLOCK RD_R554300"
-  },
-  {
-    "Codigo": 1351,
-    "Purchase Order": 27727,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO 27727"
-  },
-  {
-    "Codigo": 1356,
-    "Purchase Order": 24662,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P17-24662"
-  },
-  {
-    "Codigo": 1357,
-    "Purchase Order": 29655,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P15-29655"
-  },
-  {
-    "Codigo": 1366,
-    "Purchase Order": 27813,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27813"
-  },
-  {
-    "Codigo": 1367,
-    "Purchase Order": 27808,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27808"
-  },
-  {
-    "Codigo": 1370,
-    "Purchase Order": 27852,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO27852"
-  },
-  {
-    "Codigo": 1383,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SERVIACERO ELECTROF 20624"
-  },
-  {
-    "Codigo": 1384,
-    "Purchase Order": 1026044,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "KASAI 1026044"
-  },
-  {
-    "Codigo": 1416,
-    "Purchase Order": 28362,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO28362"
-  },
-  {
-    "Codigo": 1419,
-    "Purchase Order": 2446,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "MILLFOODS 2446"
-  },
-  {
-    "Codigo": 1421,
-    "Purchase Order": "ME35232",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "TARJETA METALSA  2435232"
-  },
-  {
-    "Codigo": 1428,
-    "Purchase Order": 28486,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO28486"
-  },
-  {
-    "Codigo": 1429,
-    "Purchase Order": "N/A",
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "RENTA PLANTA EMERGENCIA 150KW GC"
-  },
-  {
-    "Codigo": 1433,
-    "Purchase Order": 25413,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P17-25413"
-  },
-  {
-    "Codigo": 1436,
-    "Purchase Order": 33594,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "METALSA ING 2433594"
-  },
-  {
-    "Codigo": 1438,
-    "Purchase Order": 28561,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO28561"
-  },
-  {
-    "Codigo": 1445,
-    "Purchase Order": 30811,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "SUMMIT P15-30811"
-  },
-  {
-    "Codigo": 1446,
-    "Purchase Order": 28638,
-    "Solicitante": "Carlos Huitrón",
-    "Nombre": "NUCOR PO28638"
-  },
-  {
-    "Codigo": 1215,
-    "Purchase Order": 4700059857,
-    "Solicitante": "Ángel",
-    "Nombre": "LALA PO 4700059857 ALCOBA"
-  },
-  {
-    "Codigo": 1244,
-    "Purchase Order": "N/A",
-    "Solicitante": "Ángel",
-    "Nombre": "SAN JACINTO ATICO"
-  },
-  {
-    "Codigo": 1249,
-    "Purchase Order": 6308021053,
-    "Solicitante": "Ángel",
-    "Nombre": "FERRERO PO6308021053"
-  },
-  {
-    "Codigo": 1272,
-    "Purchase Order": 6308020826,
-    "Solicitante": "Ángel",
-    "Nombre": "FERRERO PO6308020826"
-  },
-  {
-    "Codigo": 1278,
-    "Purchase Order": 23339,
-    "Solicitante": "Ángel",
-    "Nombre": "SAFRAN POSAC23339"
-  },
-  {
-    "Codigo": 1303,
-    "Purchase Order": 4801429732,
-    "Solicitante": "Ángel",
-    "Nombre": "KELLOG´S 4801429732"
-  },
-  {
-    "Codigo": 1309,
-    "Purchase Order": 8005179953,
-    "Solicitante": "Ángel",
-    "Nombre": "P&G 8005179953"
-  },
-  {
-    "Codigo": 1313,
-    "Purchase Order": 6308021282,
-    "Solicitante": "Ángel",
-    "Nombre": "FERRERO 6308021282"
-  },
-  {
-    "Codigo": 1343,
-    "Purchase Order": 6308021339,
-    "Solicitante": "Ángel",
-    "Nombre": "FERRERO  6308021339"
-  },
-  {
-    "Codigo": 1347,
-    "Purchase Order": 6308021467,
-    "Solicitante": "Ángel",
-    "Nombre": "FERRERO MINISPLIT 6308021467"
-  },
-  {
-    "Codigo": 1368,
-    "Purchase Order": 4500033698,
-    "Solicitante": "Ángel",
-    "Nombre": "SAN JACINTO 4500033698"
-  },
-  {
-    "Codigo": 1388,
-    "Purchase Order": 171198,
-    "Solicitante": "Ángel",
-    "Nombre": "HUTCHINSON 171198"
-  },
-  {
-    "Codigo": 1403,
-    "Purchase Order": "N/A",
-    "Solicitante": "Ángel",
-    "Nombre": "INPAMEX CHILLER 40TR"
-  },
-  {
-    "Codigo": 1415,
-    "Purchase Order": "0122771",
-    "Solicitante": "Ángel",
-    "Nombre": "MACLEAN PO 012277-1"
-  },
-  {
-    "Codigo": 1432,
-    "Purchase Order": 8005431109,
-    "Solicitante": "Ángel",
-    "Nombre": "P&G 8005431109"
-  },
-  {
-    "Codigo": 1435,
-    "Purchase Order": 7101893327,
-    "Solicitante": "Ángel",
-    "Nombre": "Kerry 7101893327"
-  },
-  {
-    "Codigo": 1220,
-    "Purchase Order": 90082,
-    "Solicitante": "Israel Arceo",
-    "Nombre": "JAZA INGENIERÍA 90082"
-  },
-  {
-    "Codigo": 1232,
-    "Purchase Order": "MG-1076",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "EXPERTOS EN VENTILACION PO MG-1076"
-  },
-  {
-    "Codigo": 1251,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "INDUGAS"
-  },
-  {
-    "Codigo": 1254,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "JUGOS DEL VALLE TEPOTZOTLAN ( CLIENTE INRA )"
-  },
-  {
-    "Codigo": 1258,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "NUNDOVA UVM"
-  },
-  {
-    "Codigo": 1265,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "AA SALA DE TV CLAUDIA"
-  },
-  {
-    "Codigo": 1284,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "SANTA CLARA LAGOS  ( CLIENTE INRA )"
-  },
-  {
-    "Codigo": 1300,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "GUILLERMO SAUCEDO DAIKIN"
-  },
-  {
-    "Codigo": 1307,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "EOLO"
-  },
-  {
-    "Codigo": 1318,
-    "Purchase Order": "4801-51309372-OA",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "PRINT PACK PO 4801-51309372-OA"
-  },
-  {
-    "Codigo": 1321,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "JOHNSON CONTROLS REFACCIONES BOMBA"
-  },
-  {
-    "Codigo": 1329,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "VENTA PUBLICO EN GENERAL"
-  },
-  {
-    "Codigo": 1342,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "COMPRESOR  JULIAN MARTINEZ"
-  },
-  {
-    "Codigo": 1354,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "MINI SPLITS JUANA RAMIREZ RODRIGUEZ"
-  },
-  {
-    "Codigo": 1363,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "MTTO UMA HENKEL TOLUCA"
-  },
-  {
-    "Codigo": 1365,
-    "Purchase Order": 4500547484,
-    "Solicitante": "Israel Arceo",
-    "Nombre": "BONAFONT 4500547484"
-  },
-  {
-    "Codigo": 1371,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "NATURAL HEALTH."
-  },
-  {
-    "Codigo": 1372,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "TECMA RIVULIS MANT"
-  },
-  {
-    "Codigo": 1379,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "BOSQUE AZUL PAQUETE"
-  },
-  {
-    "Codigo": 1380,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "REPARACION DUCTOS EDUCEM"
-  },
-  {
-    "Codigo": 1392,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "INGENIERIA NATURAL HEALTH PLANTA LA CALERA"
-  },
-  {
-    "Codigo": 1407,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "EOLO JV TEPOTZ LLEN MO"
-  },
-  {
-    "Codigo": 1408,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "EOLO JV TEPOTZ LLEN EQPOS"
-  },
-  {
-    "Codigo": 1413,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "METALSA EXTRACCION ESTAMPADO"
-  },
-  {
-    "Codigo": 1417,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "FEGSA PISTONES MORESA"
-  },
-  {
-    "Codigo": 1418,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "EQUIPOS STOCK SAMSUNG"
-  },
-  {
-    "Codigo": 1424,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "MARS CHOCOLATE"
-  },
-  {
-    "Codigo": 1447,
-    "Purchase Order": "N/A",
-    "Solicitante": "Israel Arceo",
-    "Nombre": "VIBRANTZ LABORAOTORIO"
-  },
-  {
-    "Codigo": 1210,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "NYMPHE DEPTO. 301"
-  },
-  {
-    "Codigo": 1227,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "URBANIZADORA HS"
-  },
-  {
-    "Codigo": 1233,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "PGP FACILITY"
-  },
-  {
-    "Codigo": 1235,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "NYMPHE DEPTO. 203"
-  },
-  {
-    "Codigo": 1238,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ARMANDO SERRA MANT"
-  },
-  {
-    "Codigo": 1246,
-    "Purchase Order": 1710,
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ADAMANT 1710"
-  },
-  {
-    "Codigo": 1248,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ARQUIA"
-  },
-  {
-    "Codigo": 1252,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "FRANCISCO EQUIPO 1 TR"
-  },
-  {
-    "Codigo": 1282,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ALDO FERRIÑO IRIARTE"
-  },
-  {
-    "Codigo": 1289,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "OC 45 PGP FACILITY"
-  },
-  {
-    "Codigo": 1291,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "OC 46 PGP FACILITY"
-  },
-  {
-    "Codigo": 1294,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "VERDE COMPACTO"
-  },
-  {
-    "Codigo": 1297,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "LIEBERT ARETINA"
-  },
-  {
-    "Codigo": 1298,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "LUCILA HERNANDEZ"
-  },
-  {
-    "Codigo": 1299,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MARTIN DEL CAMPO"
-  },
-  {
-    "Codigo": 1311,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "AVANTHYA FINANCIERA"
-  },
-  {
-    "Codigo": 1322,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY BIECH"
-  },
-  {
-    "Codigo": 1326,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "GUILLERMO RANGEL SERVICIO"
-  },
-  {
-    "Codigo": 1337,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "BAJO CONTROL REFACCIONES"
-  },
-  {
-    "Codigo": 1344,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MANTENIMIENTO SAGOT"
-  },
-  {
-    "Codigo": 1345,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MINISPLIT FRANCISCO ALVAREZ"
-  },
-  {
-    "Codigo": 1355,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MAMBITOS (SALON DE FIESTAS)"
-  },
-  {
-    "Codigo": 1360,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MINISPLIT LETICIA ALVAREZ"
-  },
-  {
-    "Codigo": 1369,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ARMANDO SERRA (CONIMBA)"
-  },
-  {
-    "Codigo": 1375,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "PABLO HDEZ INOVATE"
-  },
-  {
-    "Codigo": 1376,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY BIECH ARANDAS"
-  },
-  {
-    "Codigo": 1385,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MTTO NYMPHE 1606"
-  },
-  {
-    "Codigo": 1391,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "NYMPHE OFICINAS DE VENTAS  BNC SUDOCC"
-  },
-  {
-    "Codigo": 1394,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "TARJETA NYMPHE SUDOCC"
-  },
-  {
-    "Codigo": 1396,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY TEPIC NAYARIT"
-  },
-  {
-    "Codigo": 1405,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "REVISION DE EQUIPO PAQUETE APPLEBEE’S"
-  },
-  {
-    "Codigo": 1420,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ARETINA MANTENIMIENTO"
-  },
-  {
-    "Codigo": 1422,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "SISTEMA VRF NYMPHE 2005"
-  },
-  {
-    "Codigo": 1427,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "IQ TEC"
-  },
-  {
-    "Codigo": 1434,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "AIR REF VERSACE"
-  },
-  {
-    "Codigo": 1439,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MAYRA MONTERO COMPRESORES"
-  },
-  {
-    "Codigo": 1440,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY FCO VILLA"
-  },
-  {
-    "Codigo": 1448,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "REV PAQ ARETINA"
-  },
-  {
-    "Codigo": 1449,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY ATOTONILCO"
-  },
-  {
-    "Codigo": 1450,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "O’REILLY IRAPUATO"
-  },
-  {
-    "Codigo": 1247,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "REPARACION DE FUGAS"
-  },
-  {
-    "Codigo": 1255,
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "ARMANDO SERRA REFACCIONES"
-  },
-  {
-    "Codigo": "N/A",
-    "Purchase Order": "N/A",
-    "Solicitante": "Osvaldo Ramos",
-    "Nombre": "MANTENIMIENTO DE EQUIPOS F&C"
-  },
-  {
-    "Codigo": 1239,
-    "Purchase Order": 6000088456,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "MD ELEKTRONIK 6000088456"
-  },
-  {
-    "Codigo": 1240,
-    "Purchase Order": 46624998,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "KROMBERG & SCHUBERT PO 46624998"
-  },
-  {
-    "Codigo": 1242,
-    "Purchase Order": "09315",
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "CONAGRA 09315"
-  },
-  {
-    "Codigo": 1245,
-    "Purchase Order": 4600205003,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "ITT PO 4600205003"
-  },
-  {
-    "Codigo": 1266,
-    "Purchase Order": 240536,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "JOHNAN JM24-0536"
-  },
-  {
-    "Codigo": 1280,
-    "Purchase Order": 46627334,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "K&S PO 46627334"
-  },
-  {
-    "Codigo": 1281,
-    "Purchase Order": 1923,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "SEWS T1923"
-  },
-  {
-    "Codigo": 1310,
-    "Purchase Order": 665912,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "HITACHI 66591-2"
-  },
-  {
-    "Codigo": 1316,
-    "Purchase Order": 6674300,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "HITACHI 66743-00"
-  },
-  {
-    "Codigo": 1317,
-    "Purchase Order": "N/A",
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "JORGE DE LA TORRE MANTENIMIENTO"
-  },
-  {
-    "Codigo": 1323,
-    "Purchase Order": 120042,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "CONAGRA OC 120042 REVISION CHILLER"
-  },
-  {
-    "Codigo": 1349,
-    "Purchase Order": 46627563,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "KROMBERG  46627563"
-  },
-  {
-    "Codigo": 1377,
-    "Purchase Order": 122425,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "CONAGRA 122425"
-  },
-  {
-    "Codigo": 1411,
-    "Purchase Order": 77124059221,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "JOHNSON CONTROLS 7712405922-1"
-  },
-  {
-    "Codigo": 1426,
-    "Purchase Order": "N/A",
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "ERIKA ORTIZ SERVICIO"
-  },
-  {
-    "Codigo": 1452,
-    "Purchase Order": 11599,
-    "Solicitante": "Juan Carlos Cortez",
-    "Nombre": "SEWS C11599"
-  }
+	{
+		"Codigo": "1208",
+		"Purchase Order": "1821943",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON FINISHING 1821943",
+		"Proyectos": "Proyecto 1"
+	},
+	{
+		"Codigo": "1211",
+		"Purchase Order": "S000576128",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL S000576128",
+		"Proyectos": "Proyecto 2"
+	},
+	{
+		"Codigo": "1213",
+		"Purchase Order": "546437",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG POLIZA 2024 546437",
+		"Proyectos": "Proyecto 3"
+	},
+	{
+		"Codigo": "1214",
+		"Purchase Order": "203600",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "NUTRICAL 203600",
+		"Proyectos": "Proyecto 4"
+	},
+	{
+		"Codigo": "1217",
+		"Purchase Order": "676485",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 676485",
+		"Proyectos": "Proyecto 5"
+	},
+	{
+		"Codigo": "1218",
+		"Purchase Order": "4600203761",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT PO 4600203761",
+		"Proyectos": "Proyecto 6"
+	},
+	{
+		"Codigo": "1221",
+		"Purchase Order": "4600203893",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT PO 4600203893",
+		"Proyectos": "Proyecto 7"
+	},
+	{
+		"Codigo": "1222",
+		"Purchase Order": "2571",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TEKNO CUERO 2571",
+		"Proyectos": "Proyecto 8"
+	},
+	{
+		"Codigo": "1224",
+		"Purchase Order": "1849523",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR SILAO MANT. CHILLERS PO 1849523",
+		"Proyectos": "Proyecto 9"
+	},
+	{
+		"Codigo": "1228",
+		"Purchase Order": "1855146",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR OTTAWA 1855146",
+		"Proyectos": "Proyecto 10"
+	},
+	{
+		"Codigo": "1229",
+		"Purchase Order": "1860263",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR SILAO 1860263",
+		"Proyectos": "Proyecto 11"
+	},
+	{
+		"Codigo": "1230",
+		"Purchase Order": "678911",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 678911",
+		"Proyectos": "Proyecto 12"
+	},
+	{
+		"Codigo": "1231",
+		"Purchase Order": "9559",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TIGERPOLY 9559",
+		"Proyectos": "Proyecto 13"
+	},
+	{
+		"Codigo": "1234",
+		"Purchase Order": "1861711",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR SAN LUIS 1861711",
+		"Proyectos": "Proyecto 14"
+	},
+	{
+		"Codigo": "1240",
+		"Purchase Order": "46624998",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "KROMBERG & SCHUBERT PO 46624998",
+		"Proyectos": "Proyecto 15"
+	},
+	{
+		"Codigo": "1243",
+		"Purchase Order": "586528",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG 586528",
+		"Proyectos": "Proyecto 16"
+	},
+	{
+		"Codigo": "1245",
+		"Purchase Order": "4600205003",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT PO 4600205003",
+		"Proyectos": "Proyecto 17"
+	},
+	{
+		"Codigo": "1253",
+		"Purchase Order": "9634",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TIGERPOLY 9634",
+		"Proyectos": "Proyecto 18"
+	},
+	{
+		"Codigo": "1259",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ALEXIS MORALES MALSA",
+		"Proyectos": "Proyecto 19"
+	},
+	{
+		"Codigo": "1261",
+		"Purchase Order": "4500184352",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AKRON 4500184352",
+		"Proyectos": "Proyecto 20"
+	},
+	{
+		"Codigo": "1268",
+		"Purchase Order": "S000586536",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG S000586536",
+		"Proyectos": "Proyecto 21"
+	},
+	{
+		"Codigo": "1269",
+		"Purchase Order": "681938",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 681938",
+		"Proyectos": "Proyecto 22"
+	},
+	{
+		"Codigo": "1273",
+		"Purchase Order": "MG0324-20",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "REMILSA OC MG0324-20",
+		"Proyectos": "Proyecto 23"
+	},
+	{
+		"Codigo": "1274",
+		"Purchase Order": "4600206124",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT PO 4600206124",
+		"Proyectos": "Proyecto 24"
+	},
+	{
+		"Codigo": "1275",
+		"Purchase Order": "22156",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "DEACERO M. PO 22156",
+		"Proyectos": "Proyecto 25"
+	},
+	{
+		"Codigo": "1276",
+		"Purchase Order": "6085-CDE-24/3/2024",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "DÓLAR 6085-CDE-24/3/2024",
+		"Proyectos": "Proyecto 26"
+	},
+	{
+		"Codigo": "1277",
+		"Purchase Order": "S000603587",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL: S000603587",
+		"Proyectos": "Proyecto 27"
+	},
+	{
+		"Codigo": "1279",
+		"Purchase Order": "204070",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "NUTRICAL204070",
+		"Proyectos": "Proyecto 28"
+	},
+	{
+		"Codigo": "1288",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "5120 DEACERO MORELIA",
+		"Proyectos": "Proyecto 29"
+	},
+	{
+		"Codigo": "1292",
+		"Purchase Order": "4772498",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PLASTIC PO 4772498",
+		"Proyectos": "Proyecto 30"
+	},
+	{
+		"Codigo": "1293",
+		"Purchase Order": "1909143",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON FINISHING 1909143",
+		"Proyectos": "Proyecto 31"
+	},
+	{
+		"Codigo": "1295",
+		"Purchase Order": "685252",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM PLANTA 5 PO 685252",
+		"Proyectos": "Proyecto 32"
+	},
+	{
+		"Codigo": "1296",
+		"Purchase Order": "1912258",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR TLAHUAC 1912258",
+		"Proyectos": "Proyecto 33"
+	},
+	{
+		"Codigo": "1301",
+		"Purchase Order": "2878",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TEKNO CUERO 2878",
+		"Proyectos": "Proyecto 34"
+	},
+	{
+		"Codigo": "1302",
+		"Purchase Order": "2884",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TEKNO CUERO 2884",
+		"Proyectos": "Proyecto 35"
+	},
+	{
+		"Codigo": "1304",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ESNAVI",
+		"Proyectos": "Proyecto 36"
+	},
+	{
+		"Codigo": "1306",
+		"Purchase Order": "204208",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "NUTRICAL 204208",
+		"Proyectos": "Proyecto 37"
+	},
+	{
+		"Codigo": "1312",
+		"Purchase Order": "686198",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 686198",
+		"Proyectos": "Proyecto 38"
+	},
+	{
+		"Codigo": "1314",
+		"Purchase Order": "620126",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL 620126",
+		"Proyectos": "Proyecto 39"
+	},
+	{
+		"Codigo": "1315",
+		"Purchase Order": "4501525032",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN 4501525032",
+		"Proyectos": "Proyecto 40"
+	},
+	{
+		"Codigo": "1320",
+		"Purchase Order": "4500185634",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AKRON 4500185634",
+		"Proyectos": "Proyecto 41"
+	},
+	{
+		"Codigo": "1324",
+		"Purchase Order": "4600208016",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT 4600208016 RENTA EQUIPO",
+		"Proyectos": "Proyecto 42"
+	},
+	{
+		"Codigo": "1325",
+		"Purchase Order": "4600208012",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT 4600208012 BOYAS",
+		"Proyectos": "Proyecto 43"
+	},
+	{
+		"Codigo": "1327",
+		"Purchase Order": "1937718",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR TLAHUAC 1937718",
+		"Proyectos": "Proyecto 44"
+	},
+	{
+		"Codigo": "1328",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT RENTA PAQUETE",
+		"Proyectos": "Proyecto 45"
+	},
+	{
+		"Codigo": "1330",
+		"Purchase Order": "1940506",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON FINISHING 1940506",
+		"Proyectos": "Proyecto 46"
+	},
+	{
+		"Codigo": "1331",
+		"Purchase Order": "1940471",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR SILAO 1940471",
+		"Proyectos": "Proyecto 47"
+	},
+	{
+		"Codigo": "1333",
+		"Purchase Order": "SMX24-E127",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "VISCOTEC SMX24-E127",
+		"Proyectos": "Proyecto 48"
+	},
+	{
+		"Codigo": "1334",
+		"Purchase Order": "688930",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 688930",
+		"Proyectos": "Proyecto 49"
+	},
+	{
+		"Codigo": "1335",
+		"Purchase Order": "1943361",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON  1943361",
+		"Proyectos": "Proyecto 50"
+	},
+	{
+		"Codigo": "1338",
+		"Purchase Order": "4501550814",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN EQUIPOS 4501550814",
+		"Proyectos": "Proyecto 51"
+	},
+	{
+		"Codigo": "1339",
+		"Purchase Order": "4501549260",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN MTTO EQUIPO 4501549260",
+		"Proyectos": "Proyecto 52"
+	},
+	{
+		"Codigo": "1340",
+		"Purchase Order": "4501549851",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN CHILLER 4501549851",
+		"Proyectos": "Proyecto 53"
+	},
+	{
+		"Codigo": "1341",
+		"Purchase Order": "4501546677",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN MTTO EQUIPOS 4501546677",
+		"Proyectos": "Proyecto 54"
+	},
+	{
+		"Codigo": "1346",
+		"Purchase Order": "4501550014",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN 4501550014",
+		"Proyectos": "Proyecto 55"
+	},
+	{
+		"Codigo": "1352",
+		"Purchase Order": "1953469",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR TLAHUAC 1953469",
+		"Proyectos": "Proyecto 56"
+	},
+	{
+		"Codigo": "1353",
+		"Purchase Order": "1954553",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR P NEGRAS 1954553",
+		"Proyectos": "Proyecto 57"
+	},
+	{
+		"Codigo": "1358",
+		"Purchase Order": "4501549238",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN 4501549238",
+		"Proyectos": "Proyecto 58"
+	},
+	{
+		"Codigo": "1359",
+		"Purchase Order": "1957606",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "MN CHI LEAR LEON1957606",
+		"Proyectos": "Proyecto 59"
+	},
+	{
+		"Codigo": "1361",
+		"Purchase Order": "637163",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL 637163",
+		"Proyectos": "Proyecto 60"
+	},
+	{
+		"Codigo": "1362",
+		"Purchase Order": "690235",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 690235",
+		"Proyectos": "Proyecto 61"
+	},
+	{
+		"Codigo": "1364",
+		"Purchase Order": "691668",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 691668",
+		"Proyectos": "Proyecto 62"
+	},
+	{
+		"Codigo": "1373",
+		"Purchase Order": "4501574267",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN 4501574267",
+		"Proyectos": "Proyecto 63"
+	},
+	{
+		"Codigo": "1374",
+		"Purchase Order": "4807171",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PLASTIC PO 4807171 ",
+		"Proyectos": "Proyecto 64"
+	},
+	{
+		"Codigo": "1378",
+		"Purchase Order": "29827",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT MOTOR 29827",
+		"Proyectos": "Proyecto 65"
+	},
+	{
+		"Codigo": "1381",
+		"Purchase Order": "SMX24-F278",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "VISCOTEC SMX24-F278",
+		"Proyectos": "Proyecto 66"
+	},
+	{
+		"Codigo": "1382",
+		"Purchase Order": "693815",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 693815",
+		"Proyectos": "Proyecto 67"
+	},
+	{
+		"Codigo": "1387",
+		"Purchase Order": "694010",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 694010",
+		"Proyectos": "Proyecto 68"
+	},
+	{
+		"Codigo": "1389",
+		"Purchase Order": "4200029913",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "ITT  4200029913",
+		"Proyectos": "Proyecto 69"
+	},
+	{
+		"Codigo": "1390",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "OCCDNTECAPITAL",
+		"Proyectos": "Proyecto 70"
+	},
+	{
+		"Codigo": "1393",
+		"Purchase Order": "1987944",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON 1987944",
+		"Proyectos": "Proyecto 71"
+	},
+	{
+		"Codigo": "1395",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SERVICIO OCAP PROYECTOS",
+		"Proyectos": "Proyecto 72"
+	},
+	{
+		"Codigo": "1397",
+		"Purchase Order": "204683",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "NUTRICAL PO 204683",
+		"Proyectos": "Proyecto 73"
+	},
+	{
+		"Codigo": "1398",
+		"Purchase Order": "696691",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 696691",
+		"Proyectos": "Proyecto 74"
+	},
+	{
+		"Codigo": "1399",
+		"Purchase Order": "696877",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 696877",
+		"Proyectos": "Proyecto 75"
+	},
+	{
+		"Codigo": "1400",
+		"Purchase Order": "1992396",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR ARTEAGA 1992396",
+		"Proyectos": "Proyecto 76"
+	},
+	{
+		"Codigo": "1401",
+		"Purchase Order": "1992374",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR PANZACOLA 1992374",
+		"Proyectos": "Proyecto 77"
+	},
+	{
+		"Codigo": "1402",
+		"Purchase Order": "13011",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "DEACERO 13011",
+		"Proyectos": "Proyecto 78"
+	},
+	{
+		"Codigo": "1404",
+		"Purchase Order": "1994336",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR SILAO 1994336",
+		"Proyectos": "Proyecto 79"
+	},
+	{
+		"Codigo": "1406",
+		"Purchase Order": "101397",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 101397",
+		"Proyectos": "Proyecto 80"
+	},
+	{
+		"Codigo": "1409",
+		"Purchase Order": "654996",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL 654996",
+		"Proyectos": "Proyecto 81"
+	},
+	{
+		"Codigo": "1410",
+		"Purchase Order": "4501609328",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "PROAN 4501609328",
+		"Proyectos": "Proyecto 82"
+	},
+	{
+		"Codigo": "1412",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LODOAL",
+		"Proyectos": "Proyecto 83"
+	},
+	{
+		"Codigo": "1414",
+		"Purchase Order": "101399",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 101399",
+		"Proyectos": "Proyecto 84"
+	},
+	{
+		"Codigo": "1423",
+		"Purchase Order": "AAM699956",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM699956",
+		"Proyectos": "Proyecto 85"
+	},
+	{
+		"Codigo": "1425",
+		"Purchase Order": "1946567",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR LEON 1946567",
+		"Proyectos": "Proyecto 86"
+	},
+	{
+		"Codigo": "1430",
+		"Purchase Order": "2014220",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR HUMANTLA 2014220",
+		"Proyectos": "Proyecto 87"
+	},
+	{
+		"Codigo": "1431",
+		"Purchase Order": "10147",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "TIGER POLY 10147",
+		"Proyectos": "Proyecto 88"
+	},
+	{
+		"Codigo": "1437",
+		"Purchase Order": "2019198",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "LEAR  SILAO 2019198",
+		"Proyectos": "Proyecto 89"
+	},
+	{
+		"Codigo": "1441",
+		"Purchase Order": "101405",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 101405",
+		"Proyectos": "Proyecto 90"
+	},
+	{
+		"Codigo": "1442",
+		"Purchase Order": "702221",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 702221",
+		"Proyectos": "Proyecto 91"
+	},
+	{
+		"Codigo": "1443",
+		"Purchase Order": "101404",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 101404",
+		"Proyectos": "Proyecto 92"
+	},
+	{
+		"Codigo": "1444",
+		"Purchase Order": "101408",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 101408",
+		"Proyectos": "Proyecto 93"
+	},
+	{
+		"Codigo": "1451",
+		"Purchase Order": "204996",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "NUTRICAL PO 204996",
+		"Proyectos": "Proyecto 94"
+	},
+	{
+		"Codigo": "1453",
+		"Purchase Order": "662963",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "SRG GLOBAL 662963",
+		"Proyectos": "Proyecto 95"
+	},
+	{
+		"Codigo": "1454",
+		"Purchase Order": "703554",
+		"Solicitante": "Carlos de la Espriella",
+		"Nombre": "AAM 703554",
+		"Proyectos": "Proyecto 96"
+	},
+	{
+		"Codigo": "693",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "AXALTA POLIZA",
+		"Proyectos": "Proyecto 97"
+	},
+	{
+		"Codigo": "1212",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SE ELIMINA NUNERO",
+		"Proyectos": "Proyecto 98"
+	},
+	{
+		"Codigo": "1237",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "POLIZA NUCOR 2024",
+		"Proyectos": "Proyecto 99"
+	},
+	{
+		"Codigo": "1216",
+		"Purchase Order": "521-1",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "CEYPABASA POLIZA 065521-1",
+		"Proyectos": "Proyecto 100"
+	},
+	{
+		"Codigo": "1225",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SE ELIMINA NUNERO",
+		"Proyectos": "Proyecto 101"
+	},
+	{
+		"Codigo": "1226",
+		"Purchase Order": "23389",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P17-23389",
+		"Proyectos": "Proyecto 102"
+	},
+	{
+		"Codigo": "1236",
+		"Purchase Order": "26525",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO26525",
+		"Proyectos": "Proyecto 103"
+	},
+	{
+		"Codigo": "1250",
+		"Purchase Order": "64467",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "ALIANZA TEAM PO64467",
+		"Proyectos": "Proyecto 104"
+	},
+	{
+		"Codigo": "1252",
+		"Purchase Order": "9634",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "TIGERPOLY 9634",
+		"Proyectos": "Proyecto 105"
+	},
+	{
+		"Codigo": "1256",
+		"Purchase Order": "MEX22622",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "KASAI MEXICANA  1022622",
+		"Proyectos": "Proyecto 106"
+	},
+	{
+		"Codigo": "1257",
+		"Purchase Order": "MEX22680",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "KASAI MEXICANA  1022680",
+		"Proyectos": "Proyecto 107"
+	},
+	{
+		"Codigo": "1260",
+		"Purchase Order": "26957",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO 26957",
+		"Proyectos": "Proyecto 108"
+	},
+	{
+		"Codigo": "1262",
+		"Purchase Order": "11966",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "MORIROKU PO 11966",
+		"Proyectos": "Proyecto 109"
+	},
+	{
+		"Codigo": "1263",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "UNAM ENESLE-24-SC-000501",
+		"Proyectos": "Proyecto 110"
+	},
+	{
+		"Codigo": "1264",
+		"Purchase Order": "C63044",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "TACHIS C63044",
+		"Proyectos": "Proyecto 111"
+	},
+	{
+		"Codigo": "1267",
+		"Purchase Order": "27009",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27009",
+		"Proyectos": "Proyecto 112"
+	},
+	{
+		"Codigo": "1270",
+		"Purchase Order": "66417-1",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "CEYPABASA 66417-1",
+		"Proyectos": "Proyecto 113"
+	},
+	{
+		"Codigo": "1271",
+		"Purchase Order": "66414-1",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "CEYPABASA 66414-1",
+		"Proyectos": "Proyecto 114"
+	},
+	{
+		"Codigo": "1283",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "IMPULSORA ICE DE PRODUCTOS Y SERVICIOS",
+		"Proyectos": "Proyecto 115"
+	},
+	{
+		"Codigo": "1286",
+		"Purchase Order": "28671",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT PLASTIC P15-28671",
+		"Proyectos": "Proyecto 116"
+	},
+	{
+		"Codigo": "1287",
+		"Purchase Order": "28659",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT PLASTIC PO P15-28659",
+		"Proyectos": "Proyecto 117"
+	},
+	{
+		"Codigo": "1290",
+		"Purchase Order": "32139",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "A.A HFI ROMITA 32139",
+		"Proyectos": "Proyecto 118"
+	},
+	{
+		"Codigo": "1308",
+		"Purchase Order": "2188",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "MILLFOODS 2188",
+		"Proyectos": "Proyecto 119"
+	},
+	{
+		"Codigo": "1319",
+		"Purchase Order": "29194",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P15-29194",
+		"Proyectos": "Proyecto 120"
+	},
+	{
+		"Codigo": "1332",
+		"Purchase Order": "27508",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27508",
+		"Proyectos": "Proyecto 121"
+	},
+	{
+		"Codigo": "1336",
+		"Purchase Order": "27651",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27651",
+		"Proyectos": "Proyecto 122"
+	},
+	{
+		"Codigo": "1348",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "AXALTA MANT PREV",
+		"Proyectos": "Proyecto 123"
+	},
+	{
+		"Codigo": "1350",
+		"Purchase Order": "RD_R554300",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "UREBLOCK RD_R554300",
+		"Proyectos": "Proyecto 124"
+	},
+	{
+		"Codigo": "1351",
+		"Purchase Order": "27727",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO 27727",
+		"Proyectos": "Proyecto 125"
+	},
+	{
+		"Codigo": "1356",
+		"Purchase Order": "24662",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P17-24662",
+		"Proyectos": "Proyecto 126"
+	},
+	{
+		"Codigo": "1357",
+		"Purchase Order": "29655",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P15-29655",
+		"Proyectos": "Proyecto 127"
+	},
+	{
+		"Codigo": "1366",
+		"Purchase Order": "27813",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27813",
+		"Proyectos": "Proyecto 128"
+	},
+	{
+		"Codigo": "1367",
+		"Purchase Order": "27808",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27808",
+		"Proyectos": "Proyecto 129"
+	},
+	{
+		"Codigo": "1370",
+		"Purchase Order": "27852",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO27852",
+		"Proyectos": "Proyecto 130"
+	},
+	{
+		"Codigo": "1383",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SERVIACERO ELECTROF 20624",
+		"Proyectos": "Proyecto 131"
+	},
+	{
+		"Codigo": "1384",
+		"Purchase Order": "1026044",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "KASAI 1026044",
+		"Proyectos": "Proyecto 132"
+	},
+	{
+		"Codigo": "1416",
+		"Purchase Order": "28362",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO28362",
+		"Proyectos": "Proyecto 133"
+	},
+	{
+		"Codigo": "1419",
+		"Purchase Order": "2446",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "MILLFOODS 2446",
+		"Proyectos": "Proyecto 134"
+	},
+	{
+		"Codigo": "1421",
+		"Purchase Order": "ME35232",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "TARJETA METALSA  2435232",
+		"Proyectos": "Proyecto 135"
+	},
+	{
+		"Codigo": "1428",
+		"Purchase Order": "28486",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO28486",
+		"Proyectos": "Proyecto 136"
+	},
+	{
+		"Codigo": "1429",
+		"Purchase Order": "N/A",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "RENTA PLANTA EMERGENCIA 150KW GC",
+		"Proyectos": "Proyecto 137"
+	},
+	{
+		"Codigo": "1433",
+		"Purchase Order": "25413",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P17-25413",
+		"Proyectos": "Proyecto 138"
+	},
+	{
+		"Codigo": "1436",
+		"Purchase Order": "33594",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "METALSA ING 2433594",
+		"Proyectos": "Proyecto 139"
+	},
+	{
+		"Codigo": "1438",
+		"Purchase Order": "28561",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO28561",
+		"Proyectos": "Proyecto 140"
+	},
+	{
+		"Codigo": "1445",
+		"Purchase Order": "30811",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "SUMMIT P15-30811",
+		"Proyectos": "Proyecto 141"
+	},
+	{
+		"Codigo": "1446",
+		"Purchase Order": "28638",
+		"Solicitante": "Carlos Huitrón",
+		"Nombre": "NUCOR PO28638",
+		"Proyectos": "Proyecto 142"
+	},
+	{
+		"Codigo": "1215",
+		"Purchase Order": "4700059857",
+		"Solicitante": "Ángel",
+		"Nombre": "LALA PO 4700059857 ALCOBA",
+		"Proyectos": "Proyecto 143"
+	},
+	{
+		"Codigo": "1244",
+		"Purchase Order": "N/A",
+		"Solicitante": "Ángel",
+		"Nombre": "SAN JACINTO ATICO",
+		"Proyectos": "Proyecto 144"
+	},
+	{
+		"Codigo": "1249",
+		"Purchase Order": "6308021053",
+		"Solicitante": "Ángel",
+		"Nombre": "FERRERO PO6308021053",
+		"Proyectos": "Proyecto 145"
+	},
+	{
+		"Codigo": "1272",
+		"Purchase Order": "6308020826",
+		"Solicitante": "Ángel",
+		"Nombre": "FERRERO PO6308020826\r\n",
+		"Proyectos": "Proyecto 146"
+	},
+	{
+		"Codigo": "1278",
+		"Purchase Order": "23339",
+		"Solicitante": "Ángel",
+		"Nombre": "SAFRAN POSAC23339",
+		"Proyectos": "Proyecto 147"
+	},
+	{
+		"Codigo": "1303",
+		"Purchase Order": "4801429732",
+		"Solicitante": "Ángel",
+		"Nombre": "KELLOG´S 4801429732",
+		"Proyectos": "Proyecto 148"
+	},
+	{
+		"Codigo": "1309",
+		"Purchase Order": "8005179953",
+		"Solicitante": "Ángel",
+		"Nombre": "P&G 8005179953",
+		"Proyectos": "Proyecto 149"
+	},
+	{
+		"Codigo": "1313",
+		"Purchase Order": "6308021282",
+		"Solicitante": "Ángel",
+		"Nombre": "FERRERO 6308021282",
+		"Proyectos": "Proyecto 150"
+	},
+	{
+		"Codigo": "1343",
+		"Purchase Order": "6308021339",
+		"Solicitante": "Ángel",
+		"Nombre": "FERRERO  6308021339",
+		"Proyectos": "Proyecto 151"
+	},
+	{
+		"Codigo": "1347",
+		"Purchase Order": "6308021467",
+		"Solicitante": "Ángel",
+		"Nombre": "FERRERO MINISPLIT 6308021467",
+		"Proyectos": "Proyecto 152"
+	},
+	{
+		"Codigo": "1368",
+		"Purchase Order": "4500033698",
+		"Solicitante": "Ángel",
+		"Nombre": "SAN JACINTO 4500033698\r\n",
+		"Proyectos": "Proyecto 153"
+	},
+	{
+		"Codigo": "1388",
+		"Purchase Order": "171198",
+		"Solicitante": "Ángel",
+		"Nombre": "HUTCHINSON 171198",
+		"Proyectos": "Proyecto 154"
+	},
+	{
+		"Codigo": "1403",
+		"Purchase Order": "N/A",
+		"Solicitante": "Ángel",
+		"Nombre": "INPAMEX CHILLER 40TR",
+		"Proyectos": "Proyecto 155"
+	},
+	{
+		"Codigo": "1415",
+		"Purchase Order": "0122771",
+		"Solicitante": "Ángel",
+		"Nombre": "MACLEAN PO 012277-1",
+		"Proyectos": "Proyecto 156"
+	},
+	{
+		"Codigo": "1432",
+		"Purchase Order": "8005431109",
+		"Solicitante": "Ángel",
+		"Nombre": "P&G 8005431109",
+		"Proyectos": "Proyecto 157"
+	},
+	{
+		"Codigo": "1435",
+		"Purchase Order": "7101893327",
+		"Solicitante": "Ángel",
+		"Nombre": "Kerry 7101893327",
+		"Proyectos": "Proyecto 158"
+	},
+	{
+		"Codigo": "1220",
+		"Purchase Order": "90082",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "JAZA INGENIERÍA 90082",
+		"Proyectos": "Proyecto 159"
+	},
+	{
+		"Codigo": "1232",
+		"Purchase Order": "MG-1076",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "EXPERTOS EN VENTILACION PO MG-1076",
+		"Proyectos": "Proyecto 160"
+	},
+	{
+		"Codigo": "1251",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "INDUGAS",
+		"Proyectos": "Proyecto 161"
+	},
+	{
+		"Codigo": "1254",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "JUGOS DEL VALLE TEPOTZOTLAN ( CLIENTE INRA )",
+		"Proyectos": "Proyecto 162"
+	},
+	{
+		"Codigo": "1258",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "NUNDOVA UVM ",
+		"Proyectos": "Proyecto 163"
+	},
+	{
+		"Codigo": "1265",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "AA SALA DE TV CLAUDIA",
+		"Proyectos": "Proyecto 164"
+	},
+	{
+		"Codigo": "1284",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "SANTA CLARA LAGOS  ( CLIENTE INRA )",
+		"Proyectos": "Proyecto 165"
+	},
+	{
+		"Codigo": "1300",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "GUILLERMO SAUCEDO DAIKIN",
+		"Proyectos": "Proyecto 166"
+	},
+	{
+		"Codigo": "1307",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "EOLO",
+		"Proyectos": "Proyecto 167"
+	},
+	{
+		"Codigo": "1318",
+		"Purchase Order": "4801-51309372-OA",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "PRINT PACK PO 4801-51309372-OA",
+		"Proyectos": "Proyecto 168"
+	},
+	{
+		"Codigo": "1321",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "JOHNSON CONTROLS REFACCIONES BOMBA",
+		"Proyectos": "Proyecto 169"
+	},
+	{
+		"Codigo": "1329",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "VENTA PUBLICO EN GENERAL",
+		"Proyectos": "Proyecto 170"
+	},
+	{
+		"Codigo": "1342",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "COMPRESOR  JULIAN MARTINEZ",
+		"Proyectos": "Proyecto 171"
+	},
+	{
+		"Codigo": "1354",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "MINI SPLITS JUANA RAMIREZ RODRIGUEZ",
+		"Proyectos": "Proyecto 172"
+	},
+	{
+		"Codigo": "1363",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "MTTO UMA HENKEL TOLUCA",
+		"Proyectos": "Proyecto 173"
+	},
+	{
+		"Codigo": "1365",
+		"Purchase Order": "4500547484",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "BONAFONT 4500547484",
+		"Proyectos": "Proyecto 174"
+	},
+	{
+		"Codigo": "1371",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "NATURAL HEALTH.",
+		"Proyectos": "Proyecto 175"
+	},
+	{
+		"Codigo": "1372",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "TECMA RIVULIS MANT",
+		"Proyectos": "Proyecto 176"
+	},
+	{
+		"Codigo": "1379",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "BOSQUE AZUL PAQUETE",
+		"Proyectos": "Proyecto 177"
+	},
+	{
+		"Codigo": "1380",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "REPARACION DUCTOS EDUCEM",
+		"Proyectos": "Proyecto 178"
+	},
+	{
+		"Codigo": "1392",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "INGENIERIA NATURAL HEALTH PLANTA LA CALERA",
+		"Proyectos": "Proyecto 179"
+	},
+	{
+		"Codigo": "1407",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "EOLO JV TEPOTZ LLEN MO",
+		"Proyectos": "Proyecto 180"
+	},
+	{
+		"Codigo": "1408",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "EOLO JV TEPOTZ LLEN EQPOS  ",
+		"Proyectos": "Proyecto 181"
+	},
+	{
+		"Codigo": "1413",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "METALSA EXTRACCION ESTAMPADO",
+		"Proyectos": "Proyecto 182"
+	},
+	{
+		"Codigo": "1417",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "FEGSA PISTONES MORESA",
+		"Proyectos": "Proyecto 183"
+	},
+	{
+		"Codigo": "1418",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "EQUIPOS STOCK SAMSUNG ",
+		"Proyectos": "Proyecto 184"
+	},
+	{
+		"Codigo": "1424",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "MARS CHOCOLATE",
+		"Proyectos": "Proyecto 185"
+	},
+	{
+		"Codigo": "1447",
+		"Purchase Order": "N/A",
+		"Solicitante": "Israel Arceo",
+		"Nombre": "VIBRANTZ LABORAOTORIO ",
+		"Proyectos": "Proyecto 186"
+	},
+	{
+		"Codigo": "1210",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "NYMPHE DEPTO. 301",
+		"Proyectos": "Proyecto 187"
+	},
+	{
+		"Codigo": "1227",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "URBANIZADORA HS ",
+		"Proyectos": "Proyecto 188"
+	},
+	{
+		"Codigo": "1233",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "PGP FACILITY",
+		"Proyectos": "Proyecto 189"
+	},
+	{
+		"Codigo": "1235",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "NYMPHE DEPTO. 203",
+		"Proyectos": "Proyecto 190"
+	},
+	{
+		"Codigo": "1238",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ARMANDO SERRA MANT",
+		"Proyectos": "Proyecto 191"
+	},
+	{
+		"Codigo": "1246",
+		"Purchase Order": "1710",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ADAMANT 1710",
+		"Proyectos": "Proyecto 192"
+	},
+	{
+		"Codigo": "1248",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ARQUIA",
+		"Proyectos": "Proyecto 193"
+	},
+	{
+		"Codigo": "1252",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "FRANCISCO EQUIPO 1 TR",
+		"Proyectos": "Proyecto 194"
+	},
+	{
+		"Codigo": "1282",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ALDO FERRIÑO IRIARTE",
+		"Proyectos": "Proyecto 195"
+	},
+	{
+		"Codigo": "1289",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "OC 45 PGP FACILITY",
+		"Proyectos": "Proyecto 196"
+	},
+	{
+		"Codigo": "1291",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "OC 46 PGP FACILITY",
+		"Proyectos": "Proyecto 197"
+	},
+	{
+		"Codigo": "1294",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "VERDE COMPACTO",
+		"Proyectos": "Proyecto 198"
+	},
+	{
+		"Codigo": "1297",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "LIEBERT ARETINA",
+		"Proyectos": "Proyecto 199"
+	},
+	{
+		"Codigo": "1298",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "LUCILA HERNANDEZ",
+		"Proyectos": "Proyecto 200"
+	},
+	{
+		"Codigo": "1299",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MARTIN DEL CAMPO",
+		"Proyectos": "Proyecto 201"
+	},
+	{
+		"Codigo": "1311",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "AVANTHYA FINANCIERA",
+		"Proyectos": "Proyecto 202"
+	},
+	{
+		"Codigo": "1322",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY BIECH",
+		"Proyectos": "Proyecto 203"
+	},
+	{
+		"Codigo": "1326",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "GUILLERMO RANGEL SERVICIO",
+		"Proyectos": "Proyecto 204"
+	},
+	{
+		"Codigo": "1337",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "BAJO CONTROL REFACCIONES",
+		"Proyectos": "Proyecto 205"
+	},
+	{
+		"Codigo": "1344",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MANTENIMIENTO SAGOT",
+		"Proyectos": "Proyecto 206"
+	},
+	{
+		"Codigo": "1345",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MINISPLIT FRANCISCO ALVAREZ",
+		"Proyectos": "Proyecto 207"
+	},
+	{
+		"Codigo": "1355",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": " MAMBITOS (SALON DE FIESTAS)",
+		"Proyectos": "Proyecto 208"
+	},
+	{
+		"Codigo": "1360",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MINISPLIT LETICIA ALVAREZ",
+		"Proyectos": "Proyecto 209"
+	},
+	{
+		"Codigo": "1369",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ARMANDO SERRA (CONIMBA)",
+		"Proyectos": "Proyecto 210"
+	},
+	{
+		"Codigo": "1375",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "PABLO HDEZ INOVATE",
+		"Proyectos": "Proyecto 211"
+	},
+	{
+		"Codigo": "1376",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY BIECH ARANDAS",
+		"Proyectos": "Proyecto 212"
+	},
+	{
+		"Codigo": "1385",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MTTO NYMPHE 1606",
+		"Proyectos": "Proyecto 213"
+	},
+	{
+		"Codigo": "1391",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "NYMPHE OFICINAS DE VENTAS  BNC SUDOCC",
+		"Proyectos": "Proyecto 214"
+	},
+	{
+		"Codigo": "1394",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "TARJETA NYMPHE SUDOCC",
+		"Proyectos": "Proyecto 215"
+	},
+	{
+		"Codigo": "1396",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY TEPIC NAYARIT",
+		"Proyectos": "Proyecto 216"
+	},
+	{
+		"Codigo": "1405",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "REVISION DE EQUIPO PAQUETE APPLEBEE’S",
+		"Proyectos": "Proyecto 217"
+	},
+	{
+		"Codigo": "1420",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ARETINA MANTENIMIENTO",
+		"Proyectos": "Proyecto 218"
+	},
+	{
+		"Codigo": "1422",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "SISTEMA VRF NYMPHE 2005",
+		"Proyectos": "Proyecto 219"
+	},
+	{
+		"Codigo": "1427",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "IQ TEC",
+		"Proyectos": "Proyecto 220"
+	},
+	{
+		"Codigo": "1434",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "AIR REF VERSACE",
+		"Proyectos": "Proyecto 221"
+	},
+	{
+		"Codigo": "1439",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MAYRA MONTERO COMPRESORES",
+		"Proyectos": "Proyecto 222"
+	},
+	{
+		"Codigo": "1440",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY FCO VILLA",
+		"Proyectos": "Proyecto 223"
+	},
+	{
+		"Codigo": "1448",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "REV PAQ ARETINA",
+		"Proyectos": "Proyecto 224"
+	},
+	{
+		"Codigo": "1449",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY ATOTONILCO",
+		"Proyectos": "Proyecto 225"
+	},
+	{
+		"Codigo": "1450",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "O’REILLY IRAPUATO",
+		"Proyectos": "Proyecto 226"
+	},
+	{
+		"Codigo": "1247",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "REPARACION DE FUGAS",
+		"Proyectos": "Proyecto 227"
+	},
+	{
+		"Codigo": "1255",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "ARMANDO SERRA REFACCIONES",
+		"Proyectos": "Proyecto 228"
+	},
+	{
+		"Codigo": "N/A",
+		"Purchase Order": "N/A",
+		"Solicitante": "Osvaldo Ramos",
+		"Nombre": "MANTENIMIENTO DE EQUIPOS F&C",
+		"Proyectos": "Proyecto 229"
+	},
+	{
+		"Codigo": "1239",
+		"Purchase Order": "6000088456",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "MD ELEKTRONIK 6000088456",
+		"Proyectos": "Proyecto 230"
+	},
+	{
+		"Codigo": "1240",
+		"Purchase Order": "46624998",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "KROMBERG & SCHUBERT PO 46624998",
+		"Proyectos": "Proyecto 231"
+	},
+	{
+		"Codigo": "1242",
+		"Purchase Order": "09315",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "CONAGRA 09315",
+		"Proyectos": "Proyecto 232"
+	},
+	{
+		"Codigo": "1245",
+		"Purchase Order": "4600205003",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "ITT PO 4600205003",
+		"Proyectos": "Proyecto 233"
+	},
+	{
+		"Codigo": "1266",
+		"Purchase Order": "240536",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "JOHNAN JM24-0536",
+		"Proyectos": "Proyecto 234"
+	},
+	{
+		"Codigo": "1280",
+		"Purchase Order": "46627334",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "K&S PO 46627334",
+		"Proyectos": "Proyecto 235"
+	},
+	{
+		"Codigo": "1281",
+		"Purchase Order": "1923",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "SEWS T1923",
+		"Proyectos": "Proyecto 236"
+	},
+	{
+		"Codigo": "1310",
+		"Purchase Order": "665912",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "HITACHI 66591-2",
+		"Proyectos": "Proyecto 237"
+	},
+	{
+		"Codigo": "1316",
+		"Purchase Order": "6674300",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "HITACHI 66743-00",
+		"Proyectos": "Proyecto 238"
+	},
+	{
+		"Codigo": "1317",
+		"Purchase Order": "N/A",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "JORGE DE LA TORRE MANTENIMIENTO",
+		"Proyectos": "Proyecto 239"
+	},
+	{
+		"Codigo": "1323",
+		"Purchase Order": "120042",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "CONAGRA OC 120042 REVISION CHILLER",
+		"Proyectos": "Proyecto 240"
+	},
+	{
+		"Codigo": "1349",
+		"Purchase Order": "46627563",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "KROMBERG  46627563",
+		"Proyectos": "Proyecto 241"
+	},
+	{
+		"Codigo": "1377",
+		"Purchase Order": "122425",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "CONAGRA 122425",
+		"Proyectos": "Proyecto 242"
+	},
+	{
+		"Codigo": "1411",
+		"Purchase Order": "77124059221",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "JOHNSON CONTROLS 7712405922-1",
+		"Proyectos": "Proyecto 243"
+	},
+	{
+		"Codigo": "1426",
+		"Purchase Order": "N/A",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "ERIKA ORTIZ SERVICIO",
+		"Proyectos": "Proyecto 244"
+	},
+	{
+		"Codigo": "1452",
+		"Purchase Order": "11599",
+		"Solicitante": "Juan Carlos Cortez",
+		"Nombre": "SEWS C11599",
+		"Proyectos": "Proyecto 245"
+	},
+	{
+		"Codigo": ""
+	}
 ]

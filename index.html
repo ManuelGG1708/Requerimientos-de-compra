@@ -97,23 +97,13 @@
         <label for="userName">Nombre del solicitante:</label>
         <select id="userName" class="form-control" required>
             <option value="" disabled selected>Seleccione su nombre</option>
-            <option value="Ángel Yáñez">Ángel Yáñez</option>
-            <option value="Carlos De La Espriella">Carlos De La Espriella</option>
+            <option value="Ángel">Ángel</option>
+            <option value="Carlos de la Espriella">Carlos de la Espriella</option>
             <option value="Israel Arceo">Israel Arceo</option>
-            <option value="Juan Cortez">Juan Cortez</option>
-            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
-            <option value="Joshua Valadez">Joshua Valadez</option>
-            <option value="Carlos Huitrón">Carlos Huitrón</option>
             <option value="Osvaldo Ramos">Osvaldo Ramos</option>
-            <option value="Alan Rojas">Alan Rojas</option>
-            <option value="Manuel Gómez">Manuel Gómez</option>
         </select>
     </div>
-    <div class="form-group">
-        <label for="userPassword">Contraseña:</label>
-        <input type="password" id="userPassword" class="form-control" required>
-    </div>
-    <button type="button" onclick="authenticateUser()">Continuar</button>
+    <button type="button" onclick="updateProjectOptions()">Continuar</button>
 </div>
 
 <div class="form-container" id="formContainer" style="display:none;">
@@ -131,7 +121,7 @@
             </div>
             <div class="form-group">
                 <label for="purchaseOrder">Orden de compra:</label>
-                <select id="purchaseOrder" class="form-control" required></select>
+                <input type="text" id="purchaseOrder" class="form-control" readonly>
             </div>
         </fieldset>
         <fieldset>
@@ -159,119 +149,51 @@
 </div>
 
 <script>
-    // Cargar el archivo JSON desde el repositorio de GitHub
     let projectDetails = {};
 
     fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Projects_ComplementosHVAC.json')
         .then(response => response.json())
         .then(data => {
-        const projectDetails = data;
-
-        // Assuming you are filtering by the "Solicitante"
-        const userName = document.getElementById("userName").value;
-        const projectSelect = document.getElementById("projectName");
-        const purchaseOrderSelect = document.getElementById("purchaseOrder");
-
-        // Clear existing options
-        projectSelect.innerHTML = '';
-        purchaseOrderSelect.innerHTML = '';
-
-        // Filter the projects by "Solicitante"
-        const userProjects = projectDetails.filter(project => project.Solicitante === userName);
-
-        // Populate project names
-        userProjects.forEach(project => {
-            const option = document.createElement("option");
-            option.value = project.Nombre;
-            option.text = project.Nombre;
-            projectSelect.appendChild(option);
-        });
-
-        // When a project is selected, show the purchase orders
-        projectSelect.addEventListener('change', function() {
-            const selectedProject = userProjects.find(project => project.Nombre === this.value);
-            
-            if (selectedProject) {
-                // Display the Purchase Order related to the selected project
-                const purchaseOption = document.createElement("option");
-                purchaseOption.value = selectedProject["Purchase Order"];
-                purchaseOption.text = selectedProject["Purchase Order"];
-                purchaseOrderSelect.appendChild(purchaseOption);
-            }
-        });
-    })
-    .catch(error => console.error('Error fetching JSON data:', error));
-    // Autenticación del usuario
-    const userPasswords = {
-        "Ángel Yáñez": "ventaselmejordepartamento",
-        "Carlos De La Espriella": "Comple1112$",
-        "Israel Arceo": "password3",
-        "Juan Cortez": "password4",
-        "Jonathan Cárdenas": "password5",
-        "Joshua Valadez": "password6",
-        "Carlos Huitrón": "Ventas1$",
-        "Osvaldo Ramos": "Hvac2024$",
-        "Alan Rojas": "password9",
-        "Manuel Gómez": "Jmlgu33oGmz#"
-    };
-
-    function authenticateUser() {
-        const userName = document.getElementById("userName").value;
-        const userPassword = document.getElementById("userPassword").value;
-
-        if (userPasswords[userName] && userPasswords[userName] === userPassword) {
-            document.getElementById('selectUserContainer').style.display = 'none';
-            document.getElementById('formContainer').style.display = 'block';
-            updateProjectOptions();
-        } else {
-            alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
-        }
-    }
+            projectDetails = data;
+        })
+        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
 
     function updateProjectOptions() {
         const userName = document.getElementById("userName").value;
         const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+        projectNameSelect.innerHTML = ''; 
 
         // Filtrar los proyectos por solicitante en una lista
         projectDetails.forEach(details => {
             if (details.Solicitante === userName) {
                 const option = document.createElement("option");
-                option.value = details.Codigo; // Usa el código del proyecto como valor
-                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+                option.value = details.Nombre; 
+                option.text = details.Nombre;
                 projectNameSelect.appendChild(option);
             }
         });
 
-        // Si no se encuentran proyectos
         if (projectNameSelect.length === 0) {
             const option = document.createElement("option");
             option.value = "";
             option.text = "No se encontraron proyectos para este solicitante";
             projectNameSelect.appendChild(option);
         }
+
+        document.getElementById('selectUserContainer').style.display = 'none';
+        document.getElementById('formContainer').style.display = 'block';
     }
 
     function updateProjectDetails() {
         const projectName = document.getElementById("projectName").value;
         const projectCodeInput = document.getElementById("projectCode");
-        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+        const purchaseOrderInput = document.getElementById("purchaseOrder");
 
-        // Limpia la orden de compra existente
-        purchaseOrderSelect.innerHTML = '';
+        const project = projectDetails.find(p => p.Nombre === projectName);
 
-        // Buscar detalles del proyecto por nombre
-        const selectedProject = projectDetails.find(project => project.Codigo == projectName);
-        
-        if (selectedProject) {
-            // Actualiza el código del proyecto
-            projectCodeInput.value = selectedProject.Codigo;
-
-            // Agrega la orden de compra al select
-            const purchaseOrderOption = document.createElement("option");
-            purchaseOrderOption.value = selectedProject["Purchase Order"];
-            purchaseOrderOption.text = selectedProject["Purchase Order"];
-            purchaseOrderSelect.appendChild(purchaseOrderOption);
+        if (project) {
+            projectCodeInput.value = project["﻿Codigo"];
+            purchaseOrderInput.value = project["Purchase Order"];
         }
     }
 
@@ -285,7 +207,6 @@
         const deliveryDate = document.getElementById("deliveryDate").value;
         const comments = document.getElementById("comments").value;
 
-        // Fecha y hora actuales para la hora de la solicitud
         const now = new Date();
         const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 

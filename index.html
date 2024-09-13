@@ -97,13 +97,23 @@
         <label for="userName">Nombre del solicitante:</label>
         <select id="userName" class="form-control" required>
             <option value="" disabled selected>Seleccione su nombre</option>
-            <option value="Ángel">Ángel</option>
-            <option value="Carlos de la Espriella">Carlos de la Espriella</option>
+            <option value="Ángel Yáñez">Ángel Yáñez</option>
+            <option value="Carlos De La Espriella">Carlos De La Espriella</option>
             <option value="Israel Arceo">Israel Arceo</option>
+            <option value="Juan Cortez">Juan Cortez</option>
+            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
+            <option value="Joshua Valadez">Joshua Valadez</option>
+            <option value="Carlos Huitrón">Carlos Huitrón</option>
             <option value="Osvaldo Ramos">Osvaldo Ramos</option>
+            <option value="Alan Rojas">Alan Rojas</option>
+            <option value="Manuel Gómez">Manuel Gómez</option>
         </select>
     </div>
-    <button type="button" onclick="updateProjectOptions()">Continuar</button>
+    <div class="form-group">
+        <label for="userPassword">Contraseña:</label>
+        <input type="password" id="userPassword" class="form-control" required>
+    </div>
+    <button type="button" onclick="authenticateUser()">Continuar</button>
 </div>
 
 <div class="form-container" id="formContainer" style="display:none;">
@@ -116,12 +126,12 @@
                 <select id="projectName" class="form-control" required onchange="updateProjectDetails()"></select>
             </div>
             <div class="form-group">
-                <label for="projectCode">Código del proyecto:</label>
+                <label for="projectCode">Código alta CONTPAQi:</label>
                 <input type="text" id="projectCode" class="form-control" readonly>
             </div>
             <div class="form-group">
                 <label for="purchaseOrder">Orden de compra:</label>
-                <input type="text" id="purchaseOrder" class="form-control" readonly>
+                <select id="purchaseOrder" class="form-control" required></select>
             </div>
         </fieldset>
         <fieldset>
@@ -149,51 +159,88 @@
 </div>
 
 <script>
-    let projectDetails = {};
+    // Cargar el archivo JSON desde el repositorio de GitHub
+    let projectDetails = [];
 
     fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Projects_ComplementosHVAC.json')
         .then(response => response.json())
         .then(data => {
             projectDetails = data;
+            console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
         })
         .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
+
+    // Autenticación del usuario
+    const userPasswords = {
+        "Ángel Yáñez": "ventaselmejordepartamento",
+        "Carlos De La Espriella": "Comple1112$",
+        "Israel Arceo": "password3",
+        "Juan Cortez": "password4",
+        "Jonathan Cárdenas": "password5",
+        "Joshua Valadez": "password6",
+        "Carlos Huitrón": "Ventas1$",
+        "Osvaldo Ramos": "Hvac2024$",
+        "Alan Rojas": "password9",
+        "Manuel Gómez": "Jmlgu33oGmz#"
+    };
+
+    function authenticateUser() {
+        const userName = document.getElementById("userName").value;
+        const userPassword = document.getElementById("userPassword").value;
+
+        if (userPasswords[userName] && userPasswords[userName] === userPassword) {
+            document.getElementById('selectUserContainer').style.display = 'none';
+            document.getElementById('formContainer').style.display = 'block';
+            updateProjectOptions();
+        } else {
+            alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
+        }
+    }
 
     function updateProjectOptions() {
         const userName = document.getElementById("userName").value;
         const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = ''; 
+        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los proyectos por solicitante en una lista
+        // Filtrar los proyectos por solicitante
         projectDetails.forEach(details => {
             if (details.Solicitante === userName) {
-                const option = document.createElement("option");
-                option.value = details.Nombre; 
-                option.text = details.Nombre;
+                                const option = document.createElement("option");
+                option.value = details.Nombre; // Usa el nombre del proyecto como valor
+                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
                 projectNameSelect.appendChild(option);
             }
         });
 
+        // Si no se encuentran proyectos
         if (projectNameSelect.length === 0) {
             const option = document.createElement("option");
             option.value = "";
             option.text = "No se encontraron proyectos para este solicitante";
             projectNameSelect.appendChild(option);
         }
-
-        document.getElementById('selectUserContainer').style.display = 'none';
-        document.getElementById('formContainer').style.display = 'block';
     }
 
     function updateProjectDetails() {
         const projectName = document.getElementById("projectName").value;
         const projectCodeInput = document.getElementById("projectCode");
-        const purchaseOrderInput = document.getElementById("purchaseOrder");
+        const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
-        const project = projectDetails.find(p => p.Nombre === projectName);
+        // Limpia la orden de compra existente
+        purchaseOrderSelect.innerHTML = '';
 
-        if (project) {
-            projectCodeInput.value = project["﻿Codigo"];
-            purchaseOrderInput.value = project["Purchase Order"];
+        // Encuentra los detalles del proyecto seleccionado
+        const selectedProject = projectDetails.find(details => details.Nombre === projectName);
+
+        if (selectedProject) {
+            // Actualiza el código CONTPAQi
+            projectCodeInput.value = selectedProject.Codigo;
+
+            // Agrega la orden de compra al select
+            const purchaseOrderOption = document.createElement("option");
+            purchaseOrderOption.value = selectedProject["Purchase Order"];
+            purchaseOrderOption.text = selectedProject["Purchase Order"];
+            purchaseOrderSelect.appendChild(purchaseOrderOption);
         }
     }
 
@@ -207,13 +254,14 @@
         const deliveryDate = document.getElementById("deliveryDate").value;
         const comments = document.getElementById("comments").value;
 
+        // Fecha y hora actuales para la hora de la solicitud
         const now = new Date();
         const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 
         const message = `Requerimiento de compra en Obra:\n` +
                         `Solicitante: ${userName}\n` +
                         `Nombre del proyecto: ${projectName}\n` +
-                        `Código del proyecto: ${projectCode}\n` +
+                        `Código alta CONTPAQi: ${projectCode}\n` +
                         `Orden de compra: ${purchaseOrder}\n` +
                         `Material solicitado: ${material}\n` +
                         `Fecha de solicitud de material: ${requestDate}\n` +

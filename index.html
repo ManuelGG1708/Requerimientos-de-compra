@@ -66,6 +66,27 @@
             display: block;
             margin: 0 auto 20px auto;
         }
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: 500;
+        }
+        .confirmation-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .confirmation-message p {
+            font-size: 16px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -103,7 +124,11 @@
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
                 <label for="projectName">Nombre del proyecto:</label>
-                <select id="projectName" class="form-control" required></select>
+                <select id="projectName" class="form-control" required onchange="updatePurchaseOrderOptions()"></select>
+            </div>
+            <div class="form-group">
+                <label for="purchaseOrder">Orden de compra:</label>
+                <select id="purchaseOrder" class="form-control" required></select>
             </div>
             <div class="form-group">
                 <label for="clientName">Nombre del cliente:</label>
@@ -125,10 +150,6 @@
                 <input type="date" id="deliveryDate" required>
             </div>
             <div class="form-group">
-                <label for="orderNumber">Orden de compra:</label>
-                <input type="text" id="orderNumber" required>
-            </div>
-            <div class="form-group">
                 <label for="comments">Comentarios:</label>
                 <textarea id="comments" rows="4"></textarea>
             </div>
@@ -139,14 +160,26 @@
 </div>
 
 <script>
+    // Cargar el archivo JSON desde el repositorio de GitHub
+    let projectDetails = {};
+
+    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Projects_ComplementosHVAC.json')
+        .then(response => response.json())
+        .then(data => {
+            projectDetails = data;
+            console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
+        })
+        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
+
+    // Autenticación del usuario
     const userPasswords = {
         "Ángel Yáñez": "ventaselmejordepartamento",
-        "Carlos De La Espriella": "password2",
+        "Carlos De La Espriella": "Comple1112$",
         "Israel Arceo": "password3",
         "Juan Cortez": "password4",
         "Jonathan Cárdenas": "password5",
         "Joshua Valadez": "password6",
-        "Carlos Huitrón": "Ventas1$.",
+        "Carlos Huitrón": "Ventas1$",
         "Osvaldo Ramos": "Hvac2024$",
         "Alan Rojas": "password9",
         "Manuel Gómez": "Jmlgu33oGmz#"
@@ -172,7 +205,7 @@
 
         // Filtrar los proyectos por solicitante
         Object.entries(projectDetails).forEach(([projectName, details]) => {
-            if (details.solicitante === userName) {
+            if (details.Solicitante === userName) {
                 const option = document.createElement("option");
                 option.value = projectName;
                 option.text = projectName;
@@ -180,53 +213,57 @@
             }
         });
     }
+            function updatePurchaseOrderOptions() {
+        const projectName = document.getElementById("projectName").value;
+        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+        purchaseOrderSelect.innerHTML = ''; // Limpiar las opciones existentes
+
+        // Verificar si el proyecto seleccionado tiene una orden de compra
+        if (projectDetails[projectName] && projectDetails[projectName]['Purchase Order']) {
+            const purchaseOrder = projectDetails[projectName]['Purchase Order'];
+
+            const option = document.createElement("option");
+            option.value = purchaseOrder;
+            option.text = purchaseOrder;
+            purchaseOrderSelect.appendChild(option);
+        } else {
+            const option = document.createElement("option");
+            option.value = "";
+            option.text = "No hay orden de compra disponible";
+            purchaseOrderSelect.appendChild(option);
+        }
+    }
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
-        const initials = userName.split(" ").map(n => n[0]).join(""); // Obtiene las iniciales del nombre
         const projectName = document.getElementById("projectName").value;
-        const projectCode = projectDetails[projectName].codigo || "Desconocido"; // Obtiene el código del proyecto desde el JSON cargado
-        const userID = String(userSequentialIDs[userName]++).padStart(2, '0'); // ID secuencial del usuario
-
+        const projectCode = projectDetails[projectName].Codigo || "Desconocido";
+        const purchaseOrder = document.getElementById("purchaseOrder").value;
         const clientName = document.getElementById("clientName").value;
         const material = document.getElementById("material").value;
         const requestDate = document.getElementById("requestDate").value;
         const deliveryDate = document.getElementById("deliveryDate").value;
-        const orderNumber = document.getElementById("orderNumber").value;
         const comments = document.getElementById("comments").value;
 
+        // Fecha y hora actuales para la hora de la solicitud
         const now = new Date();
         const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
-        const uniqueCode = `${initials}-${projectCode}-${userID}`;
 
-        const message = `Requerimiento de compra en Obra:\nCódigo: ${uniqueCode}\nNombre del proyecto: ${projectName}\nNombre del cliente: ${clientName}\nMaterial solicitado: ${material}\nFecha de solicitud de material: ${requestDate}\nFecha de entrega de material: ${deliveryDate}\nHora de solicitud: ${currentTime}\nOrden de compra: ${orderNumber}\nComentarios: ${comments}`;
+        const message = `Requerimiento de compra en Obra:\n` +
+                        `Nombre del solicitante: ${userName}\n` +
+                        `Nombre del proyecto: ${projectName}\n` +
+                        `Código del proyecto: ${projectCode}\n` +
+                        `Orden de compra: ${purchaseOrder}\n` +
+                        `Nombre del cliente: ${clientName}\n` +
+                        `Material solicitado: ${material}\n` +
+                        `Fecha de solicitud de material: ${requestDate}\n` +
+                        `Fecha de entrega de material: ${deliveryDate}\n` +
+                        `Hora de solicitud: ${currentTime}\n` +
+                        `Comentarios: ${comments}`;
 
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
-        return false;
+        return false; // Evitar que el formulario se envíe
     }
-
-    let projectDetails = {};
-
-    // Cargar el archivo JSON desde el repositorio en GitHub
-    fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/project_details.json')
-        .then(response => response.json())
-        .then(data => {
-            projectDetails = data;
-        })
-        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
-
-    const userSequentialIDs = {
-        "Ángel Yáñez": 1,
-        "Carlos De La Espriella": 1,
-        "Israel Arceo": 1,
-        "Juan Cortez": 1,
-        "Jonathan Cárdenas": 1,
-        "Joshua Valadez": 1,
-        "Carlos Huitrón": 1,
-        "Osvaldo Ramos": 1,
-        "Alan Rojas": 1,
-        "Manuel Gómez": 1
-    };
 </script>
 
 </body>

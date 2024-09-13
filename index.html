@@ -165,11 +165,42 @@
     fetch('https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Projects_ComplementosHVAC.json')
         .then(response => response.json())
         .then(data => {
-            projectDetails = data;
-            console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
-        })
-        .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
+        const projectDetails = data;
 
+        // Assuming you are filtering by the "Solicitante"
+        const userName = document.getElementById("userName").value;
+        const projectSelect = document.getElementById("projectName");
+        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+
+        // Clear existing options
+        projectSelect.innerHTML = '';
+        purchaseOrderSelect.innerHTML = '';
+
+        // Filter the projects by "Solicitante"
+        const userProjects = projectDetails.filter(project => project.Solicitante === userName);
+
+        // Populate project names
+        userProjects.forEach(project => {
+            const option = document.createElement("option");
+            option.value = project.Nombre;
+            option.text = project.Nombre;
+            projectSelect.appendChild(option);
+        });
+
+        // When a project is selected, show the purchase orders
+        projectSelect.addEventListener('change', function() {
+            const selectedProject = userProjects.find(project => project.Nombre === this.value);
+            
+            if (selectedProject) {
+                // Display the Purchase Order related to the selected project
+                const purchaseOption = document.createElement("option");
+                purchaseOption.value = selectedProject["Purchase Order"];
+                purchaseOption.text = selectedProject["Purchase Order"];
+                purchaseOrderSelect.appendChild(purchaseOption);
+            }
+        });
+    })
+    .catch(error => console.error('Error fetching JSON data:', error));
     // Autenticación del usuario
     const userPasswords = {
         "Ángel Yáñez": "ventaselmejordepartamento",

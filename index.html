@@ -24,7 +24,6 @@
         }
         .form-group input[type="text"],
         .form-group input[type="date"],
-        .form-group input[type="password"],
         .form-group select,
         .form-group textarea {
             border-radius: 5px;
@@ -124,15 +123,15 @@
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
                 <label for="projectName">Nombre del proyecto:</label>
-                <select id="projectName" class="form-control" required onchange="updatePurchaseOrderOptions()"></select>
+                <select id="projectName" class="form-control" required onchange="updateProjectDetails()"></select>
+            </div>
+            <div class="form-group">
+                <label for="projectCode">Código del proyecto:</label>
+                <input type="text" id="projectCode" class="form-control" readonly>
             </div>
             <div class="form-group">
                 <label for="purchaseOrder">Orden de compra:</label>
                 <select id="purchaseOrder" class="form-control" required></select>
-            </div>
-            <div class="form-group">
-                <label for="clientName">Nombre del cliente:</label>
-                <input type="text" id="clientName" required>
             </div>
         </fieldset>
         <fieldset>
@@ -199,48 +198,45 @@
     }
 
     function updateProjectOptions() {
-    const userName = document.getElementById("userName").value;
-    const projectNameSelect = document.getElementById("projectName");
-    projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+        const userName = document.getElementById("userName").value;
+        const projectNameSelect = document.getElementById("projectName");
+        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+            // Filtrar los proyectos por solicitante
+        Object.entries(projectDetails).forEach(([key, details]) => {
+            if (details.Solicitante === userName) {
+                const option = document.createElement("option");
+                option.value = key; // Usa el código del proyecto como valor
+                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+                projectNameSelect.appendChild(option);
+            }
+        });
+    }
 
-    // Filtrar los proyectos por solicitante
-    Object.entries(projectDetails).forEach(([key, details]) => {
-        if (details.Solicitante === userName) {
-            const option = document.createElement("option");
-            option.value = details.Codigo; // Usa el código del proyecto como valor
-            option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
-            projectNameSelect.appendChild(option);
-        }
-    });
-}
-
-            function updatePurchaseOrderOptions() {
+    function updateProjectDetails() {
         const projectName = document.getElementById("projectName").value;
+        const projectCodeInput = document.getElementById("projectCode");
         const purchaseOrderSelect = document.getElementById("purchaseOrder");
-        purchaseOrderSelect.innerHTML = ''; // Limpiar las opciones existentes
 
-        // Verificar si el proyecto seleccionado tiene una orden de compra
-        if (projectDetails[projectName] && projectDetails[projectName]['Purchase Order']) {
-            const purchaseOrder = projectDetails[projectName]['Purchase Order'];
+        // Limpia la orden de compra existente
+        purchaseOrderSelect.innerHTML = '';
 
-            const option = document.createElement("option");
-            option.value = purchaseOrder;
-            option.text = purchaseOrder;
-            purchaseOrderSelect.appendChild(option);
-        } else {
-            const option = document.createElement("option");
-            option.value = "";
-            option.text = "No hay orden de compra disponible";
-            purchaseOrderSelect.appendChild(option);
+        if (projectDetails[projectName]) {
+            // Actualiza el código del proyecto
+            projectCodeInput.value = projectDetails[projectName].Codigo;
+
+            // Agrega la orden de compra al select
+            const purchaseOrderOption = document.createElement("option");
+            purchaseOrderOption.value = projectDetails[projectName]["Purchase Order"];
+            purchaseOrderOption.text = projectDetails[projectName]["Purchase Order"];
+            purchaseOrderSelect.appendChild(purchaseOrderOption);
         }
     }
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
         const projectName = document.getElementById("projectName").value;
-        const projectCode = projectDetails[projectName].Codigo || "Desconocido";
+        const projectCode = document.getElementById("projectCode").value;
         const purchaseOrder = document.getElementById("purchaseOrder").value;
-        const clientName = document.getElementById("clientName").value;
         const material = document.getElementById("material").value;
         const requestDate = document.getElementById("requestDate").value;
         const deliveryDate = document.getElementById("deliveryDate").value;
@@ -251,11 +247,10 @@
         const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 
         const message = `Requerimiento de compra en Obra:\n` +
-                        `Nombre del solicitante: ${userName}\n` +
+                        `Solicitante: ${userName}\n` +
                         `Nombre del proyecto: ${projectName}\n` +
                         `Código del proyecto: ${projectCode}\n` +
                         `Orden de compra: ${purchaseOrder}\n` +
-                        `Nombre del cliente: ${clientName}\n` +
                         `Material solicitado: ${material}\n` +
                         `Fecha de solicitud de material: ${requestDate}\n` +
                         `Fecha de entrega de material: ${deliveryDate}\n` +

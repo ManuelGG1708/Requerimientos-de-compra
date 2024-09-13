@@ -199,20 +199,21 @@
     }
 
     function updateProjectOptions() {
-        const userName = document.getElementById("userName").value;
-        const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+    const userName = document.getElementById("userName").value;
+    const projectNameSelect = document.getElementById("projectName");
+    projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los proyectos por solicitante
-        Object.entries(projectDetails).forEach(([projectName, details]) => {
-            if (details.Solicitante === userName) {
-                const option = document.createElement("option");
-                option.value = projectName;
-                option.text = projectName;
-                projectNameSelect.appendChild(option);
-            }
-        });
-    }
+    // Filtrar los proyectos por solicitante
+    Object.entries(projectDetails).forEach(([key, details]) => {
+        if (details.Solicitante === userName) {
+            const option = document.createElement("option");
+            option.value = details.Codigo; // Usa el código del proyecto como valor
+            option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+            projectNameSelect.appendChild(option);
+        }
+    });
+}
+
             function updatePurchaseOrderOptions() {
         const projectName = document.getElementById("projectName").value;
         const purchaseOrderSelect = document.getElementById("purchaseOrder");

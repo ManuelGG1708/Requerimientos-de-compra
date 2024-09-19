@@ -130,6 +130,10 @@
                 <input type="text" id="projectCode" class="form-control" readonly>
             </div>
             <div class="form-group">
+                <label for="projectInfo">Información del proyecto:</label>
+                <input type="text" id="projectInfo" class="form-control" readonly>
+            </div>
+            <div class="form-group">
                 <label for="purchaseOrder">Orden de compra:</label>
                 <select id="purchaseOrder" class="form-control" required></select>
             </div>
@@ -224,8 +228,9 @@
 }
 
 function updateProjectDetails() {
-    const projectCode = document.getElementById("projectName").value; // Ahora usamos el código como identificador
+    const projectCode = document.getElementById("projectName").value; // Usamos el código como identificador
     const projectCodeInput = document.getElementById("projectCode");
+    const projectInfoInput = document.getElementById("projectInfo"); // Nuevo campo de información
     const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
     // Limpia la orden de compra existente
@@ -237,6 +242,9 @@ function updateProjectDetails() {
     if (selectedProject) {
         // Actualiza el código CONTPAQi
         projectCodeInput.value = selectedProject.Codigo;
+
+        // Actualiza la información del proyecto
+        projectInfoInput.value = selectedProject.Información;
 
         // Agrega la orden de compra al select
         const purchaseOrderOption = document.createElement("option");

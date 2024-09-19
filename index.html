@@ -202,56 +202,56 @@
         }
     }
 
-    function updateProjectOptions() {
-        const userName = document.getElementById("userName").value;
-        const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+function updateProjectOptions() {
+    const userName = document.getElementById("userName").value;
+    const projectNameSelect = document.getElementById("projectName");
+    projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los proyectos por solicitante
-        projectDetails.forEach(details => {
-            if (details.Solicitante === userName) {
-                const option = document.createElement("option");
-                option.value = details.Codigo; // Usa el código del proyecto como valor
-                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
-                projectNameSelect.appendChild(option);
-            }
-        });
-
-        // Si no se encuentran proyectos
-        if (projectNameSelect.length === 0) {
+    // Filtrar los proyectos por solicitante
+    projectDetails.forEach(details => {
+        if (details.Solicitante === userName) {
             const option = document.createElement("option");
-            option.value = "";
-            option.text = "No se encontraron proyectos para este solicitante";
+            option.value = details.Codigo; // Usa el código del proyecto como valor
+            option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
             projectNameSelect.appendChild(option);
         }
+    });
+
+    // Si no se encuentran proyectos
+    if (projectNameSelect.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.text = "No se encontraron proyectos para este solicitante";
+        projectNameSelect.appendChild(option);
     }
+}
 
-    function updateProjectDetails() {
-        const projectCode = document.getElementById("projectName").value; // Usamos el código como identificador
-        const projectCodeInput = document.getElementById("projectCode");
-        const projectInfoInput = document.getElementById("projectInfo"); // Nuevo campo de información
-        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+function updateProjectDetails() {
+    const projectCode = document.getElementById("projectName").value; // Usamos el código como identificador
+    const projectCodeInput = document.getElementById("projectCode");
+    const projectInfoInput = document.getElementById("projectInfo"); // Nuevo campo de información
+    const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
-        // Limpia la orden de compra existente
-        purchaseOrderSelect.innerHTML = '';
+    // Limpia la orden de compra existente
+    purchaseOrderSelect.innerHTML = '';
 
-        // Encuentra los detalles del proyecto seleccionado
-        const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
+    // Encuentra los detalles del proyecto seleccionado
+    const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
-        if (selectedProject) {
-            // Actualiza el código CONTPAQi
-            projectCodeInput.value = selectedProject.Codigo;
+    if (selectedProject) {
+        // Actualiza el código CONTPAQi
+        projectCodeInput.value = selectedProject.Codigo;
 
-            // Actualiza la información del proyecto
-            projectInfoInput.value = selectedProject.Información;
+        // Actualiza la información del proyecto
+        projectInfoInput.value = selectedProject.Información;
 
-            // Agrega la orden de compra al select
-            const purchaseOrderOption = document.createElement("option");
-            purchaseOrderOption.value = selectedProject["Purchase Order"];
-            purchaseOrderOption.text = selectedProject["Purchase Order"];
-            purchaseOrderSelect.appendChild(purchaseOrderOption);
-        }
+        // Agrega la orden de compra al select
+        const purchaseOrderOption = document.createElement("option");
+        purchaseOrderOption.value = selectedProject["Purchase Order"];
+        purchaseOrderOption.text = selectedProject["Purchase Order"];
+        purchaseOrderSelect.appendChild(purchaseOrderOption);
     }
+}
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;

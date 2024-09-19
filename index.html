@@ -98,7 +98,7 @@
         <select id="userName" class="form-control" required>
             <option value="" disabled selected>Seleccione su nombre</option>
             <option value="Ángel">Ángel</option>
-            <option value="Carlos de la Espriella">Carlos De La Espriella</option>
+            <option value="Carlos de la Espriella">Carlos de la Espriella</option>
             <option value="Israel Arceo">Israel Arceo</option>
             <option value="Juan Carlos Cortez">Juan Carlos Cortez</option>
             <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
@@ -170,6 +170,7 @@
         .then(response => response.json())
         .then(data => {
             projectDetails = data;
+            console.log("Datos del proyecto cargados:", projectDetails);
             console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
         })
         .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
@@ -209,55 +210,54 @@
         // Filtrar los proyectos por solicitante
         projectDetails.forEach(details => {
             if (details.Solicitante === userName) {
-                                const option = document.createElement("option");
-                
-            // Usar el Código CONTPAQi como valor y texto visible
-            option.value = details.Codigo; 
-            option.text = details.Nombre + " - Código CONTPAQi: " + details.Codigo;
+                const option = document.createElement("option");
+                option.value = details.Codigo; // Usa el código del proyecto como valor
+                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
+                projectNameSelect.appendChild(option);
+            }
+        });
+
+        // Si no se encuentran proyectos
+        if (projectNameSelect.length === 0) {
+            const option = document.createElement("option");
+            option.value = "";
+            option.text = "No se encontraron proyectos para este solicitante";
             projectNameSelect.appendChild(option);
         }
-    });
-
-    // Si no se encuentran proyectos
-    if (projectNameSelect.length === 0) {
-        const option = document.createElement("option");
-        option.value = "";
-        option.text = "No se encontraron proyectos para este solicitante";
-        projectNameSelect.appendChild(option);
     }
-}
 
-function updateProjectDetails() {
-    const projectCode = document.getElementById("projectName").value; // Usamos el código como identificador
-    const projectCodeInput = document.getElementById("projectCode");
-    const projectInfoInput = document.getElementById("projectInfo"); // Nuevo campo de información
-    const purchaseOrderSelect = document.getElementById("purchaseOrder");
+    function updateProjectDetails() {
+        const projectCode = document.getElementById("projectName").value; // Usamos el código como identificador
+        const projectCodeInput = document.getElementById("projectCode");
+        const projectInfoInput = document.getElementById("projectInfo"); // Nuevo campo de información
+        const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
-    // Limpia la orden de compra existente
-    purchaseOrderSelect.innerHTML = '';
+        // Limpia la orden de compra existente
+        purchaseOrderSelect.innerHTML = '';
 
-    // Encuentra el proyecto correcto basado en el código CONTPAQi
-    const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
+        // Encuentra los detalles del proyecto seleccionado
+        const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
-    if (selectedProject) {
-        // Actualiza el código CONTPAQi
-        projectCodeInput.value = selectedProject.Codigo;
+        if (selectedProject) {
+            // Actualiza el código CONTPAQi
+            projectCodeInput.value = selectedProject.Codigo;
 
-        // Actualiza la información del proyecto
-        projectInfoInput.value = selectedProject.Información;
+            // Actualiza la información del proyecto
+            projectInfoInput.value = selectedProject.Información;
 
-        // Agrega la orden de compra al select
-        const purchaseOrderOption = document.createElement("option");
-        purchaseOrderOption.value = selectedProject["Purchase Order"];
-        purchaseOrderOption.text = selectedProject["Purchase Order"];
-        purchaseOrderSelect.appendChild(purchaseOrderOption);
+            // Agrega la orden de compra al select
+            const purchaseOrderOption = document.createElement("option");
+            purchaseOrderOption.value = selectedProject["Purchase Order"];
+            purchaseOrderOption.text = selectedProject["Purchase Order"];
+            purchaseOrderSelect.appendChild(purchaseOrderOption);
+        }
     }
-}
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
         const projectName = document.getElementById("projectName").value;
         const projectCode = document.getElementById("projectCode").value;
+        const projectInfo = document.getElementById("projectInfo").value; // Nuevo campo de información
         const purchaseOrder = document.getElementById("purchaseOrder").value;
         const material = document.getElementById("material").value;
         const requestDate = document.getElementById("requestDate").value;
@@ -272,6 +272,7 @@ function updateProjectDetails() {
                         `Solicitante: ${userName}\n` +
                         `Nombre del proyecto: ${projectName}\n` +
                         `Código alta CONTPAQi: ${projectCode}\n` +
+                        `Información del proyecto: ${projectInfo}\n` + // Incluimos la información
                         `Orden de compra: ${purchaseOrder}\n` +
                         `Material solicitado: ${material}\n` +
                         `Fecha de solicitud de material: ${requestDate}\n` +

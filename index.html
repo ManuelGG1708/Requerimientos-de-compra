@@ -206,43 +206,45 @@
         projectDetails.forEach(details => {
             if (details.Solicitante === userName) {
                                 const option = document.createElement("option");
-                option.value = details.Nombre; // Usa el nombre del proyecto como valor
-                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
-                projectNameSelect.appendChild(option);
-            }
-        });
-
-        // Si no se encuentran proyectos
-        if (projectNameSelect.length === 0) {
-            const option = document.createElement("option");
-            option.value = "";
-            option.text = "No se encontraron proyectos para este solicitante";
+                
+            // Usar el Código CONTPAQi como valor y texto visible
+            option.value = details.Codigo; 
+            option.text = details.Nombre + " - Código CONTPAQi: " + details.Codigo;
             projectNameSelect.appendChild(option);
         }
+    });
+
+    // Si no se encuentran proyectos
+    if (projectNameSelect.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.text = "No se encontraron proyectos para este solicitante";
+        projectNameSelect.appendChild(option);
     }
+}
 
-    function updateProjectDetails() {
-        const projectName = document.getElementById("projectName").value;
-        const projectCodeInput = document.getElementById("projectCode");
-        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+function updateProjectDetails() {
+    const projectCode = document.getElementById("projectName").value; // Ahora usamos el código como identificador
+    const projectCodeInput = document.getElementById("projectCode");
+    const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
-        // Limpia la orden de compra existente
-        purchaseOrderSelect.innerHTML = '';
+    // Limpia la orden de compra existente
+    purchaseOrderSelect.innerHTML = '';
 
-        // Encuentra los detalles del proyecto seleccionado
-        const selectedProject = projectDetails.find(details => details.Nombre === projectName);
+    // Encuentra el proyecto correcto basado en el código CONTPAQi
+    const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
-        if (selectedProject) {
-            // Actualiza el código CONTPAQi
-            projectCodeInput.value = selectedProject.Codigo;
+    if (selectedProject) {
+        // Actualiza el código CONTPAQi
+        projectCodeInput.value = selectedProject.Codigo;
 
-            // Agrega la orden de compra al select
-            const purchaseOrderOption = document.createElement("option");
-            purchaseOrderOption.value = selectedProject["Purchase Order"];
-            purchaseOrderOption.text = selectedProject["Purchase Order"];
-            purchaseOrderSelect.appendChild(purchaseOrderOption);
-        }
+        // Agrega la orden de compra al select
+        const purchaseOrderOption = document.createElement("option");
+        purchaseOrderOption.value = selectedProject["Purchase Order"];
+        purchaseOrderOption.text = selectedProject["Purchase Order"];
+        purchaseOrderSelect.appendChild(purchaseOrderOption);
     }
+}
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;

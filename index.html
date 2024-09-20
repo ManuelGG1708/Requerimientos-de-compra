@@ -1,4 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requerimiento de compra en Obra</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f4f8;
+            color: #343a40;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            max-width: 600px;
+            margin: auto;
+            border: 1px solid #dee2e6;
+        }
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group select,
+        .form-group textarea {
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            margin-bottom: 15px;
+            transition: border-color 0.3s ease;
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #007bff;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+        }
+        button:hover {
+            background-color: #0056b3;
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.5);
+        }
+        .form-container h2 {
+            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+        }
+        .form-container img {
+            max-width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+            margin-bottom: 10px;
+        }
+        label {
+            font-weight: 500;
+        }
+        .confirmation-message {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .confirmation-message p {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container" id="selectUserContainer">
+    <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
+    <h2>Seleccione su nombre</h2>
+    <div class="form-group">
+        <label for="userName">Nombre del solicitante:</label>
+        <select id="userName" class="form-control" required>
+            <option value="" disabled selected>Seleccione su nombre</option>
+            <option value="Ángel">Ángel</option>
+            <option value="Carlos de la Espriella">Carlos De La Espriella</option>
+            <option value="Israel Arceo">Israel Arceo</option>
+            <option value="Juan Carlos Cortez">Juan Carlos Cortez</option>
+            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
+            <option value="Joshua Valadez">Joshua Valadez</option>
+            <option value="Carlos Huitrón">Carlos Huitrón</option>
+            <option value="Osvaldo Ramos">Osvaldo Ramos</option>
+            <option value="Alan Rojas">Alan Rojas</option>
+            <option value="Manuel Gómez">Manuel Gómez</option>
+        </select>
     </div>
+    <div class="form-group">
+        <label for="userPassword">Contraseña:</label>
+        <input type="password" id="userPassword" class="form-control" required>
+            </div>
     <button type="button" onclick="authenticateUser()">Continuar</button>
 </div>
 

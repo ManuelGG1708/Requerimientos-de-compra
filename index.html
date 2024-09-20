@@ -122,12 +122,8 @@
         <fieldset>
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
-                <label for="projectName">Nombre del proyecto:</label>
+                <label for="projectName">Código alta CONTPAQi:</label>
                 <select id="projectName" class="form-control" required onchange="updateProjectDetails()"></select>
-            </div>
-            <div class="form-group">
-                <label for="projectCode">Código alta CONTPAQi:</label>
-                <input type="text" id="projectCode" class="form-control" readonly>
             </div>
             <div class="form-group">
                 <label for="projectInfo">Información del proyecto:</label>
@@ -206,13 +202,13 @@
         const projectNameSelect = document.getElementById("projectName");
         projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los proyectos por solicitante
+        // Filtrar los proyectos por solicitante y mostrar solo el código CONTPAQi
         projectDetails.forEach(details => {
             if (details.Solicitante === userName) {
                 const option = document.createElement("option");
-                option.value = details.Nombre; // Usa el nombre del proyecto como valor
-                option.text = details.Nombre;  // Usa el nombre del proyecto como texto visible
-                projectNameSelect.appendChild(option);
+                option.value = details.Codigo; // Usa solo el código CONTPAQi como valor
+                option.text = `Código CONTPAQi: ${details.Codigo}`;  // Muestra solo el código en el desplegable
+                                projectNameSelect.appendChild(option);
             }
         });
 
@@ -226,21 +222,17 @@
     }
 
     function updateProjectDetails() {
-        const projectName = document.getElementById("projectName").value;
-        const projectCodeInput = document.getElementById("projectCode");
+        const projectCode = document.getElementById("projectName").value;
         const projectInfoInput = document.getElementById("projectInfo");
         const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
         // Limpia la orden de compra existente
         purchaseOrderSelect.innerHTML = '';
 
-        // Encuentra los detalles del proyecto seleccionado
-        const selectedProject = projectDetails.find(details => details.Nombre === projectName);
+        // Encuentra los detalles del proyecto seleccionado según el código CONTPAQi
+        const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
         if (selectedProject) {
-            // Actualiza el código CONTPAQi
-            projectCodeInput.value = selectedProject.Codigo;
-
             // Actualiza la información del proyecto
             projectInfoInput.value = selectedProject.Información;
 
@@ -254,8 +246,7 @@
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
-        const projectName = document.getElementById("projectName").value;
-        const projectCode = document.getElementById("projectCode").value;
+        const projectCode = document.getElementById("projectName").value;
         const projectInfo = document.getElementById("projectInfo").value;
         const purchaseOrder = document.getElementById("purchaseOrder").value;
         const material = document.getElementById("material").value;
@@ -269,7 +260,6 @@
 
         const message = `Requerimiento de compra en Obra:\n` +
                         `Solicitante: ${userName}\n` +
-                        `Nombre del proyecto: ${projectName}\n` +
                         `Código alta CONTPAQi: ${projectCode}\n` +
                         `Información del proyecto: ${projectInfo}\n` +
                         `Orden de compra: ${purchaseOrder}\n` +

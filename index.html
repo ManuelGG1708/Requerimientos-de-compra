@@ -1,117 +1,3 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Requerimiento de compra en Obra</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f0f4f8;
-            color: #343a40;
-            padding: 20px;
-        }
-        .form-container {
-            background-color: #ffffff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
-            max-width: 600px;
-            margin: auto;
-            border: 1px solid #dee2e6;
-        }
-        .form-group input[type="text"],
-        .form-group input[type="date"],
-        .form-group select,
-        .form-group textarea {
-            border-radius: 5px;
-            border: 1px solid #ced4da;
-            padding: 10px;
-            font-size: 16px;
-            width: 100%;
-            margin-bottom: 15px;
-            transition: border-color 0.3s ease;
-        }
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            border-color: #007bff;
-        }
-        button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 15px 25px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 18px;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
-        }
-        button:hover {
-            background-color: #0056b3;
-            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.5);
-        }
-        .form-container h2 {
-            margin-bottom: 20px;
-            font-family: 'Poppins', sans-serif;
-            font-weight: 600;
-        }
-        .form-container img {
-            max-width: 100px;
-            height: auto;
-            display: block;
-            margin: 0 auto 20px auto;
-        }
-        legend {
-            font-size: 18px;
-            font-weight: bold;
-            font-family: 'Poppins', sans-serif;
-            width: auto;
-            padding: 0 10px;
-            border-bottom: none;
-            margin-bottom: 10px;
-        }
-        label {
-            font-weight: 500;
-        }
-        .confirmation-message {
-            display: none;
-            text-align: center;
-            margin-top: 20px;
-        }
-        .confirmation-message p {
-            font-size: 16px;
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
-
-<div class="form-container" id="selectUserContainer">
-    <img src="https://raw.githubusercontent.com/ManuelGG1708/Requerimientos-de-compra/main/Logo%20complementos%20HVAC%20Cuadrado.jpg" alt="Logo">
-    <h2>Seleccione su nombre</h2>
-    <div class="form-group">
-        <label for="userName">Nombre del solicitante:</label>
-        <select id="userName" class="form-control" required>
-            <option value="" disabled selected>Seleccione su nombre</option>
-            <option value="Ángel">Ángel</option>
-            <option value="Carlos de la Espriella">Carlos De La Espriella</option>
-            <option value="Israel Arceo">Israel Arceo</option>
-            <option value="Juan Carlos Cortez">Juan Carlos Cortez</option>
-            <option value="Jonathan Cárdenas">Jonathan Cárdenas</option>
-            <option value="Joshua Valadez">Joshua Valadez</option>
-            <option value="Carlos Huitrón">Carlos Huitrón</option>
-            <option value="Osvaldo Ramos">Osvaldo Ramos</option>
-            <option value="Alan Rojas">Alan Rojas</option>
-            <option value="Manuel Gómez">Manuel Gómez</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <label for="userPassword">Contraseña:</label>
-        <input type="password" id="userPassword" class="form-control" required>
     </div>
     <button type="button" onclick="authenticateUser()">Continuar</button>
 </div>
@@ -123,11 +9,11 @@
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
                 <label for="projectName">Nombre del proyecto:</label>
-                <select id="projectName" class="form-control" required onchange="updateProjectDetails()"></select>
+                <select id="projectName" class="form-control" required onchange="updateProjectCodes()"></select>
             </div>
             <div class="form-group">
                 <label for="projectCode">Código alta CONTPAQi:</label>
-                <input type="text" id="projectCode" class="form-control" readonly>
+                <select id="projectCode" class="form-control" required onchange="updateProjectDetails()"></select>
             </div>
             <div class="form-group">
                 <label for="projectInfo">Información del proyecto:</label>
@@ -171,7 +57,7 @@
         .then(data => {
             projectDetails = data;
             console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
-            updateProjectOptions();
+            updateProjectNames(); // Actualiza el desplegable de nombres de proyectos
         })
         .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
 
@@ -196,20 +82,26 @@
         if (userPasswords[userName] && userPasswords[userName] === userPassword) {
             document.getElementById('selectUserContainer').style.display = 'none';
             document.getElementById('formContainer').style.display = 'block';
+            updateProjectNames();
         } else {
             alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
         }
     }
 
-    function updateProjectOptions() {
+    function updateProjectNames() {
+        const userName = document.getElementById("userName").value;
         const projectNameSelect = document.getElementById("projectName");
         projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Iterar sobre los detalles del proyecto y agregar opciones al desplegable
-        projectDetails.forEach(details => {
+        // Obtener los nombres únicos de los proyectos por solicitante
+        const uniqueProjects = [...new Set(projectDetails
+            .filter(details => details.Solicitante === userName)
+            .map(details => details.Nombre))];
+
+        uniqueProjects.forEach(projectName => {
             const option = document.createElement("option");
-            option.value = details.Codigo; // Utilizar el Código CONTPAQi como valor
-            option.text = details.Nombre;  // Mostrar el Nombre del Proyecto como texto visible
+            option.value = projectName;
+            option.text = projectName;
             projectNameSelect.appendChild(option);
         });
 
@@ -217,29 +109,48 @@
         if (projectNameSelect.length === 0) {
             const option = document.createElement("option");
             option.value = "";
-            option.text = "No se encontraron proyectos";
+            option.text = "No se encontraron proyectos para este solicitante";
             projectNameSelect.appendChild(option);
         }
     }
 
+    function updateProjectCodes() {
+        const projectName = document.getElementById("projectName").value;
+        const projectCodeSelect = document.getElementById("projectCode");
+        projectCodeSelect.innerHTML = ''; // Limpiar opciones existentes
+
+        // Filtrar los códigos CONTPAQi para el proyecto seleccionado
+        const projectCodes = projectDetails.filter(details => details.Nombre === projectName);
+
+        projectCodes.forEach(details => {
+            const option = document.createElement("option");
+            option.value = details.Codigo; // Usar el código CONTPAQi
+            option.text = `Código CONTPAQi: ${details.Codigo}`;
+            projectCodeSelect.appendChild(option);
+        });
+
+        if (projectCodeSelect.length === 0) {
+            const option = document.createElement("option");
+            option.value = "";
+            option.text = "No se encontraron códigos CONTPAQi para este proyecto";
+            projectCodeSelect.appendChild(option);
+        }
+    }
+
     function updateProjectDetails() {
-        const projectCode = document.getElementById("projectName").value;
-        const projectCodeInput = document.getElementById("projectCode");
+        const projectCode = document.getElementById("projectCode").value;
         const projectInfoInput = document.getElementById("projectInfo");
         const purchaseOrderSelect = document.getElementById("purchaseOrder");
 
         // Limpia la orden de compra existente
         purchaseOrderSelect.innerHTML = '';
 
-        // Encuentra los detalles del proyecto seleccionado
+        // Encuentra los detalles del proyecto seleccionado por código CONTPAQi
         const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
         if (selectedProject) {
-            // Actualiza el código CONTPAQi
-            projectCodeInput.value = selectedProject.Codigo;
-
             // Actualiza la información del proyecto
-            projectInfoInput.value = selectedProject.Información;
+            projectInfoInput.value = selectedProject.Información || "N/A";
 
             // Agrega la orden de compra al select
             const purchaseOrderOption = document.createElement("option");
@@ -251,6 +162,7 @@
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;
+        const projectName = document.getElementById("projectName").value;
         const projectCode = document.getElementById("projectCode").value;
         const projectInfo = document.getElementById("projectInfo").value;
         const purchaseOrder = document.getElementById("purchaseOrder").value;
@@ -265,6 +177,7 @@
 
         const message = `Requerimiento de compra en Obra:\n` +
                         `Solicitante: ${userName}\n` +
+                        `Nombre del proyecto: ${projectName}\n` +
                         `Código alta CONTPAQi: ${projectCode}\n` +
                         `Información del proyecto: ${projectInfo}\n` +
                         `Orden de compra: ${purchaseOrder}\n` +

@@ -109,7 +109,7 @@
             <option value="Manuel Gómez">Manuel Gómez</option>
         </select>
     </div>
-    <div class="form-group">
+      <div class="form-group">
         <label for="userPassword">Contraseña:</label>
         <input type="password" id="userPassword" class="form-control" required>
     </div>
@@ -118,8 +118,6 @@
 
 <div class="form-container" id="formContainer" style="display:none;">
     <h2>Requerimiento de compra en Obra</h2>
-    
-    <!-- Modificar el atributo action para apuntar al archivo PHP con el método POST -->
     <form action="process_request.php" method="POST" onsubmit="return sendWhatsAppMessage();">
         <fieldset>
             <legend>Detalles del Proyecto</legend>
@@ -160,11 +158,10 @@
             </div>
         </fieldset>
 
-        <!-- Botón para enviar el formulario -->
         <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
     </form>
 </div>
-
+    
 <script>
     // Cargar el archivo JSON desde el repositorio de GitHub
     let projectDetails = [];
@@ -191,31 +188,18 @@
         "Manuel Gómez": "Jmlgu33oGmz#"
     };
 
-function authenticateUser() {
-    // Depuración para verificar que la función se ejecuta
-    console.log("Función authenticateUser llamada");
+    function authenticateUser() {
+        const userName = document.getElementById("userName").value;
+        const userPassword = document.getElementById("userPassword").value;
 
-    const userName = document.getElementById("userName").value;
-    const userPassword = document.getElementById("userPassword").value;
-
-    // Verificar si las credenciales coinciden
-    if (userPasswords[userName] && userPasswords[userName] === userPassword) {
-        console.log("Credenciales válidas");
-
-        // Ocultar la pantalla de selección de usuario
-        document.getElementById('selectUserContainer').style.display = 'none';
-        
-        // Mostrar el formulario principal
-        document.getElementById('formContainer').style.display = 'block';
-
-        // Cargar los proyectos disponibles para el solicitante
-        updateProjectOptions();
-    } else {
-        console.log("Credenciales inválidas");
-        alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
+        if (userPasswords[userName] && userPasswords[userName] === userPassword) {
+            document.getElementById('selectUserContainer').style.display = 'none';
+            document.getElementById('formContainer').style.display = 'block';
+            updateProjectOptions();
+        } else {
+            alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
+        }
     }
-}
-
 
 function updateProjectOptions() {
     const userName = document.getElementById("userName").value;
@@ -306,60 +290,37 @@ function updateProjectDetails() {
     }
 }
 
-function sendWhatsAppMessage() {
-    const userName = document.getElementById("userName").value;
-    const projectName = document.getElementById("projectName").value;
-    const projectCode = document.getElementById("projectCode").value;
-    const projectInfo = document.getElementById("projectInfo").value;
-    const purchaseOrder = document.getElementById("purchaseOrder").value;
-    const material = document.getElementById("material").value;
-    const requestDate = document.getElementById("requestDate").value;
-    const deliveryDate = document.getElementById("deliveryDate").value;
-    const comments = document.getElementById("comments").value;
+    function sendWhatsAppMessage() {
+        const userName = document.getElementById("userName").value;
+        const projectName = document.getElementById("projectName").value;
+        const projectCode = document.getElementById("projectCode").value;
+        const projectInfo = document.getElementById("projectInfo").value;
+        const purchaseOrder = document.getElementById("purchaseOrder").value;
+        const material = document.getElementById("material").value;
+        const requestDate = document.getElementById("requestDate").value;
+        const deliveryDate = document.getElementById("deliveryDate").value;
+        const comments = document.getElementById("comments").value;
+        
+        // Fecha y hora actuales para la hora de la solicitud
+        const now = new Date();
+        const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 
-    // Fecha y hora actuales para la hora de la solicitud
-    const now = new Date();
-    const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
-
-    const message = `Requerimiento de compra en Obra:\n` +
-                    `Solicitante: ${userName}\n` +
-                    `Nombre del proyecto: ${projectName}\n` +
-                    `Código alta CONTPAQi: ${projectCode}\n` +
-                    `Información del proyecto: ${projectInfo}\n` +
-                    `Orden de compra: ${purchaseOrder}\n` +
-                    `Material solicitado: ${material}\n` +
-                    `Fecha de solicitud de material: ${requestDate}\n` +
-                    `Fecha de entrega de material: ${deliveryDate}\n` +
-                    `Hora de solicitud: ${currentTime}\n` +
-                    `Comentarios: ${comments}`;
-
-    // Enviar los datos al archivo PHP
-    fetch('process_request.php', {
-        method: 'POST',
-        body: new URLSearchParams({
-            userName: userName,
-            projectName: projectName,
-            projectCode: projectCode,
-            projectInfo: projectInfo,
-            purchaseOrder: purchaseOrder,
-            material: material,
-            requestDate: requestDate,
-            deliveryDate: deliveryDate,
-            comments: comments
-        })
-    }).then(response => {
-        return response.text();
-    }).then(result => {
-        console.log(result);
-        // Después de enviar el mensaje, abrir WhatsApp
+        const message = `Requerimiento de compra en Obra:\n` +
+                        `Solicitante: ${userName}\n` +
+                        `Nombre del proyecto: ${projectName}\n` +
+                        `Código alta CONTPAQi: ${projectCode}\n` +
+                        `Información del proyecto: ${projectInfo}\n` +
+                        `Orden de compra: ${purchaseOrder}\n` +
+                        `Material solicitado: ${material}\n` +
+                        `Fecha de solicitud de material: ${requestDate}\n` +
+                        `Fecha de entrega de material: ${deliveryDate}\n` +
+                        `Hora de solicitud: ${currentTime}\n` +
+                        `Comentarios: ${comments}`;
+        
+        // Enviar el mensaje por WhatsApp
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
-    }).catch(error => {
-        console.error('Error al enviar los datos al archivo PHP:', error);
-    });
-
-    return false; // Evitar que el formulario se envíe de forma predeterminada
-}
-
+        return true; // Permitir que el formulario se envíe al archivo PHP
+    }
 </script>
 
 </body>

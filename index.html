@@ -201,27 +201,28 @@
         }
     }
 
-    function updateProjectOptions() {
-        const userName = document.getElementById("userName").value;
-        const projectNameSelect = document.getElementById("projectName");
-        projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
+function updateProjectOptions() {
+    const userName = document.getElementById("userName").value;
+    const projectNameSelect = document.getElementById("projectName");
+    projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los proyectos por solicitante
-        uniqueProjects.forEach(projectName => {
-            const option = document.createElement("option");
-            option.value = projectName; // Usa el nombre del proyecto como valor
-            option.text = projectName;  // Usa el nombre del proyecto como texto visible
-            projectNameSelect.appendChild(option);
-        });
+    // Filtrar los proyectos por solicitante
+    const uniqueProjects = [...new Set(projectDetails.filter(details => details.Solicitante === userName).map(details => details.Nombre))];
 
-        // Si no se encuentran proyectos
-        if (projectNameSelect.length === 0) {
-            const option = document.createElement("option");
-            option.value = "";
-            option.text = "No se encontraron proyectos para este solicitante";
-            projectNameSelect.appendChild(option);
-        }
+    uniqueProjects.forEach(projectName => {
+        const option = document.createElement("option");
+        option.value = projectName; // Usa el nombre del proyecto como valor
+        option.text = projectName;  // Usa el nombre del proyecto como texto visible
+        projectNameSelect.appendChild(option);
+    });
+
+    if (projectNameSelect.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.text = "No se encontraron proyectos para este solicitante";
+        projectNameSelect.appendChild(option);
     }
+}
 
     function updateProjectCodes() {
         const projectName = document.getElementById("projectName").value;

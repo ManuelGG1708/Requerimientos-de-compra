@@ -192,24 +192,30 @@
     };
 
 function authenticateUser() {
-    console.log("Autenticación iniciada"); // Para verificar si la función se ejecuta
+    // Depuración para verificar que la función se ejecuta
+    console.log("Función authenticateUser llamada");
+
     const userName = document.getElementById("userName").value;
     const userPassword = document.getElementById("userPassword").value;
 
-    // Validar usuario y contraseña
+    // Verificar si las credenciales coinciden
     if (userPasswords[userName] && userPasswords[userName] === userPassword) {
-        console.log("Autenticación exitosa"); // Para confirmar que la autenticación es exitosa
+        console.log("Credenciales válidas");
 
-        // Ocultar el contenedor de selección de usuario y mostrar el formulario
+        // Ocultar la pantalla de selección de usuario
         document.getElementById('selectUserContainer').style.display = 'none';
+        
+        // Mostrar el formulario principal
         document.getElementById('formContainer').style.display = 'block';
 
-        // Llamar a la función para cargar los proyectos
+        // Cargar los proyectos disponibles para el solicitante
         updateProjectOptions();
     } else {
+        console.log("Credenciales inválidas");
         alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
     }
 }
+
 
 function updateProjectOptions() {
     const userName = document.getElementById("userName").value;

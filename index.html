@@ -112,7 +112,7 @@
     <div class="form-group">
         <label for="userPassword">Contraseña:</label>
         <input type="password" id="userPassword" class="form-control" required>
-            </div>
+    </div>
     <button type="button" onclick="authenticateUser()">Continuar</button>
 </div>
 
@@ -171,13 +171,12 @@
         .then(data => {
             projectDetails = data;
             console.log("Datos del proyecto cargados:", projectDetails); // Verifica los datos cargados
-            updateProjectNames(); // Actualiza el desplegable de nombres de proyectos
         })
         .catch(error => console.error('Error al cargar los detalles del proyecto:', error));
 
     // Autenticación del usuario
     const userPasswords = {
-        "Ángel": "ventaselmejordepartamento",
+        "Ángel Yáñez": "ventaselmejordepartamento",
         "Carlos de la Espriella": "Comple1112$",
         "Israel Arceo": "password3",
         "Juan Cortez": "JCortez",
@@ -196,26 +195,22 @@
         if (userPasswords[userName] && userPasswords[userName] === userPassword) {
             document.getElementById('selectUserContainer').style.display = 'none';
             document.getElementById('formContainer').style.display = 'block';
-            updateProjectNames();
+            updateProjectOptions();
         } else {
             alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
         }
     }
 
-    function updateProjectNames() {
+    function updateProjectOptions() {
         const userName = document.getElementById("userName").value;
         const projectNameSelect = document.getElementById("projectName");
         projectNameSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Obtener los nombres únicos de los proyectos por solicitante
-        const uniqueProjects = [...new Set(projectDetails
-            .filter(details => details.Solicitante === userName)
-            .map(details => details.Nombre))];
-
+        // Filtrar los proyectos por solicitante
         uniqueProjects.forEach(projectName => {
             const option = document.createElement("option");
-            option.value = projectName;
-            option.text = projectName;
+            option.value = projectName; // Usa el nombre del proyecto como valor
+            option.text = projectName;  // Usa el nombre del proyecto como texto visible
             projectNameSelect.appendChild(option);
         });
 
@@ -233,21 +228,27 @@
         const projectCodeSelect = document.getElementById("projectCode");
         projectCodeSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los códigos CONTPAQi para el proyecto seleccionado
+        // Filtrar los códigos CONTPAQi por el proyecto seleccionado
         const projectCodes = projectDetails.filter(details => details.Nombre === projectName);
 
         projectCodes.forEach(details => {
             const option = document.createElement("option");
-            option.value = details.Codigo; // Usar el código CONTPAQi
+            option.value = details.Codigo;
             option.text = `Código CONTPAQi: ${details.Codigo}`;
             projectCodeSelect.appendChild(option);
         });
 
+        // Si no se encuentran códigos
         if (projectCodeSelect.length === 0) {
             const option = document.createElement("option");
             option.value = "";
-            option.text = "No se encontraron códigos CONTPAQi para este proyecto";
+            option.text = "No se encontraron códigos para este proyecto";
             projectCodeSelect.appendChild(option);
+        }
+
+        // Actualiza los detalles del proyecto automáticamente si hay solo un código
+        if (projectCodes.length === 1) {
+            updateProjectDetails();
         }
     }
 
@@ -259,7 +260,7 @@
         // Limpia la orden de compra existente
         purchaseOrderSelect.innerHTML = '';
 
-        // Encuentra los detalles del proyecto seleccionado por código CONTPAQi
+        // Encuentra los detalles del proyecto por el código CONTPAQi
         const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
 
         if (selectedProject) {

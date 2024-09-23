@@ -191,18 +191,25 @@
         "Manuel Gómez": "Jmlgu33oGmz#"
     };
 
-    function authenticateUser() {
-        const userName = document.getElementById("userName").value;
-        const userPassword = document.getElementById("userPassword").value;
+function authenticateUser() {
+    console.log("Autenticación iniciada"); // Para verificar si la función se ejecuta
+    const userName = document.getElementById("userName").value;
+    const userPassword = document.getElementById("userPassword").value;
 
-        if (userPasswords[userName] && userPasswords[userName] === userPassword) {
-            document.getElementById('selectUserContainer').style.display = 'none';
-            document.getElementById('formContainer').style.display = 'block';
-            updateProjectOptions();
-        } else {
-            alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
-        }
+    // Validar usuario y contraseña
+    if (userPasswords[userName] && userPasswords[userName] === userPassword) {
+        console.log("Autenticación exitosa"); // Para confirmar que la autenticación es exitosa
+
+        // Ocultar el contenedor de selección de usuario y mostrar el formulario
+        document.getElementById('selectUserContainer').style.display = 'none';
+        document.getElementById('formContainer').style.display = 'block';
+
+        // Llamar a la función para cargar los proyectos
+        updateProjectOptions();
+    } else {
+        alert("Contraseña incorrecta. Por favor, inténtelo de nuevo.");
     }
+}
 
 function updateProjectOptions() {
     const userName = document.getElementById("userName").value;

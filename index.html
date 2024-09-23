@@ -224,57 +224,71 @@ function updateProjectOptions() {
     }
 }
 
-    function updateProjectCodes() {
-        const projectName = document.getElementById("projectName").value;
-        const projectCodeSelect = document.getElementById("projectCode");
-        projectCodeSelect.innerHTML = ''; // Limpiar opciones existentes
+function updateProjectCodes() {
+    const projectName = document.getElementById("projectName").value;
+    const projectCodeSelect = document.getElementById("projectCode");
+    projectCodeSelect.innerHTML = ''; // Limpiar opciones existentes
 
-        // Filtrar los códigos CONTPAQi por el proyecto seleccionado
-        const projectCodes = projectDetails.filter(details => details.Nombre === projectName);
+    // Filtrar los códigos CONTPAQi por el proyecto seleccionado
+    const projectCodes = projectDetails.filter(details => details.Nombre === projectName);
 
-        projectCodes.forEach(details => {
-            const option = document.createElement("option");
-            option.value = details.Codigo;
-            option.text = `Código CONTPAQi: ${details.Codigo}`;
-            projectCodeSelect.appendChild(option);
-        });
+    projectCodes.forEach(details => {
+        const option = document.createElement("option");
+        option.value = details.Codigo;
+        option.text = `Código CONTPAQi: ${details.Codigo}`;
+        projectCodeSelect.appendChild(option);
+    });
 
-        // Si no se encuentran códigos
-        if (projectCodeSelect.length === 0) {
-            const option = document.createElement("option");
-            option.value = "";
-            option.text = "No se encontraron códigos para este proyecto";
-            projectCodeSelect.appendChild(option);
-        }
-
-        // Actualiza los detalles del proyecto automáticamente si hay solo un código
-        if (projectCodes.length === 1) {
-            updateProjectDetails();
-        }
+    // Si no se encuentran códigos
+    if (projectCodeSelect.length === 0) {
+        const option = document.createElement("option");
+        option.value = "";
+        option.text = "No se encontraron códigos para este proyecto";
+        projectCodeSelect.appendChild(option);
     }
 
-    function updateProjectDetails() {
-        const projectCode = document.getElementById("projectCode").value;
-        const projectInfoInput = document.getElementById("projectInfo");
-        const purchaseOrderSelect = document.getElementById("purchaseOrder");
+    // Actualiza los detalles del proyecto al cambiar el código de alta CONTPAQi
+    projectCodeSelect.addEventListener('change', updateProjectDetails);
 
-        // Limpia la orden de compra existente
-        purchaseOrderSelect.innerHTML = '';
-
-        // Encuentra los detalles del proyecto por el código CONTPAQi
-        const selectedProject = projectDetails.find(details => details.Codigo === projectCode);
-
-        if (selectedProject) {
-            // Actualiza la información del proyecto
-            projectInfoInput.value = selectedProject.Información || "N/A";
-
-            // Agrega la orden de compra al select
-            const purchaseOrderOption = document.createElement("option");
-            purchaseOrderOption.value = selectedProject["Purchase Order"];
-            purchaseOrderOption.text = selectedProject["Purchase Order"];
-            purchaseOrderSelect.appendChild(purchaseOrderOption);
-        }
+    // Si hay un solo código, actualizar los detalles inmediatamente
+    if (projectCodes.length === 1) {
+        updateProjectDetails();
+    } else {
+        // Limpiar los detalles si se cambió de proyecto sin seleccionar código
+        document.getElementById("projectInfo").value = "";
+        document.getElementById("purchaseOrder").innerHTML = '';
     }
+}
+
+function updateProjectDetails() {
+    const projectName = document.getElementById("projectName").value;
+    const projectCode = document.getElementById("projectCode").value;
+    const projectInfoInput = document.getElementById("projectInfo");
+    const purchaseOrderSelect = document.getElementById("purchaseOrder");
+
+    // Limpia la orden de compra existente
+    purchaseOrderSelect.innerHTML = '';
+
+    // Encuentra los detalles del proyecto por el código CONTPAQi y el nombre del proyecto
+    const selectedProject = projectDetails.find(details => details.Codigo === projectCode && details.Nombre === projectName);
+
+    if (selectedProject) {
+        // Actualiza la información del proyecto
+        projectInfoInput.value = selectedProject.Información || "N/A";
+
+        // Agrega la orden de compra al select
+        const purchaseOrderOption = document.createElement("option");
+        purchaseOrderOption.value = selectedProject["Purchase Order"];
+        purchaseOrderOption.text = selectedProject["Purchase Order"];
+        purchaseOrderSelect.appendChild(purchaseOrderOption);
+    } else {
+        // Limpiar la información si no hay un proyecto seleccionado
+        projectInfoInput.value = "";
+        const emptyOption = document.createElement("option");
+        emptyOption.text = "N/A";
+        purchaseOrderSelect.appendChild(emptyOption);
+    }
+}
 
     function sendWhatsAppMessage() {
         const userName = document.getElementById("userName").value;

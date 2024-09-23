@@ -118,7 +118,9 @@
 
 <div class="form-container" id="formContainer" style="display:none;">
     <h2>Requerimiento de compra en Obra</h2>
-    <form onsubmit="return sendWhatsAppMessage()">
+    
+    <!-- Modificar el atributo action para apuntar al archivo PHP con el método POST -->
+    <form action="process_request.php" method="POST" onsubmit="return sendWhatsAppMessage();">
         <fieldset>
             <legend>Detalles del Proyecto</legend>
             <div class="form-group">
@@ -142,22 +144,23 @@
             <legend>Detalles del Material</legend>
             <div class="form-group">
                 <label for="material">Material solicitado:</label>
-                <input type="text" id="material" required>
+                <input type="text" id="material" name="material" required>
             </div>
             <div class="form-group">
                 <label for="requestDate">Fecha de solicitud de material:</label>
-                <input type="date" id="requestDate" required>
+                <input type="date" id="requestDate" name="requestDate" required>
             </div>
             <div class="form-group">
                 <label for="deliveryDate">Fecha de entrega de material:</label>
-                <input type="date" id="deliveryDate" required>
+                <input type="date" id="deliveryDate" name="deliveryDate" required>
             </div>
             <div class="form-group">
                 <label for="comments">Comentarios:</label>
-                <textarea id="comments" rows="4"></textarea>
+                <textarea id="comments" name="comments" rows="4"></textarea>
             </div>
         </fieldset>
 
+        <!-- Botón para enviar el formulario -->
         <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
     </form>
 </div>
@@ -290,37 +293,56 @@ function updateProjectDetails() {
     }
 }
 
-    function sendWhatsAppMessage() {
-        const userName = document.getElementById("userName").value;
-        const projectName = document.getElementById("projectName").value;
-        const projectCode = document.getElementById("projectCode").value;
-        const projectInfo = document.getElementById("projectInfo").value;
-        const purchaseOrder = document.getElementById("purchaseOrder").value;
-        const material = document.getElementById("material").value;
-        const requestDate = document.getElementById("requestDate").value;
-        const deliveryDate = document.getElementById("deliveryDate").value;
-        const comments = document.getElementById("comments").value;
+function sendWhatsAppMessage() {
+    const userName = document.getElementById("userName").value;
+    const projectName = document.getElementById("projectName").value;
+    const projectCode = document.getElementById("projectCode").value;
+    const projectInfo = document.getElementById("projectInfo").value;
+    const purchaseOrder = document.getElementById("purchaseOrder").value;
+    const material = document.getElementById("material").value;
+    const requestDate = document.getElementById("requestDate").value;
+    const deliveryDate = document.getElementById("deliveryDate").value;
+    const comments = document.getElementById("comments").value;
 
-        // Fecha y hora actuales para la hora de la solicitud
-        const now = new Date();
-        const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+    // Fecha y hora actuales para la hora de la solicitud
+    const now = new Date();
+    const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
 
-        const message = `Requerimiento de compra en Obra:\n` +
-                        `Solicitante: ${userName}\n` +
-                        `Nombre del proyecto: ${projectName}\n` +
-                        `Código alta CONTPAQi: ${projectCode}\n` +
-                        `Información del proyecto: ${projectInfo}\n` +
-                        `Orden de compra: ${purchaseOrder}\n` +
-                        `Material solicitado: ${material}\n` +
-                        `Fecha de solicitud de material: ${requestDate}\n` +
-                        `Fecha de entrega de material: ${deliveryDate}\n` +
-                        `Hora de solicitud: ${currentTime}\n` +
-                        `Comentarios: ${comments}`;
+    const message = `Requerimiento de compra en Obra:\n` +
+                    `Solicitante: ${userName}\n` +
+                    `Nombre del proyecto: ${projectName}\n` +
+                    `Código alta CONTPAQi: ${projectCode}\n` +
+                    `Información del proyecto: ${projectInfo}\n` +
+                    `Orden de compra: ${purchaseOrder}\n` +
+                    `Material solicitado: ${material}\n` +
+                    `Fecha de solicitud de material: ${requestDate}\n` +
+                    `Fecha de entrega de material: ${deliveryDate}\n` +
+                    `Hora de solicitud: ${currentTime}\n` +
+                    `Comentarios: ${comments}`;
 
+    // Enviar los datos al archivo PHP
+    fetch('process_request.php', {
+        method: 'POST',
+        body: new URLSearchParams({
+            userName: userName,
+            projectName: projectName,
+            projectCode: projectCode,
+            projectInfo: projectInfo,
+            purchaseOrder: purchaseOrder,
+            material: material,
+            requestDate: requestDate,
+            deliveryDate: deliveryDate,
+            comments: comments
+        })
+    }).then(response => {
+        return response.text();
+    }).then(result => {
+        console.log(result);
+        // Después de enviar el mensaje, abrir WhatsApp
         window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`, '_blank');
-        return false; // Evitar que el formulario se envíe
-    }
-</script>
+    }).catch(error => {
+        console.error('Error al enviar los datos al archivo PHP:', error);
+    });
 
-</body>
-</html>
+    return false; // Evitar que el formulario se envíe de forma predeterminada
+}
